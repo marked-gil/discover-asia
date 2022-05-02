@@ -8,7 +8,9 @@
     font-style: normal;
 }
 
-/* START -- Navigation Bar */
+/* START -> HEADER */
+
+/* Navigation Bar */
 
 nav {
     border: 1px solid blue;
@@ -37,4 +39,34 @@ nav {
     margin-right: 1.5rem;
 }
 
-/* END -- Navigation Bar */
+/* MAIN HEADER SECTION */
+
+#main-header-section {
+    border: 1px solid green;
+    height: 18rem;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.tagline-span {
+    display: block;
+}
+
+#tagline-travel-asia {
+    margin-left: 5rem;
+}
+
+#tagline-travel-with-us {
+    margin-left: 10rem;
+}
+
+#trustpilot {
+    position: absolute;
+    bottom: 1rem;
+}
+
+/* END --> HEADER */
+
