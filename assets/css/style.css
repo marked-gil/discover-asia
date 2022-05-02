@@ -1,3 +1,5 @@
+
+/* Remove Default Styling */
 * {
     margin: 0;
     padding: 0;
@@ -5,3 +7,34 @@
     text-decoration: none;
     font-style: normal;
 }
+
+/* START -- Navigation Bar */
+
+nav {
+    border: 1px solid blue;
+    height: 3rem;
+    padding: 0 2rem;
+}
+
+#company-logo {
+    float: left;
+}
+
+#logo-span {
+    display: block;
+}
+
+#main-header-navlinks {
+    float: right;
+}
+
+#main-header-navlinks > li {
+    display: inline-block;
+    line-height: 3rem;
+}
+
+#main-header-navlinks li:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+/* END -- Navigation Bar */
