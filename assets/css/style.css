@@ -77,7 +77,7 @@ nav {
 
 #what-we-offer-section {
     height: 22rem;
-    border: 1px solid darkblue;
+    background-color: beige;
     padding: 2% 10%;
 }
 
@@ -148,7 +148,7 @@ nav {
 
 #reviews-section {
     padding: 2% 10%;
-    background-color: rgba(235, 240, 235, 0.902);
+    background-color: beige;
     height: 20rem;
 }
 
@@ -178,6 +178,24 @@ nav {
 
 /* START --> "WHO WE ARE" SECTION */
 
+#who-we-are-section {
+    padding: 2% 10%;
+    background-color: rgb(245, 238, 230);
+    min-height: 15rem;
+}
 
+#who-we-are-heading {
+    text-align: center;
+}
+
+#who-we-are-heading ~ p {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+#contact-us-wrapper {
+    text-align: center;
+}
 
 /* END --> "WHO WE ARE" SECTION */
