@@ -98,6 +98,40 @@ nav {
     padding: 0 1rem;
 }
 
-
-
 /* END --> "WHAT WE OFFER" SECTION */
+
+/* START --> "TOP DESTINATIONS" SECTION */
+
+#top-destinations-section {
+    background-color: rgb(245, 238, 230);
+    height: 45rem;
+    padding: 2% 20%;
+}
+
+#top-destinations-heading {
+    text-align: center;
+}
+
+#images-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 36rem;
+    align-items: center;
+}
+
+.top-destination-image {
+    border: 1px solid black;
+    display: block;
+    height: 14rem;
+    width: 14rem;
+    margin: 0 4rem;
+}
+
+#more-destinations-wrapper {
+    text-align: center;
+}
+
+
+
+/* END --> "TOP DESTINATIONS" SECTION */
