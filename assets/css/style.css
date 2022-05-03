@@ -198,4 +198,44 @@ nav {
     text-align: center;
 }
 
+/* Contact Us Button */
+#contact-us-wrapper > a {
+    display: inline-block;
+    border: 0.5px solid black;
+    background-color: rgb(181, 244, 223);
+    width: 14rem;
+    height: 2rem;
+    border-radius: 5px;
+    line-height: 2rem;
+}
+
 /* END --> "WHO WE ARE" SECTION */
+
+/* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
+
+#newsletter-section {
+    padding: 2% 10%;
+    background-color: beige;
+    min-height: 10rem;
+}
+
+#newsletter-heading {
+    text-align: center;
+}
+
+#newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid darkblue;
+    max-width: 40%;
+    margin: 3rem auto;
+}
+
+#newsletter-form > input {
+    width: 25rem;
+    border-radius: 5px;
+    padding: 0 .5rem;
+    line-height: 2rem;
+}
+
+/* END --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
