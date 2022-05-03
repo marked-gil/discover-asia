@@ -143,3 +143,41 @@ nav {
 }
 
 /* END --> "TOP DESTINATIONS" SECTION */
+
+/* START --> "WHAT OUR CLIENTS SAY ABOUT US" SECTION */
+
+#reviews-section {
+    padding: 2% 10%;
+    background-color: rgba(235, 240, 235, 0.902);
+    height: 20rem;
+}
+
+#reviews-heading {
+    text-align: center;
+}
+
+#reviews-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#reviews-container > article {
+    width: 25rem;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.review-author {
+    display: block;
+    margin-top: 1rem;
+}
+
+/* END --> "WHAT OUR CLIENTS SAY ABOUT US" SECTION */
+
+/* START --> "WHO WE ARE" SECTION */
+
+
+
+/* END --> "WHO WE ARE" SECTION */
