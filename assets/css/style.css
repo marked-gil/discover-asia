@@ -75,3 +75,29 @@ nav {
 
 /* START --> "WHAT WE OFFER" SECTION */
 
+#what-we-offer-section {
+    height: 22rem;
+    border: 1px solid darkblue;
+    padding: 2% 10%;
+}
+
+#what-we-offer-heading {
+    text-align: center;
+}
+
+#what-we-offer-outer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.what-we-offer-inner-wrapper {
+    text-align: center;
+    margin: 1.2rem 0;
+    width: 40%;
+    padding: 0 1rem;
+}
+
+
+
+/* END --> "WHAT WE OFFER" SECTION */
