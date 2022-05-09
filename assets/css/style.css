@@ -239,3 +239,20 @@ nav {
 }
 
 /* END --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
+
+/* START --> "FOOTER" */
+
+footer {
+    padding: 2% 10%;
+    display: flex;
+}
+
+#main-office-map {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+/* END --> "FOOTER" */
