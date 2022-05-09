@@ -244,13 +244,37 @@ nav {
 
 footer {
     padding: 2% 10%;
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-auto-rows: minmax(auto);
+    grid-template-areas:
+        'map address social-media'
+        'copyright copyright copyright'
+}
+
+#map-wrapper {
+    grid-area: map;
+    border: 1px solid firebrick;
+}
+
+#office-address-wrapper {
+    grid-area: address;
+    border: 1px solid firebrick;
+}
+
+#social-media-wrapper {
+    grid-area: social-media;
+    border: 1px solid firebrick;
+}
+
+.main-wrapper-copyright {
+    grid-area: copyright;
+    margin: 0 auto;
 }
 
 #main-office-map {
     width: 300px;
     height: 300px;
 }
-
-
 
 /* END --> "FOOTER" */
