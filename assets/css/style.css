@@ -254,7 +254,6 @@ footer {
 
 #map-wrapper {
     grid-area: map;
-    border: 1px solid firebrick;
 }
 
 /* office address */
@@ -281,14 +280,39 @@ footer {
     font-weight: bold;
 }
 
+/* social media */
+
 #social-media-wrapper {
     grid-area: social-media;
-    border: 1px solid firebrick;
+    padding: 2rem 1rem;
 }
 
+#social-media-label {
+    font-weight: bold;
+}
+
+#social-media-inner-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#social-media-inner-wrapper > a {
+    color: inherit;
+}
+
+.fa-brands {
+    font-size: 2.5rem;
+}
+
+/* copyright */
 .main-wrapper-copyright {
     grid-area: copyright;
     margin: 0 auto;
+}
+
+.main-wrapper-copyright small {
+    font-size: 1rem;
 }
 
 #main-office-map {
