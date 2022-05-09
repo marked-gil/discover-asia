@@ -257,9 +257,28 @@ footer {
     border: 1px solid firebrick;
 }
 
+/* office address */
+
 #office-address-wrapper {
     grid-area: address;
-    border: 1px solid firebrick;
+    padding: 2rem 1rem;
+}
+
+#address-inner-wrapper {
+    margin-top: 2rem;
+}
+
+#address-inner-wrapper > * {
+    margin-bottom: 1.5rem;
+}
+
+.inline-block-item {
+    display: inline-block;
+    margin-left: 1.2rem;
+}
+
+#office-address-label {
+    font-weight: bold;
 }
 
 #social-media-wrapper {
@@ -276,5 +295,7 @@ footer {
     width: 300px;
     height: 300px;
 }
+
+
 
 /* END --> "FOOTER" */
