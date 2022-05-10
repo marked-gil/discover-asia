@@ -360,7 +360,7 @@ footer {
     text-decoration: none;
 }
 
-.where-to-find-us:hover {
+.where-to-find-us:hover:not(:first-child) {
     color: #24a19d6d;
 }
 
