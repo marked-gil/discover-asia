@@ -16,7 +16,7 @@
 
 nav {
     height: 7rem;
-    padding: 0 5rem;
+    padding: 0 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,10 @@ nav {
 #company-logo {
     font-family: 'Water Brush', cursive;
     font-size: 2.8rem;
+    /* padding: 0 1rem; */
     letter-spacing: .5rem;
+    min-width: 22rem;
+    text-align: center;
     color: white;
 }
 
@@ -36,13 +39,17 @@ nav {
     letter-spacing: .1rem;
     position: relative;
     top: -.8rem;
-    left: 6.3rem;
 }
 
 #main-header-navlinks {
     width: 35rem;
     display: flex;
     justify-content: space-between;
+    padding-left: 1rem;
+}
+
+#main-header-navlinks > li {
+    margin-left: 2.5%;
 }
 
 .nav-link {
