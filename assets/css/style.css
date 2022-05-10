@@ -316,7 +316,7 @@ nav {
 /* START --> "FOOTER" */
 
 footer {
-    padding: 2% 10%;
+    padding: 3rem 10%;
     background-color: #1A385A;
     color: #EFEFEF;
     display: grid;
@@ -325,7 +325,6 @@ footer {
     grid-template-areas:
         'map address social-media'
         'copyright copyright copyright';
-    column-gap: .5rem;
 }
 
 /* map */
@@ -433,6 +432,10 @@ footer {
 
     #social-media-wrapper {
         grid-area: social-media;
+    }
+
+    #social-media-label {
+        text-align: center;
     }
 
 }
