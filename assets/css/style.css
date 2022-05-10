@@ -16,26 +16,23 @@
 /* Navigation Bar */
 
 nav {
-    border: 1px solid blue;
-    height: 3rem;
+    height: 5rem;
     padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 #company-logo {
-    float: left;
+    line-height: 5rem;
 }
 
-#logo-span {
+#company-logo-span {
     display: block;
-}
-
-#main-header-navlinks {
-    float: right;
 }
 
 #main-header-navlinks > li {
     display: inline-block;
-    line-height: 3rem;
+    line-height: 5rem;
 }
 
 #main-header-navlinks li:not(:last-child) {
