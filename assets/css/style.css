@@ -324,11 +324,18 @@ footer {
     grid-auto-rows: minmax(auto);
     grid-template-areas:
         'map address social-media'
-        'copyright copyright copyright'
+        'copyright copyright copyright';
+    column-gap: .5rem;
 }
+
+/* map */
 
 #map-wrapper {
     grid-area: map;
+}
+
+#main-office-map {
+    border-radius: 10px;
 }
 
 /* office address */
@@ -405,6 +412,30 @@ footer {
     height: 300px;
 }
 
+@media screen and (max-width: 1259px) {
+    footer {
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: minmax(auto);
+        grid-template-areas: 
+            'map address'
+            'social-media social-media'
+            'copyright copyright';
+    }
+
+    #map-wrapper {
+        grid-area: map;
+        text-align: center;
+    }
+
+    #office-address-wrapper {
+        grid-area: address;
+    }
+
+    #social-media-wrapper {
+        grid-area: social-media;
+    }
+
+}
 
 
 /* END --> "FOOTER" */
