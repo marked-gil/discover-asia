@@ -84,11 +84,19 @@ nav {
     overflow: hidden;
 }
 
-@media screen and (max-width:1559px) {
+@media screen and (max-width: 1559px) {
     #main-header-section {
         height: 30rem;
-        padding: 0 5%;
+        padding: 0 6%;
     }
+}
+
+@media screen and (max-width: 1324px) {
+    #main-header-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 }
 
 #tagline {
@@ -98,7 +106,7 @@ nav {
 
 @media screen and (max-width: 1559px) {
     #tagline {
-        font-size: 2rem;
+        font-size: 2.4rem;
         min-width: 30rem;
     }    
 }
@@ -115,7 +123,7 @@ nav {
 
 @media screen and (max-width: 1559px) {
     #tagline-travel-asia {
-        font-size: 5rem;
+        font-size: 5.4rem;
     }    
 }
 
@@ -135,6 +143,14 @@ nav {
     #hero-video {
         min-width: 39rem;
     }
+}
+
+@media screen and (max-width: 1324px) {
+    #hero-video {
+        position: relative;
+        bottom: 9rem;
+    }
+    
 }
 
 #trustpilot {
