@@ -81,11 +81,26 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1559px) {
+    #main-header-section {
+        height: 30rem;
+        padding: 0 5%;
+    }
 }
 
 #tagline {
     font-size: 2.8rem;
     min-width: 35rem;
+}
+
+@media screen and (max-width: 1559px) {
+    #tagline {
+        font-size: 2rem;
+        min-width: 30rem;
+    }    
 }
 
 .tagline-span {
@@ -96,6 +111,12 @@ nav {
     text-align: center;
     font-family: 'Water Brush', cursive;
     font-size: 6rem;
+}
+
+@media screen and (max-width: 1559px) {
+    #tagline-travel-asia {
+        font-size: 5rem;
+    }    
 }
 
 #tagline-travel-with-us {
@@ -142,6 +163,7 @@ nav {
 .trustpilot-logo {
     width: 5rem;
 }
+
 
 /* END --> HEADER */
 
