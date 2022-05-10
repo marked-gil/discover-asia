@@ -96,7 +96,7 @@ nav {
 
 #hero-video {
     width: 50rem;
-    border: 1px solid #398AB9;
+    border-radius: 10px;
 }
 
 #trustpilot {
