@@ -64,7 +64,7 @@ nav {
 /* MAIN HEADER SECTION */
 
 #main-header-section {
-    background-color: #1c658c4d;
+    background-color: #24a19dc6;
     height: 35rem;
     padding: 0 10%;
     display: flex;
@@ -92,6 +92,11 @@ nav {
     text-align: end;
     position: relative;
     top: -1.2rem;
+}
+
+#hero-video {
+    width: 50rem;
+    border: 1px solid #398AB9;
 }
 
 #trustpilot {
