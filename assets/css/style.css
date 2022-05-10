@@ -91,22 +91,12 @@ nav {
     }
 }
 
-/* @media screen and (max-width: 1324px) {
-    #main-header-section {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-} */
-
 @media screen and (max-width: 1269px) {
     #main-header-section {
         flex-wrap: wrap;
         justify-content: center;
     }
-    
 }
-
 
 #tagline {
     font-size: 2.8rem;
@@ -170,6 +160,13 @@ nav {
         bottom: 9rem;
     }
 }
+
+@media screen and (max-width: 690px) {
+    #hero-video {
+        min-width: 120%;
+    }
+}
+
 
 #trustpilot {
     display: flex;
