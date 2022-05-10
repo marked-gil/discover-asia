@@ -353,6 +353,10 @@ footer {
     text-decoration: none;
 }
 
+.where-to-find-us:hover {
+    color: #24a19d6d;
+}
+
 #office-address-label {
     font-weight: bold;
 }
@@ -380,6 +384,10 @@ footer {
 
 .fa-brands {
     font-size: 2.5rem;
+}
+
+.fa-brands:hover {
+    color: #24a19d6d;
 }
 
 /* copyright */
