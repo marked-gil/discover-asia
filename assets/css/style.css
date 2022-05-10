@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Water+Brush&display=swap');
 
 /* Modify Default Styling & Font */
+
+root {
+    background-color: #EFEFEF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +64,7 @@ nav {
 /* MAIN HEADER SECTION */
 
 #main-header-section {
-    border: 1px solid green;
+    background-color: #1c658c4d;
     height: 35rem;
     padding: 0 10%;
     display: flex;
@@ -100,7 +105,7 @@ nav {
 
 #what-we-offer-section {
     height: 22rem;
-    background-color: beige;
+    background-color: ;
     padding: 2% 10%;
 }
 
@@ -126,7 +131,7 @@ nav {
 /* START --> "TOP DESTINATIONS" SECTION */
 
 #top-destinations-section {
-    background-color: rgb(245, 238, 230);
+    background-color: ;
     height: 45rem;
     padding: 2% 20%;
 }
@@ -158,7 +163,7 @@ nav {
 #more-destinations-wrapper > a {
     display: inline-block;
     border: 0.5px solid black;
-    background-color: rgb(181, 244, 223);
+    background-color: ;
     width: 14rem;
     height: 2rem;
     border-radius: 5px;
@@ -171,7 +176,7 @@ nav {
 
 #reviews-section {
     padding: 2% 10%;
-    background-color: beige;
+    background-color: ;
     height: 20rem;
 }
 
@@ -203,7 +208,7 @@ nav {
 
 #who-we-are-section {
     padding: 2% 10%;
-    background-color: rgb(245, 238, 230);
+    background-color: ;
     min-height: 15rem;
 }
 
@@ -238,7 +243,7 @@ nav {
 
 #newsletter-section {
     padding: 2% 10%;
-    background-color: beige;
+    background-color: ;
     min-height: 10rem;
 }
 
