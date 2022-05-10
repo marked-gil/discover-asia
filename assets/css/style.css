@@ -102,6 +102,7 @@ nav {
 #tagline {
     font-size: 2.8rem;
     min-width: 35rem;
+    z-index: 3;
 }
 
 @media screen and (max-width: 1559px) {
@@ -109,6 +110,13 @@ nav {
         font-size: 2.4rem;
         min-width: 30rem;
     }    
+}
+
+@media screen and (max-width: 1324px) {
+    #tagline {
+        position: relative;
+        top: 8rem;
+    }
 }
 
 .tagline-span {
@@ -137,6 +145,7 @@ nav {
     max-width: 40%;
     border-radius: 10px;
     margin-left: 3rem;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1990px) {
@@ -150,7 +159,6 @@ nav {
         position: relative;
         bottom: 9rem;
     }
-    
 }
 
 #trustpilot {
@@ -160,6 +168,7 @@ nav {
     justify-content: center;
     position: absolute;
     bottom: 1.5rem;
+    z-index: 2;
 }
 
 .trustpilot-rating {
