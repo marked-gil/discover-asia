@@ -342,6 +342,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 1348px)  {
+    #top-destinations-section {
+        padding: 3rem 4%;
+    }
+}
+
 #top-destinations-heading {
     text-align: center;
 }
@@ -383,6 +389,14 @@ nav {
         height: 22rem;
     }
 }
+
+@media screen and (max-width: 1348px) {
+    .top-dest-image-box {
+        width: 28rem;
+        height: 19rem;
+    }
+}
+
 
 .top-dest-image-box > h3 {
     position: absolute;
