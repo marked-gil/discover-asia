@@ -452,6 +452,7 @@ nav {
     text-align: center;
 }
 
+/* see more destinations button */
 #more-destinations-wrapper > a {
     display: inline-block;
     border: 0.5px solid black;
@@ -575,13 +576,16 @@ nav {
     display: inline-block;
     border: 0.5px solid black;
     background-color: #0c958c;
-    width: 14rem;
-    height: 2rem;
+    width: 20rem;
+    height: 3rem;
     border-radius: 5px;
-    line-height: 2rem;
+    line-height: 3rem;
     margin-top: 2rem;
     text-decoration: none;
     color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
 
 }
 /* END --> "WHO WE ARE" SECTION */
