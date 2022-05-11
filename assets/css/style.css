@@ -574,6 +574,13 @@ nav {
     }
 }
 
+@media screen and (max-width: 870px) {
+    #who-we-are-heading ~ p {
+        font-size: 1.1rem;
+        width: 90%;
+    }
+}
+
 .company-name {
     font-family: 'Water Brush', cursive;
     font-size: 2.5rem;
