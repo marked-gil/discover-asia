@@ -352,10 +352,17 @@ nav {
     overflow: hidden;
 }
 
+.top-dest-image-box > h3 {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px #043263;
+    margin: .5rem;
+}
+
 .top-destination-image {
     display: block;
     margin: auto 0;
-    width: 120%;
+    width: 125%;
     height: auto;
 }
 
