@@ -397,6 +397,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 1029px) {
+    .top-dest-image-box {
+        width: 34rem;
+        max-height: 18rem;
+    }
+}
 
 .top-dest-image-box > h3 {
     position: absolute;
@@ -410,6 +416,14 @@ nav {
     margin: auto 0;
     width: 125%;
     height: auto;
+}
+
+@media screen and (max-width: 1029px) {
+    .top-destination-image {
+        position: relative;
+        bottom: 5rem;
+        z-index: -1;
+    }
 }
 
 #more-destinations-wrapper {
