@@ -476,6 +476,12 @@ nav {
     min-height: 20rem;
 }
 
+@media screen and (max-width: 625px) {
+    #reviews-section {
+        padding: 2% 4%;
+    }
+}
+
 #reviews-heading {
     text-align: center;
 }
@@ -484,7 +490,12 @@ nav {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    border: 1px solid darkblue;
+}
+
+@media screen and (max-width: 1157px) {
+    #reviews-wrapper {
+        flex-wrap: wrap;
+    }
 }
 
 .review-container {
@@ -492,6 +503,31 @@ nav {
     border: 1px solid black;
     padding: 1rem;
     margin: 0 1rem;
+}
+
+@media screen and (max-width: 1600px) {
+    .review-container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .review-container {
+        margin-bottom: 2rem;
+        min-width: 21rem;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .review-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .review-container {
+        width: 100%;
+    }
 }
 
 .review-text {
