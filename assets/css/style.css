@@ -558,9 +558,11 @@ nav {
 }
 
 #who-we-are-heading ~ p {
-    width: 50%;
-    margin: 0 auto;
+    width: 53rem;
+    margin: 0 auto 1.2rem;
     line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 #contact-us-wrapper {
@@ -585,6 +587,7 @@ nav {
 #newsletter-section {
     padding: 2% 10%;
     min-height: 10rem;
+    background-color: rgb(248, 248, 213);
 }
 
 #newsletter-heading {
