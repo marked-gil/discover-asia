@@ -559,6 +559,11 @@ nav {
     margin-bottom: 2.5rem;
 }
 
+.company-name {
+    font-family: 'Water Brush', cursive;
+    font-size: 2.5rem;
+}
+
 #who-we-are-heading ~ p {
     width: 53rem;
     margin: 0 auto 1.2rem;
@@ -586,8 +591,8 @@ nav {
     border-radius: 5px;
     font-weight: bold;
     letter-spacing: 1px;
-
 }
+
 /* END --> "WHO WE ARE" SECTION */
 
 /* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
