@@ -72,6 +72,13 @@ nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #main-header-navlinks {
+        width: auto;
     }
 }
 
@@ -79,9 +86,21 @@ nav {
     margin-left: 2.5%;
 }
 
+@media screen and (max-width: 690px) {
+    #main-header-navlinks > li {
+        margin: 0;
+    }
+}
+
 .nav-link {
     font-size: 1.1rem;
     color: white;
+}
+
+@media screen and (max-width: 690px) {
+    .nav-link {
+        font-size: .9rem;
+    }
 }
 
 /* MAIN HEADER SECTION */
