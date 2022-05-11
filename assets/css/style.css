@@ -98,6 +98,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 690px) {
+    #main-header-section {
+        height: auto;
+    }
+}
+
 #tagline {
     font-size: 2.8rem;
     min-width: 35rem;
@@ -119,6 +125,13 @@ nav {
         text-shadow: 5px 2px 2px black;
     }
 }
+
+@media screen and (max-width: 690px) {
+    #tagline {
+        position: absolute;
+    }
+}
+
 
 .tagline-span {
     display: block;
@@ -163,10 +176,10 @@ nav {
 
 @media screen and (max-width: 690px) {
     #hero-video {
+        position: static;
         min-width: 120%;
     }
 }
-
 
 #trustpilot {
     display: flex;
@@ -176,6 +189,12 @@ nav {
     position: absolute;
     bottom: 1.5rem;
     z-index: 2;
+}
+
+@media screen and (max-width: 690px) {
+    #trustpilot {
+        position: absolute;
+    }
 }
 
 .trustpilot-rating {
