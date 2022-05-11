@@ -129,9 +129,11 @@ nav {
 @media screen and (max-width: 690px) {
     #tagline {
         position: absolute;
+        top: 18%;
+        font-size: 1.8rem;
+        min-width: 22rem;
     }
 }
-
 
 .tagline-span {
     display: block;
@@ -146,6 +148,12 @@ nav {
 @media screen and (max-width: 1559px) {
     #tagline-travel-asia {
         font-size: 5.4rem;
+    }    
+}
+
+@media screen and (max-width: 690px) {
+    #tagline-travel-asia {
+        font-size: 4rem;
     }    
 }
 
