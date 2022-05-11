@@ -327,7 +327,7 @@ nav {
 /* START --> "TOP DESTINATIONS" SECTION */
 
 #top-destinations-section {
-    padding: 3rem 20%;
+    padding: 3rem 10%;
 }
 
 #top-destinations-heading {
@@ -335,18 +335,21 @@ nav {
 }
 
 #images-wrapper {
+    margin: 2rem auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 36rem;
+    max-width: 120rem;
+    min-height: 40rem;
     align-items: center;
+    border: 1px solid firebrick;
 }
 
 .top-destination-image {
     border: 1px solid black;
     display: block;
-    height: 14rem;
-    width: 14rem;
+    height: 18rem;
+    width: 18rem;
     margin: 0 4rem;
 }
 
