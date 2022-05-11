@@ -555,6 +555,7 @@ nav {
 
 #who-we-are-heading {
     text-align: center;
+    margin-bottom: 2.5rem;
 }
 
 #who-we-are-heading ~ p {
