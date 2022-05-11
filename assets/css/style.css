@@ -330,6 +330,12 @@ nav {
     padding: 3rem 10%;
 }
 
+@media screen and (max-width: 2061px) {
+    #top-destinations-section {
+        padding: 3rem 5%;
+    }
+}
+
 #top-destinations-heading {
     text-align: center;
 }
@@ -350,6 +356,13 @@ nav {
     height: 22rem;
     width: 32rem;
     overflow: hidden;
+}
+
+@media screen and (max-width: 1830px) {
+    .top-dest-image-box {
+        width: 28rem;
+        height: 19rem;
+    }
 }
 
 .top-dest-image-box > h3 {
