@@ -37,6 +37,14 @@ nav {
     color: white;
 }
 
+@media screen and (max-width: 690px) {
+    #company-logo {
+        font-size: 2.3rem;
+        letter-spacing: .3rem;
+        min-width: 16rem;
+    }
+}
+
 #company-logo-span {
     display: block;
     font-size: 1rem;
@@ -45,6 +53,11 @@ nav {
     top: -.8rem;
 }
 
+@media screen and (max-width: 690px) {
+    #company-logo-span {
+        font-size: .9rem;
+    }
+}
 
 #main-header-navlinks {
     width: 35rem;
