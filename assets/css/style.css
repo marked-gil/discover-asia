@@ -288,9 +288,9 @@ nav {
 /* START --> "WHAT WE OFFER" SECTION */
 
 #what-we-offer-section {
-    height: 22rem;
-    background-color: ;
-    padding: 2% 10%;
+    height: auto;
+    background-color: rgb(248, 248, 213);
+    padding: 3rem 10%;
 }
 
 #what-we-offer-heading {
@@ -298,16 +298,29 @@ nav {
 }
 
 #what-we-offer-outer-wrapper {
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .what-we-offer-inner-wrapper {
     text-align: center;
     margin: 1.2rem 0;
-    width: 40%;
-    padding: 0 1rem;
+    width: 36%;
+    padding: 1.5rem 2rem;
+    background-color: #689368;
+    border-radius: 10px;
+}
+
+.what-we-offer-inner-wrapper > h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.what-we-offer-inner-wrapper > p {
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 /* END --> "WHAT WE OFFER" SECTION */
