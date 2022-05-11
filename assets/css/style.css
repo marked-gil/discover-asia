@@ -336,6 +336,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 1603px) {
+    #top-destinations-section {
+        padding: 3rem 10%;
+    }
+}
+
 #top-destinations-heading {
     text-align: center;
 }
@@ -350,11 +356,17 @@ nav {
     align-items: center;
 }
 
+@media screen and (max-width: 1603px) {
+    #images-wrapper {
+        min-height: 75rem;
+    }
+}
+
 .top-dest-image-box {
     border: 1px solid black;
     margin: 0 1% 1%;
-    height: 22rem;
     width: 32rem;
+    height: 22rem;
     overflow: hidden;
 }
 
@@ -362,6 +374,13 @@ nav {
     .top-dest-image-box {
         width: 28rem;
         height: 19rem;
+    }
+}
+
+@media screen and (max-width: 1603px) {
+    .top-dest-image-box {
+        width: 32rem;
+        height: 22rem;
     }
 }
 
