@@ -335,22 +335,21 @@ nav {
 }
 
 #images-wrapper {
-    margin: 2rem auto;
+    margin: 3rem auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 120rem;
-    min-height: 40rem;
+    min-height: 44rem;
     align-items: center;
-    border: 1px solid firebrick;
 }
 
 .top-destination-image {
     border: 1px solid black;
     display: block;
-    height: 18rem;
-    width: 18rem;
-    margin: 0 4rem;
+    height: 22rem;
+    width: 32rem;
+    margin: 0 1% 1%;
 }
 
 #more-destinations-wrapper {
