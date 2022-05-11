@@ -344,12 +344,19 @@ nav {
     align-items: center;
 }
 
-.top-destination-image {
+.top-dest-image-box {
     border: 1px solid black;
-    display: block;
+    margin: 0 1% 1%;
     height: 22rem;
     width: 32rem;
-    margin: 0 1% 1%;
+    overflow: hidden;
+}
+
+.top-destination-image {
+    display: block;
+    margin: auto 0;
+    width: 120%;
+    height: auto;
 }
 
 #more-destinations-wrapper {
