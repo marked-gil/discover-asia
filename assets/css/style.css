@@ -550,7 +550,7 @@ nav {
 /* START --> "WHO WE ARE" SECTION */
 
 #who-we-are-section {
-    padding: 2% 10%;
+    padding: 3rem 10%;
     min-height: 15rem;
 }
 
@@ -559,11 +559,7 @@ nav {
     margin-bottom: 2.5rem;
 }
 
-.company-name {
-    font-family: 'Water Brush', cursive;
-    font-size: 2.5rem;
-}
-
+/* who we are text content */
 #who-we-are-heading ~ p {
     width: 53rem;
     margin: 0 auto 1.2rem;
@@ -571,6 +567,18 @@ nav {
     font-size: 1.2rem;
     text-align: justify;
 }
+
+@media screen and (max-width: 1110px) {
+    #who-we-are-heading ~ p {
+        width: 42rem;
+    }
+}
+
+.company-name {
+    font-family: 'Water Brush', cursive;
+    font-size: 2.5rem;
+}
+
 
 /* Contact Us Button */
 #contact-us-container {
