@@ -566,12 +566,12 @@ nav {
     text-align: justify;
 }
 
-#contact-us-wrapper {
+#contact-us-container {
     text-align: center;
 }
 
 /* Contact Us Button */
-#contact-us-wrapper > a {
+#contact-us-container > a {
     display: inline-block;
     border: 0.5px solid black;
     background-color: rgb(181, 244, 223);
@@ -579,6 +579,7 @@ nav {
     height: 2rem;
     border-radius: 5px;
     line-height: 2rem;
+    margin-top: 2rem;
 }
 
 /* END --> "WHO WE ARE" SECTION */
