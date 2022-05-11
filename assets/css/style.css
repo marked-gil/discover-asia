@@ -201,17 +201,32 @@ nav {
 
 @media screen and (max-width: 690px) {
     #trustpilot {
-        position: absolute;
+        left: 5%;
+        bottom: 2%;
     }
 }
 
 .trustpilot-rating {
     font-size: 1rem;
+    font-weight: bold;
     letter-spacing: .1rem;
+}
+
+@media screen and (max-width: 690px) {
+    .trustpilot-rating {
+        font-size: .6rem;
+        margin-bottom: .2rem;
+    }
 }
 
 .trustpilot-stars {
     width: 8.5rem;
+}
+
+@media screen and (max-width: 690px) {
+    .trustpilot-stars {
+        width: 5rem;
+    }
 }
 
 .trustpilot-based-on {
@@ -219,10 +234,22 @@ nav {
     margin-bottom: .5rem;
 }
 
+@media screen and (max-width: 690px) {
+    .trustpilot-based-on {
+        font-size: .4rem;
+        margin-bottom: .2rem;
+    }
+}
+
 .trustpilot-logo {
     width: 5rem;
 }
 
+@media screen and (max-width: 690px) {
+    .trustpilot-logo {
+        width: 3rem;
+    }
+}
 
 /* END --> HEADER */
 
