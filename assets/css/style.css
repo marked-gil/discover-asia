@@ -322,6 +322,12 @@ nav {
     font-size: 1.1rem;
 }
 
+/* fontawesome icons */
+.fa-solid {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
 /* END --> "WHAT WE OFFER" SECTION */
 
 /* START --> "TOP DESTINATIONS" SECTION */
