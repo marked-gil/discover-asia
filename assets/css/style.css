@@ -696,10 +696,28 @@ footer {
         'copyright copyright copyright';
 }
 
+@media screen and (max-width: 1259px) {
+    footer {
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: minmax(auto);
+        grid-template-areas: 
+            'map address'
+            'social-media social-media'
+            'copyright copyright';
+    }
+}
+
 /* map */
 
 #map-wrapper {
     grid-area: map;
+}
+
+@media screen and (max-width: 1259px) {
+    #map-wrapper {
+        grid-area: map;
+        text-align: center;
+    }
 }
 
 #main-office-map {
@@ -711,6 +729,12 @@ footer {
 #office-address-wrapper {
     grid-area: address;
     padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 1259px) {
+    #office-address-wrapper {
+        grid-area: address;
+    }
 }
 
 #address-inner-wrapper {
@@ -743,8 +767,20 @@ footer {
     padding: 2rem 1rem;
 }
 
+@media screen and (max-width: 1259px) {
+    #social-media-wrapper {
+        grid-area: social-media;
+    }
+}
+
 #social-media-label {
     font-weight: bold;
+}
+
+@media screen and (max-width: 1259px) {
+    #social-media-label {
+        text-align: center;
+    }
 }
 
 #social-media-inner-wrapper {
@@ -780,34 +816,6 @@ footer {
     height: 300px;
 }
 
-@media screen and (max-width: 1259px) {
-    footer {
-        grid-template-columns: 50% 50%;
-        grid-auto-rows: minmax(auto);
-        grid-template-areas: 
-            'map address'
-            'social-media social-media'
-            'copyright copyright';
-    }
-
-    #map-wrapper {
-        grid-area: map;
-        text-align: center;
-    }
-
-    #office-address-wrapper {
-        grid-area: address;
-    }
-
-    #social-media-wrapper {
-        grid-area: social-media;
-    }
-
-    #social-media-label {
-        text-align: center;
-    }
-
-}
 
 
 /* END --> "FOOTER" */
