@@ -873,7 +873,7 @@ footer {
 /* copyright */
 .main-wrapper-copyright {
     grid-area: copyright;
-    margin: 0 auto;
+    margin: 2rem auto 0;
 }
 
 .main-wrapper-copyright small {
