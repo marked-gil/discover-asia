@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Water+Brush&display=swap');
 
+/* Customized Variables */
+:root {
+    --clr-egyptian-blue: #043263;
+    --clr-peacock-blue: #0fd2c887;
+    --clr-dodger-blue: #239EFE;
+    --clr-malibu-blue: #7DBAFB;
+    --clr-blue-daze: #DBE5FF;
+    
+}
+
 /* Modify Default Styling & Font */
 
 root {
+
     background-color: #EFEFEF;
 }
 
@@ -25,7 +36,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #043263;
+    background-color: var(--clr-egyptian-blue);
 }
 
 #company-logo {
@@ -106,7 +117,10 @@ nav {
 /* MAIN HEADER SECTION */
 
 #main-header-section {
-    background-color: #24a19d6d;
+    background-color: #70BCC7;
+    background-image: url("../media/images/banner-bg.jpg");
+    background-size: 100%;
+    background-position: center;
     height: 35rem;
     padding: 0 10%;
     display: flex;
@@ -195,9 +209,15 @@ nav {
     top: -1.2rem;
 }
 
+#hero-video-container {
+
+}
+
 #hero-video {
+    border-radius: 30px;
+    box-shadow: 0 0 40px 10px #9f8f4f8f;
     max-width: 40%;
-    border-radius: 10px;
+    opacity: 75%;
     z-index: 1;
 }
 
