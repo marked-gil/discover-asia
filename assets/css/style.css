@@ -292,6 +292,18 @@ nav {
     padding: 3rem 10%;
 }
 
+@media screen and (max-width: 900px) {
+    #what-we-offer-section {
+        padding: 3rem 5%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #what-we-offer-section {
+        padding: 3rem 0;
+    }
+}
+
 #what-we-offer-heading {
     text-align: center;
 }
@@ -303,6 +315,12 @@ nav {
     justify-content: space-around;
 }
 
+@media screen and (max-width: 590px) {
+    .what-we-offer-outer-wrapper {
+        flex-direction: column;
+    }
+}
+
 .what-we-offer-inner-wrapper {
     text-align: center;
     margin: 1.2rem 0;
@@ -312,14 +330,52 @@ nav {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 1290px) {
+    .what-we-offer-inner-wrapper {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .what-we-offer-inner-wrapper {
+        margin: .4rem 0;
+        padding: 1.2rem 1rem;
+        width: 98%;
+    }
+}
+
 .what-we-offer-inner-wrapper > h3 {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
+@media screen and (max-width: 900px) {
+    .what-we-offer-inner-wrapper > h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .what-we-offer-inner-wrapper > h3 {
+        font-size: 1.1rem;
+    }
+}
+
 .what-we-offer-inner-wrapper > p {
     margin: 0;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .what-we-offer-inner-wrapper > p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .what-we-offer-inner-wrapper > p {
+        font-size: .9rem;
+    }
 }
 
 /* fontawesome icons */
