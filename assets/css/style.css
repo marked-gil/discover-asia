@@ -1008,6 +1008,18 @@ footer {
     resize: none;
 }
 
+#agree-to-terms-container {
+    text-align: center;
+}
 
+#agree-to-terms {
+    margin-right: 1rem;
+    transform: scale(1.2);
+}
+
+label[for="agree-to-terms"] {
+    font-size: 1rem;
+    font-style: italic;
+}
 
 /* END --> "CONTACT US" */
