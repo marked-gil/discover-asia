@@ -631,9 +631,15 @@ nav {
 /* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
 
 #newsletter-section {
-    padding: 2% 10%;
+    padding: 3rem 10%;
     min-height: 10rem;
     background-color: rgb(248, 248, 213);
+}
+
+@media screen and (max-width: 900px) {
+    #newsletter-section {
+        padding: 3rem 15%;
+    }
 }
 
 #newsletter-heading {
@@ -642,17 +648,36 @@ nav {
 
 #newsletter-form {
     display: flex;
-    flex-wrap: wrap;
-    border: 1px solid darkblue;
-    max-width: 40%;
-    margin: 3rem auto;
+    flex-direction: column;
+    width: 35rem;
+    margin: 3rem auto 0;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 900px) {
+    #newsletter-form {
+        width: 100%;
+        font-size: 1rem;
+    }
 }
 
 #newsletter-form > input {
-    width: 25rem;
+    width: 35rem;
     border-radius: 5px;
     padding: 0 .5rem;
     line-height: 2rem;
+    margin-top: .5rem;
+}
+
+@media screen and (max-width: 800px) {
+    #newsletter-form > input {
+        width: inherit;
+    }
+}
+
+#newsletter-form > button {
+    width: 10rem;
+    align-self: center;
+    margin-top: 1.4rem;
 }
 
 /* END --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
