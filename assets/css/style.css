@@ -978,5 +978,11 @@ footer {
     margin: 0 auto;
 }
 
+#contact-main-heading {
+    text-align: center;
+}
 
+#contact-todo {
+    margin: 2rem auto;
+}
 /* END --> "CONTACT US" */
