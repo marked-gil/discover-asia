@@ -1,0 +1,982 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Water+Brush&display=swap');
+
+/* Customized Variables */
+:root {
+    --clr-egyptian-blue: #043263;
+    --clr-peacock-blue: #0fd2c887;
+    --clr-dodger-blue: #239EFE;
+    --clr-malibu-blue: #7DBAFB;
+    --clr-blue-daze: #DBE5FF;
+    
+}
+
+/* Modify Default Styling & Font */
+
+root {
+
+    background-color: #EFEFEF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* START -> HEADER */
+
+/* Navigation Bar */
+
+nav {
+    min-height: 7rem;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-egyptian-blue);
+}
+
+#company-logo {
+    font-family: 'Water Brush', cursive;
+    font-size: 2.8rem;
+    letter-spacing: .5rem;
+    min-width: 22rem;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 690px) {
+    #company-logo {
+        font-size: 2.3rem;
+        letter-spacing: .3rem;
+        min-width: 16rem;
+    }
+}
+
+#company-logo-span {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    position: relative;
+    top: -.8rem;
+}
+
+@media screen and (max-width: 690px) {
+    #company-logo-span {
+        font-size: .9rem;
+    }
+}
+
+#main-header-navlinks {
+    width: 35rem;
+    padding-left: 1rem;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 991px) {
+    #main-header-navlinks {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #main-header-navlinks {
+        width: auto;
+    }
+}
+
+#main-header-navlinks > li {
+    margin-left: 2.5%;
+}
+
+@media screen and (max-width: 690px) {
+    #main-header-navlinks > li {
+        margin: 0;
+    }
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: white;
+}
+
+@media screen and (max-width: 690px) {
+    .nav-link {
+        font-size: .9rem;
+    }
+}
+
+/* MAIN HEADER SECTION */
+
+#main-header-section {
+    background-color: #70BCC7;
+    background-image: url("../media/images/banner-bg.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 35rem;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1559px) {
+    #main-header-section {
+        height: 30rem;
+        padding: 0 6%;
+    }
+}
+
+@media screen and (max-width: 1269px) {
+    #main-header-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #main-header-section {
+        height: auto;
+    }
+}
+
+#tagline {
+    font-size: 2.8rem;
+    min-width: 35rem;
+    z-index: 3;
+}
+
+@media screen and (max-width: 1559px) {
+    #tagline {
+        font-size: 2.4rem;
+        min-width: 30rem;
+    }    
+}
+
+@media screen and (max-width: 1269px) {
+    #tagline {
+        position: relative;
+        top: 8rem;
+        color: rgb(255, 255, 255);
+        text-shadow: 5px 2px 2px black;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #tagline {
+        position: absolute;
+        top: 18%;
+        font-size: 1.8rem;
+        min-width: 22rem;
+    }
+}
+
+.tagline-span {
+    display: block;
+}
+
+#tagline-travel-asia {
+    text-align: center;
+    font-family: 'Water Brush', cursive;
+    font-size: 6rem;
+}
+
+@media screen and (max-width: 1559px) {
+    #tagline-travel-asia {
+        font-size: 5.4rem;
+    }    
+}
+
+@media screen and (max-width: 690px) {
+    #tagline-travel-asia {
+        font-size: 4rem;
+    }    
+}
+
+#tagline-travel-with-us {
+    text-align: end;
+    position: relative;
+    top: -1.2rem;
+}
+
+#hero-video {
+    border-radius: 30px;
+    box-shadow: 0 0 40px 10px #9f8f4f8f;
+    max-width: 40%;
+    opacity: 75%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1990px) {
+    #hero-video {
+        min-width: 39rem;
+    }
+}
+
+@media screen and (max-width: 1269px) {
+    #hero-video {
+        position: relative;
+        bottom: 9rem;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    #hero-video {
+        position: static;
+        min-width: 120%;
+    }
+}
+
+#trustpilot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1.5rem;
+    z-index: 2;
+}
+
+@media screen and (max-width: 690px) {
+    #trustpilot {
+        left: 5%;
+        bottom: 2%;
+    }
+}
+
+.trustpilot-rating {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+@media screen and (max-width: 690px) {
+    .trustpilot-rating {
+        font-size: .6rem;
+        margin-bottom: .2rem;
+    }
+}
+
+.trustpilot-stars {
+    width: 8.5rem;
+}
+
+@media screen and (max-width: 690px) {
+    .trustpilot-stars {
+        width: 5rem;
+    }
+}
+
+.trustpilot-based-on {
+    font-size: .7rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 690px) {
+    .trustpilot-based-on {
+        font-size: .4rem;
+        margin-bottom: .2rem;
+    }
+}
+
+.trustpilot-logo {
+    width: 5rem;
+}
+
+@media screen and (max-width: 690px) {
+    .trustpilot-logo {
+        width: 3rem;
+    }
+}
+
+/* END --> HEADER */
+
+/* START --> "WHAT WE OFFER" SECTION */
+
+#what-we-offer-section {
+    background-color: rgb(248, 248, 213);
+    padding: 3rem 10%;
+}
+
+@media screen and (max-width: 900px) {
+    #what-we-offer-section {
+        padding: 3rem 5%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #what-we-offer-section {
+        padding: 3rem 0;
+    }
+}
+
+#what-we-offer-heading {
+    text-align: center;
+}
+
+#what-we-offer-outer-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 590px) {
+    .what-we-offer-outer-wrapper {
+        flex-direction: column;
+    }
+}
+
+.what-we-offer-inner-wrapper {
+    text-align: center;
+    margin: 1.2rem 0;
+    width: 36%;
+    padding: 1.5rem 2rem;
+    background-color: #689368;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1290px) {
+    .what-we-offer-inner-wrapper {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .what-we-offer-inner-wrapper {
+        margin: .4rem 0;
+        padding: 1.2rem 1rem;
+        width: 98%;
+    }
+}
+
+.what-we-offer-inner-wrapper > h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .what-we-offer-inner-wrapper > h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .what-we-offer-inner-wrapper > h3 {
+        font-size: 1.1rem;
+    }
+}
+
+.what-we-offer-inner-wrapper > p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .what-we-offer-inner-wrapper > p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .what-we-offer-inner-wrapper > p {
+        font-size: .9rem;
+    }
+}
+
+/* fontawesome icons */
+.fa-solid {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+/* END --> "WHAT WE OFFER" SECTION */
+
+/* START --> "TOP DESTINATIONS" SECTION */
+
+#top-destinations-section {
+    padding: 3rem 10%;
+}
+
+@media screen and (max-width: 2061px) {
+    #top-destinations-section {
+        padding: 3rem 5%;
+    }
+}
+
+@media screen and (max-width: 1603px) {
+    #top-destinations-section {
+        padding: 3rem 10%;
+    }
+}
+
+@media screen and (max-width: 1348px)  {
+    #top-destinations-section {
+        padding: 3rem 4%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #top-destinations-section {
+        padding: 3rem 0;
+    }
+}
+
+
+#top-destinations-heading {
+    text-align: center;
+}
+
+#images-wrapper {
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 120rem;
+    min-height: 44rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 1603px) {
+    #images-wrapper {
+        min-height: 75rem;
+    }
+}
+
+.top-dest-image-box {
+    border: 1px solid black;
+    margin: 0 1% 1%;
+    width: 32rem;
+    height: 22rem;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1830px) {
+    .top-dest-image-box {
+        width: 28rem;
+        height: 19rem;
+    }
+}
+
+@media screen and (max-width: 1603px) {
+    .top-dest-image-box {
+        width: 32rem;
+        height: 22rem;
+    }
+}
+
+@media screen and (max-width: 1348px) {
+    .top-dest-image-box {
+        width: 28rem;
+        height: 19rem;
+    }
+}
+
+@media screen and (max-width: 1029px) {
+    .top-dest-image-box {
+        width: 34rem;
+        max-height: 18rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top-dest-image-box {
+        margin: 0 0 1%;
+        width: 100%;
+        max-height: 16.2rem;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .top-dest-image-box {
+        width: 100%;
+        max-height: 14rem;
+    }
+}
+
+.top-dest-image-box > h3 {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px #043263;
+    margin: .5rem;
+}
+
+.top-destination-image {
+    display: block;
+    margin: auto 0;
+    width: 125%;
+    height: auto;
+}
+
+@media screen and (max-width: 1029px) {
+    .top-destination-image {
+        position: relative;
+        bottom: 5rem;
+        z-index: -1;
+    }
+}
+
+#more-destinations-wrapper {
+    text-align: center;
+}
+
+/* see more destinations button */
+#more-destinations-wrapper > a {
+    display: inline-block;
+    border: 0.5px solid black;
+    background-color: #0c958c;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    line-height: 3rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* END --> "TOP DESTINATIONS" SECTION */
+
+/* START --> "WHAT OUR CLIENTS SAY ABOUT US" SECTION */
+
+#reviews-section {
+    padding: 2% 8%;
+    background-color: rgb(248, 248, 213);
+    min-height: 20rem;
+}
+
+@media screen and (max-width: 625px) {
+    #reviews-section {
+        padding: 2% 4%;
+    }
+}
+
+#reviews-heading {
+    text-align: center;
+}
+
+#reviews-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1157px) {
+    #reviews-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+.review-container {
+    width: 25%;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 1600px) {
+    .review-container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .review-container {
+        margin-bottom: 2rem;
+        min-width: 21rem;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .review-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .review-container {
+        width: 100%;
+    }
+}
+
+.review-text {
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.review-trustpilot-stars {
+    width: 5.5rem;
+}
+
+.review-author {
+    display: block;
+    font-weight: 300;
+}
+
+/* END --> "WHAT OUR CLIENTS SAY ABOUT US" SECTION */
+
+/* START --> "WHO WE ARE" SECTION */
+
+#who-we-are-section {
+    padding: 3rem 10%;
+    min-height: 15rem;
+}
+
+@media screen and (max-width: 600px) {
+    #who-we-are-section {
+        padding: 3rem 4%;
+    }
+}
+
+#who-we-are-heading {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+/* who we are text content */
+#who-we-are-heading ~ p {
+    width: 53rem;
+    margin: 0 auto 1.2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1110px) {
+    #who-we-are-heading ~ p {
+        width: 42rem;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    #who-we-are-heading ~ p {
+        font-size: 1.1rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #who-we-are-heading ~ p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+.company-name {
+    font-family: 'Water Brush', cursive;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .company-name {
+        font-size: 2rem;
+    }
+}
+
+/* Contact Us Button */
+#contact-us-container {
+    text-align: center;
+}
+
+#contact-us-container > a {
+    display: inline-block;
+    border: 0.5px solid black;
+    background-color: #0c958c;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    line-height: 3rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* END --> "WHO WE ARE" SECTION */
+
+/* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
+
+#newsletter-section {
+    padding: 3rem 10%;
+    min-height: 10rem;
+    background-color: rgb(248, 248, 213);
+}
+
+@media screen and (max-width: 900px) {
+    #newsletter-section {
+        padding: 3rem 15%;
+    }
+}
+
+#newsletter-heading {
+    text-align: center;
+}
+
+#newsletter-form {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    margin: 3rem auto 0;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 900px) {
+    #newsletter-form {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+#newsletter-form > input {
+    width: 35rem;
+    border-radius: 5px;
+    padding: 0 .5rem;
+    line-height: 2rem;
+    margin-top: .5rem;
+}
+
+@media screen and (max-width: 800px) {
+    #newsletter-form > input {
+        width: inherit;
+    }
+}
+
+#newsletter-form > button {
+    width: 10rem;
+    align-self: center;
+    margin-top: 1.4rem;
+}
+
+/* END --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
+
+/* START --> "FOOTER" */
+
+footer {
+    background-color: #1A385A;
+    color: #EFEFEF;
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-auto-rows: minmax(auto);
+    grid-template-areas:
+        'map address social-media'
+        'copyright copyright copyright';
+    padding: 3rem 10%;
+}
+
+@media screen and (max-width: 1259px) {
+    footer {
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: minmax(auto);
+        grid-template-areas: 
+            'map address'
+            'social-media social-media'
+            'copyright copyright';
+    }
+}
+
+@media screen and (max-width: 820px) {
+    footer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* map */
+
+#map-wrapper {
+    grid-area: map;
+}
+
+@media screen and (max-width: 1259px) {
+    #map-wrapper {
+        grid-area: map;
+        /* text-align: center; */
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #map-wrapper {
+        width: 100%;
+    }
+}
+
+#main-office-map {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 820px) {
+    #main-office-map {
+        min-width: 100%;
+    }
+}
+
+/* office address */
+
+#office-address-wrapper {
+    grid-area: address;
+    padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 1259px) {
+    #office-address-wrapper {
+        grid-area: address;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #office-address-wrapper {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #office-address-wrapper {
+        font-size: .8rem;
+    }
+}
+
+#address-inner-wrapper {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 820px) {
+    #address-inner-wrapper {
+        margin-top: 1rem;
+    }
+}
+
+#address-inner-wrapper > * {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 820px) {
+    #address-inner-wrapper > * {
+        margin-bottom: 0;
+    }
+}
+
+.where-to-find-us {
+    display: inline-block;
+    margin-left: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.where-to-find-us:hover:not(:first-child) {
+    color: #24a19d6d;
+}
+
+#office-address-label {
+    font-weight: bold;
+}
+
+/* social media */
+
+#social-media-wrapper {
+    grid-area: social-media;
+    padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 1259px) {
+    #social-media-wrapper {
+        grid-area: social-media;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #social-media-wrapper {
+        width: 100%;
+        padding: 1rem 0;
+    }
+}
+
+#social-media-label {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1259px) {
+    #social-media-label {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #social-media-label {
+        font-size: .8rem;
+    }
+}
+
+#social-media-inner-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 820px) {
+    #social-media-inner-wrapper {
+        margin: 0;
+    }
+}
+
+#social-media-inner-wrapper > a {
+    color: inherit;
+}
+
+.fa-brands {
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 820px) {
+    .fa-brands {
+        font-size: 2rem;
+    }
+}
+
+.fa-brands:hover {
+    color: #24a19d6d;
+}
+
+/* copyright */
+.main-wrapper-copyright {
+    grid-area: copyright;
+    margin: 2rem auto 0;
+}
+
+.main-wrapper-copyright small {
+    font-size: 1rem;
+}
+
+#main-office-map {
+    width: 300px;
+    height: 300px;
+}
+
+/* END --> "FOOTER" */
+
+
+/* START --> "CONTACT US" */
+
+#contact-main-wrapper {
+    padding: 5rem 10%;
+}
+
+#contact-main-wrapper > * {
+    border: 1px solid saddlebrown;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* END --> "CONTACT US" */
