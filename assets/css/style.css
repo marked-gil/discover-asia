@@ -757,12 +757,11 @@ footer {
     }
 }
 
-/* @media screen and (max-width: 820px) {
+@media screen and (max-width: 490px) {
     #office-address-wrapper {
-        border: 1px solid darkblue;
-        height: 10rem;
+        font-size: .8rem;
     }
-} */
+}
 
 #address-inner-wrapper {
     margin-top: 2rem;
