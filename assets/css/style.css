@@ -1028,3 +1028,22 @@ label[for="agree-to-terms"] {
 }
 
 /* END --> "CONTACT US" */
+
+/* START --> "DESTINATIONS" */
+
+#destinations-main-wrapper {
+    padding: 5rem 10%;
+}
+
+#destinations-main-heading {
+    text-align: center;
+}
+
+#images-outer-wrapper {
+    border: 1px solid darkblue;
+    margin: 2.5rem auto 0;
+    width: 100%;
+}
+
+
+/* END --> DESTINATIONS */
