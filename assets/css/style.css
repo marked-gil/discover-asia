@@ -3,7 +3,7 @@
 /* Customized Variables */
 :root {
     --clr-egyptian-blue: #043263;
-    --clr-peacock-blue: #0fd2c887;
+    --clr-peacock-blue: #0fd2c87e;
     --clr-dodger-blue: #239EFE;
     --clr-malibu-blue: #7DBAFB;
     --clr-blue-daze: #DBE5FF;
@@ -802,7 +802,6 @@ footer {
 @media screen and (max-width: 1259px) {
     #map-wrapper {
         grid-area: map;
-        /* text-align: center; */
     }
 }
 
@@ -972,12 +971,12 @@ footer {
     padding: 5rem 10%;
 }
 
-#contact-main-wrapper > * {
+form {
     width: 40rem;
     margin: 0 auto;
 }
 
-#contact-main-heading {
+.text-center {
     text-align: center;
 }
 
@@ -1008,10 +1007,6 @@ footer {
     resize: none;
 }
 
-#agree-to-terms-container {
-    text-align: center;
-}
-
 #agree-to-terms {
     margin-right: 1rem;
     transform: scale(1.2);
@@ -1020,6 +1015,16 @@ footer {
 label[for="agree-to-terms"] {
     font-size: 1rem;
     font-style: italic;
+}
+
+#contact-btn {
+    background-color: #0c958c;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 2.5rem;
 }
 
 /* END --> "CONTACT US" */
