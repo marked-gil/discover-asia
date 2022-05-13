@@ -1039,10 +1039,53 @@ label[for="agree-to-terms"] {
     text-align: center;
 }
 
-#images-outer-wrapper {
+#destinations-outer-wrapper {
     border: 1px solid darkblue;
+    display: flex;
+    flex-wrap: wrap;
     margin: 2.5rem auto 0;
     width: 100%;
+}
+
+.destinations-inner-wrapper {
+    border: 1px solid darkgoldenrod;
+    display: flex;
+    height: 35rem;
+    width: 50%;
+    position: relative;
+}
+
+.destinations-inner-wrapper > h2 {
+    margin: 2rem 0 0 2rem;
+}
+
+.primary-img-box {
+    background-color: #70BCC7;
+    height: 80%;
+    min-width: 24rem;
+}
+
+.secondary-img-box {
+    background-color: #7DBAFB;
+    height: 45%;
+    width: 15rem;
+    position: absolute;
+    left: 12rem;
+    top: 50%;
+}
+
+.text-inner-wrapper {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 2.5rem 2.5rem 5rem; 
+}
+
+.best-quote {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    margin: 1rem 0;
 }
 
 
