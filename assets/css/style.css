@@ -1061,17 +1061,20 @@ label[for="agree-to-terms"] {
 
 .primary-img-box {
     background-color: #70BCC7;
-    height: 80%;
-    min-width: 24rem;
+    height: 31.25rem;
+    min-width: 20.8rem;
+    overflow: hidden;
 }
 
 .secondary-img-box {
     background-color: #7DBAFB;
-    height: 45%;
-    width: 15rem;
+    border-radius: 10px 100px;
+    height: 12.48rem;
+    width: 18.72rem;
+    overflow: hidden;
     position: absolute;
-    left: 12rem;
-    top: 50%;
+    left: 10rem;
+    top: 64%;
 }
 
 .text-inner-wrapper {
@@ -1088,5 +1091,12 @@ label[for="agree-to-terms"] {
     margin: 1rem 0;
 }
 
+.primary-img {
+    width: 100%;
+}
+
+.secondary-img {
+    width: 100%;
+}
 
 /* END --> DESTINATIONS */
