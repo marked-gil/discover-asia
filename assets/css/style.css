@@ -1067,8 +1067,9 @@ label[for="agree-to-terms"] {
 }
 
 .secondary-img-box {
-    background-color: #7DBAFB;
-    border-radius: 10px 100px;
+    /* background-color: #2093f9; */
+    /* border-radius: 10px 100px; */
+    border-radius: 10%;
     height: 12.48rem;
     width: 18.72rem;
     overflow: hidden;
