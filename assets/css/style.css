@@ -1096,7 +1096,9 @@ label[for="agree-to-terms"] {
 }
 
 .secondary-img {
-    width: 100%;
+    position: relative;
+    bottom: 2rem;
+    width: 118%;
 }
 
 /* END --> DESTINATIONS */
