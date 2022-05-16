@@ -1051,6 +1051,7 @@ label[for="agree-to-terms"] {
     flex-wrap: wrap;
     margin: 2.5rem auto 0;
     width: 100%;
+    border: 1px solid firebrick;
 }
 
 .destinations-inner-wrapper {
@@ -1058,7 +1059,6 @@ label[for="agree-to-terms"] {
     height: 35rem;
     width: 50%;
     position: relative;
-    border: 1px solid darkblue;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1112,9 +1112,8 @@ label[for="agree-to-terms"] {
 
 @media screen and (max-width: 1300px) {
     .secondary-img-box {
-        left: auto;
-        right: 0;
-        top: 20%;
+        left: 14rem;
+        top: 57%;
         width: 15rem;
     }
 }
