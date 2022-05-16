@@ -1097,7 +1097,7 @@ label[for="agree-to-terms"] {
     .secondary-img-box {
         height: 9rem;
         width: 13.5rem;
-        left: 7rem;
+        left: 6rem;
     }
 }
 
@@ -1122,9 +1122,22 @@ label[for="agree-to-terms"] {
     }
 }
 
+@media screen and (max-width: 1530px) {
+    .text-inner-wrapper {
+        padding-left: 2.7rem;
+    }
+}
+
 .best-quote {
     font-size: 1.2rem;
     line-height: 2.2rem;
+}
+
+@media screen and (max-width: 1530px) {
+    .best-quote {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
 }
 
 .quote-author {
