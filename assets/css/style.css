@@ -1076,6 +1076,14 @@ label[for="agree-to-terms"] {
     }    
 }
 
+@media screen and (max-width: 1265px) {
+    .primary-img-box {
+        height: 22rem;
+        min-width: 14.7rem;
+        
+    }
+}
+
 .primary-img {
     width: 100%;
 }
@@ -1100,7 +1108,8 @@ label[for="agree-to-terms"] {
 
 @media screen and (max-width: 1265px) {
     .secondary-img-box {
-        left: 4.5rem;
+        top: 56%;
+        left: 1.4rem;
     }
 }
 
@@ -1127,7 +1136,15 @@ label[for="agree-to-terms"] {
 
 @media screen and (max-width: 1530px) {
     .text-inner-wrapper {
-        padding-left: 2.7rem;
+        padding-left: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 1265px) {
+    .text-inner-wrapper {
+        padding-top: 0;
+        padding-right: 2rem;
+        padding-left: 1rem;
     }
 }
 
@@ -1143,5 +1160,17 @@ label[for="agree-to-terms"] {
         margin: 0;
     }
 }
+
+@media screen and (max-width: 1265px) {
+    .country-description {
+        line-height: 1.8rem;
+    }
+}
+
+/* @media screen and (max-width: 1265px) {
+    .country-description {
+        line-height: 1.7rem;
+    }
+} */
 
 /* END --> DESTINATIONS */
