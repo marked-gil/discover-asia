@@ -1068,6 +1068,12 @@ label[for="agree-to-terms"] {
     margin-bottom: 4rem;
 }
 
+@media screen and (max-width: 1065px) {
+    .destinations-inner-wrapper {
+        width: 100%;
+    }
+}
+
 .primary-img-box {
     background-color: #70BCC7;
     height: 31.25rem;
@@ -1086,7 +1092,13 @@ label[for="agree-to-terms"] {
     .primary-img-box {
         height: 22rem;
         min-width: 14.7rem;
-        
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .primary-img-box {
+        height: 30rem;
+        min-width: 20rem;
     }
 }
 
@@ -1116,6 +1128,15 @@ label[for="agree-to-terms"] {
     .secondary-img-box {
         top: 56%;
         left: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .secondary-img-box {
+        height: 11rem;
+        width: 16.6rem;
+        top: 70%;
+        left: 8rem;
     }
 }
 
