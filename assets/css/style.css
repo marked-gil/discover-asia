@@ -1053,6 +1053,13 @@ label[for="agree-to-terms"] {
     width: 100%;
 }
 
+@media screen and (max-width: 1065px) {
+    #destinations-outer-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .destinations-inner-wrapper {
     display: flex;
     height: 35rem;
@@ -1060,7 +1067,6 @@ label[for="agree-to-terms"] {
     position: relative;
     margin-bottom: 4rem;
 }
-
 
 .primary-img-box {
     background-color: #70BCC7;
