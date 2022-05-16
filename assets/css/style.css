@@ -1047,7 +1047,6 @@ label[for="agree-to-terms"] {
 }
 
 #destinations-outer-wrapper {
-    /* border: 1px solid darkblue; */
     display: flex;
     flex-wrap: wrap;
     margin: 2.5rem auto 0;
@@ -1066,10 +1065,6 @@ label[for="agree-to-terms"] {
         flex-direction: column;
     }
 }
-
-/* .destinations-inner-wrapper > h2 {
-    margin: 2rem 0 0 2rem;
-} */
 
 .primary-img-box {
     background-color: #70BCC7;
