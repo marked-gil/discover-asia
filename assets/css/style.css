@@ -1035,6 +1035,13 @@ label[for="agree-to-terms"] {
     padding: 5rem 10%;
 }
 
+@media screen and (max-width: 1720px) {
+    #destinations-main-wrapper {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
 #destinations-main-heading {
     text-align: center;
 }
@@ -1048,7 +1055,6 @@ label[for="agree-to-terms"] {
 }
 
 .destinations-inner-wrapper {
-    /* border: 1px solid darkgoldenrod; */
     display: flex;
     height: 35rem;
     width: 50%;
