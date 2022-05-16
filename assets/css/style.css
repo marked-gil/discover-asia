@@ -1058,6 +1058,7 @@ label[for="agree-to-terms"] {
     height: 35rem;
     width: 50%;
     position: relative;
+    border: 1px solid darkblue;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1111,7 +1112,8 @@ label[for="agree-to-terms"] {
 
 @media screen and (max-width: 1300px) {
     .secondary-img-box {
-        left: 50%;
+        left: auto;
+        right: 0;
         top: 20%;
         width: 15rem;
     }
