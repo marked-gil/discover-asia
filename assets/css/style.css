@@ -1058,6 +1058,7 @@ label[for="agree-to-terms"] {
     height: 35rem;
     width: 50%;
     position: relative;
+    margin-bottom: 4rem;
 }
 
 
@@ -1133,8 +1134,6 @@ label[for="agree-to-terms"] {
     .best-quote {
         font-size: 1rem;
         line-height: 2rem;
-    }
-    .best-quote > p {
         margin: 0;
     }
 }
