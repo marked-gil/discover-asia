@@ -1098,6 +1098,12 @@ label[for="agree-to-terms"] {
     }
 }
 
+@media screen and (max-width: 1265px) {
+    .secondary-img-box {
+        left: 4.5rem;
+    }
+}
+
 .secondary-img {
     position: relative;
     bottom: 2rem;
@@ -1125,21 +1131,17 @@ label[for="agree-to-terms"] {
     }
 }
 
-.best-quote {
+.country-description {
     font-size: 1.2rem;
     line-height: 2.2rem;
 }
 
 @media screen and (max-width: 1530px) {
-    .best-quote {
+    .country-description {
         font-size: 1rem;
         line-height: 2rem;
         margin: 0;
     }
-}
-
-.quote-author {
-    text-align: end;
 }
 
 /* END --> DESTINATIONS */
