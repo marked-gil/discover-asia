@@ -1051,7 +1051,6 @@ label[for="agree-to-terms"] {
     flex-wrap: wrap;
     margin: 2.5rem auto 0;
     width: 100%;
-    border: 1px solid firebrick;
 }
 
 .destinations-inner-wrapper {
@@ -1064,6 +1063,7 @@ label[for="agree-to-terms"] {
 @media screen and (max-width: 1300px) {
     .destinations-inner-wrapper {
         flex-direction: column;
+        height: 45rem;
     }
 }
 
@@ -1083,7 +1083,7 @@ label[for="agree-to-terms"] {
 
 @media screen and (max-width: 1300px) {
     .primary-img-box {
-        min-height: 25rem;
+        max-height: 25rem;
         width: 40%;
     }
 }
@@ -1113,7 +1113,7 @@ label[for="agree-to-terms"] {
 @media screen and (max-width: 1300px) {
     .secondary-img-box {
         left: 14rem;
-        top: 57%;
+        top: 45%;
         width: 15rem;
     }
 }
