@@ -1094,6 +1094,13 @@ label[for="agree-to-terms"] {
     padding: 4rem 5rem 2.5rem 5rem; 
 }
 
+@media screen and (max-width: 1870px) {
+    .text-inner-wrapper {
+        padding-top: 2rem;
+        padding-right: 2.5rem;
+    }
+}
+
 .best-quote {
     font-size: 1.2rem;
     line-height: 2.2rem;
