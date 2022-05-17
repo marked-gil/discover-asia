@@ -1006,11 +1006,34 @@ form {
     display: block;
 }
 
+/* input fields */
 .form-item-box > input {
     width: 100%;
     height: 2rem;
     padding: 1rem 1rem;
     font-size: .9rem;
+}
+
+/* what time available for chat? */
+#call-time-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#call-time-container > p {
+    width: 100%;
+}
+
+.call-time-inner-wrapper {
+    text-align: center;
+    width: 50%;
+
+}
+
+#from-call-time,
+#to-call-time {
+    margin-left: 5%;
+    width: 60%;
 }
 
 #message {
