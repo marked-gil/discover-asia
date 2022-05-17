@@ -140,7 +140,7 @@ nav {
     }
 }
 
-/* MAIN HEADER SECTION */
+/* Main Header Section - Banner */
 
 #main-header-section {
     background-color: #70BCC7;
@@ -176,7 +176,9 @@ nav {
     }
 }
 
+/* tagline - banner */
 #tagline {
+    /* color: white; */
     font-size: 2.8rem;
     min-width: 35rem;
     z-index: 3;
@@ -207,6 +209,16 @@ nav {
     }
 }
 
+@media screen and (max-width: 360px) {
+    #tagline {
+        font-size: 1.3rem;
+    }
+}
+
+#travel-in-style {
+
+}
+
 .tagline-span {
     display: block;
 }
@@ -229,10 +241,23 @@ nav {
     }    
 }
 
+@media screen and (max-width: 360px) {
+    #tagline-travel-asia {
+        font-size: 3.2rem;
+    }    
+}
+
 #tagline-travel-with-us {
     text-align: end;
     position: relative;
     top: -1.2rem;
+}
+
+@media screen and (max-width: 360px) {
+    #tagline-travel-with-us {
+        top: .5rem;
+        right: 3rem;
+    }
 }
 
 #hero-video {
