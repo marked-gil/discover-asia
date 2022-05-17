@@ -1049,16 +1049,24 @@ form {
     resize: none;
 }
 
+/* agree to terns checkbox */
+#agree-to-terms-inner-wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
 #agree-to-terms {
     margin-right: 1rem;
     transform: scale(1.2);
 }
 
 label[for="agree-to-terms"] {
-    font-size: 1rem;
+    font-size: .9rem;
     font-style: italic;
 }
 
+/* submit button for contact-us form */
 #contact-btn {
     background-color: #0c958c;
     border-radius: 5px;
