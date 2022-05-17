@@ -733,6 +733,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 435px) {
+    #newsletter-section {
+        padding: 3rem 5%;
+    }
+}
+
 #newsletter-heading {
     text-align: center;
 }
@@ -765,11 +771,28 @@ nav {
     }
 }
 
+/* submit button - newsletter */
 #newsletter-form > button {
-    width: 10rem;
     align-self: center;
+    background-color: var(--clr-blue-sapphire);
+    border: 0.5px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 3rem;
+    letter-spacing: 1px;
+    line-height: 3rem;
     margin-top: 1.4rem;
+    width: 20rem;
 }
+
+@media screen and (max-width: 435px) {
+    #newsletter-form > button {
+        width: 80%;
+    }
+}
+
 
 /* END --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
 
