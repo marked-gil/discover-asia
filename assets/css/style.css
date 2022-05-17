@@ -1021,13 +1021,18 @@ form {
 }
 
 #call-time-container > p {
+    margin-bottom: .5rem;
     width: 100%;
+}
+
+#military-time {
+    font-weight: normal;
+    font-style: italic;
 }
 
 .call-time-inner-wrapper {
     text-align: center;
     width: 50%;
-
 }
 
 #from-call-time,
@@ -1036,6 +1041,7 @@ form {
     width: 60%;
 }
 
+/* message */
 #message {
     width: 100%;
     height: 10rem;
