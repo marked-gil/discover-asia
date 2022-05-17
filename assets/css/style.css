@@ -610,7 +610,7 @@ nav {
 
 @media screen and (max-width: 625px) {
     .review-container {
-        width: 100%;
+        min-width: 100%;
     }
 }
 
