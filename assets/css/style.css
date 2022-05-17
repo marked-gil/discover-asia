@@ -1066,11 +1066,23 @@ label[for="agree-to-terms"] {
     font-style: italic;
 }
 
+@media screen and (max-width: 415px) {
+    label[for="agree-to-terms"] {
+        font-size: .75rem;
+    }
+}
+
 /* required */
 #required {
     font-size: .9rem;
     font-style: italic;
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 415px) {
+    #required {
+        font-size: .75rem; 
+    }
 }
 
 /* submit button for contact-us form */
