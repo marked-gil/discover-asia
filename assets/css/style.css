@@ -492,14 +492,7 @@ nav {
     .top-dest-image-box {
         margin: 0 0 1%;
         width: 100%;
-        max-height: 16.2rem;
-    }
-}
-
-@media screen and (max-width: 482px) {
-    .top-dest-image-box {
-        width: 100%;
-        max-height: 14rem;
+        height: auto;
     }
 }
 
@@ -522,6 +515,13 @@ nav {
         position: relative;
         bottom: 5rem;
         z-index: -1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top-destination-image {
+        position: static;
+        width: 100%;
     }
 }
 
