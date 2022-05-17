@@ -38,7 +38,6 @@ nav {
 
 /* company logo */
 #company-logo {
-    color: white;
     font-family: 'Water Brush', cursive;
     font-size: 2.8rem;
     letter-spacing: .5rem;
@@ -57,8 +56,9 @@ nav {
 @media screen and (max-width: 360px) {
     #company-logo {
         font-size: 1.8rem;
+        height: auto;
         margin: 0 auto;
-        min-width: 100%;
+        width: 100%;
     }
 }
 
@@ -106,13 +106,26 @@ nav {
     }
 }
 
-#main-header-navlinks > li {
+@media screen and (max-width: 360px) {
+    #main-header-navlinks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.nav-item {
     margin-left: 2.5%;
 }
 
 @media screen and (max-width: 690px) {
-    #main-header-navlinks > li {
+    .nav-item {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .nav-item {
+        margin-left: .5rem;
     }
 }
 
