@@ -1084,6 +1084,12 @@ label[for="agree-to-terms"] {
     height: 2.5rem;
 }
 
+@media screen and (max-width: 415px) {
+    #contact-btn {
+        width: 60%;
+    }
+}
+
 /* END --> "CONTACT US" */
 
 /* START --> "DESTINATIONS" */
