@@ -1074,6 +1074,14 @@ label[for="agree-to-terms"] {
     }
 }
 
+@media screen and (max-width: 650px) {
+    .destinations-inner-wrapper {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+}
+
 .primary-img-box {
     background-color: #70BCC7;
     height: 31.25rem;
@@ -1099,6 +1107,13 @@ label[for="agree-to-terms"] {
     .primary-img-box {
         height: 30rem;
         min-width: 20rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .primary-img-box {
+        min-height: 35rem;
+        max-width: 25rem;
     }
 }
 
@@ -1175,6 +1190,12 @@ label[for="agree-to-terms"] {
     }
 }
 
+@media screen and (max-width: 1065px) {
+    .text-inner-wrapper {
+        padding: 2rem 1rem 2rem 2rem;
+    }
+}
+
 .country-description {
     font-size: 1.2rem;
     line-height: 2.2rem;
@@ -1194,10 +1215,5 @@ label[for="agree-to-terms"] {
     }
 }
 
-/* @media screen and (max-width: 1265px) {
-    .country-description {
-        line-height: 1.7rem;
-    }
-} */
 
 /* END --> DESTINATIONS */
