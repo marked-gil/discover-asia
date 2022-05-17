@@ -1112,8 +1112,9 @@ label[for="agree-to-terms"] {
 
 @media screen and (max-width: 650px) {
     .primary-img-box {
-        min-height: 35rem;
-        max-width: 25rem;
+        min-height: auto;
+        max-width: 80%;
+        order: -1;
     }
 }
 
@@ -1155,6 +1156,13 @@ label[for="agree-to-terms"] {
     }
 }
 
+@media screen and (max-width: 650px) {
+    .secondary-img-box {
+        position: static;
+        order: 3;
+    }
+}
+
 .secondary-img {
     position: relative;
     bottom: 2rem;
@@ -1193,6 +1201,12 @@ label[for="agree-to-terms"] {
 @media screen and (max-width: 1065px) {
     .text-inner-wrapper {
         padding: 2rem 1rem 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text-inner-wrapper {
+        order: 2;
     }
 }
 
