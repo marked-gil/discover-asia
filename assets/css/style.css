@@ -1035,9 +1035,20 @@ form {
     width: 50%;
 }
 
+@media screen and (max-width: 415px) {
+    .call-time-inner-wrapper {
+        text-align: center;
+        width: 100%;
+    }
+    .call-time-inner-wrapper > label {
+        width: 3rem;
+    }
+}
+
 #from-call-time,
 #to-call-time {
     margin-left: 5%;
+    padding: 0 .5rem;
     width: 60%;
 }
 
