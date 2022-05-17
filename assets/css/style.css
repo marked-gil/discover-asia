@@ -1066,6 +1066,13 @@ label[for="agree-to-terms"] {
     font-style: italic;
 }
 
+/* required */
+#required {
+    font-size: .9rem;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
 /* submit button for contact-us form */
 #contact-btn {
     background-color: #0c958c;
