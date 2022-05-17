@@ -454,6 +454,7 @@ nav {
 
 .top-dest-image-box {
     border: 1px solid black;
+    background-color: var(--clr-blue-sapphire);
     margin: 0 1% 1%;
     width: 32rem;
     height: 22rem;
