@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Water+Brush&display=swap');
 
 /* Customized Variables */
-:root {
-    --clr-egyptian-blue: #043263;
-    --clr-peacock-blue: #0fd2c87e;
-    --clr-dodger-blue: #239EFE;
-    --clr-malibu-blue: #7DBAFB;
-    --clr-blue-daze: #DBE5FF;
-    
+:root { 
+    --clr-indigo: #17355e;
+    --clr-blue-sapphire:#166a89;
+    --clr-diamond: #c5eff7;
+    --clr-water: #cbf2ff;
+    --clr-khaki: #eede92;
 }
 
 /* Modify Default Styling & Font */
 
 root {
-
     background-color: #EFEFEF;
 }
 
@@ -36,7 +34,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--clr-egyptian-blue);
+    background-color: var(--clr-indigo);
 }
 
 #company-logo {
@@ -304,7 +302,7 @@ nav {
 /* START --> "WHAT WE OFFER" SECTION */
 
 #what-we-offer-section {
-    background-color: rgb(248, 248, 213);
+    background-color: var(--clr-water);
     padding: 3rem 10%;
 }
 
@@ -338,12 +336,13 @@ nav {
 }
 
 .what-we-offer-inner-wrapper {
-    text-align: center;
-    margin: 1.2rem 0;
-    width: 36%;
-    padding: 1.5rem 2rem;
-    background-color: #689368;
+    background-color: var(--clr-blue-sapphire);
     border-radius: 10px;
+    color: #ffff;
+    margin: 1.2rem 0;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    width: 36%;
 }
 
 @media screen and (max-width: 1290px) {
@@ -361,6 +360,7 @@ nav {
 }
 
 .what-we-offer-inner-wrapper > h3 {
+    color: var(--clr-khaki);
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -531,7 +531,7 @@ nav {
 }
 
 #more-destinations-wrapper > a {
-    background-color: #0c958c;
+    background-color: var(--clr-blue-sapphire);
     border: 0.5px solid black;
     border-radius: 5px;
     color: white;
@@ -556,7 +556,7 @@ nav {
 
 #reviews-section {
     padding: 2% 8%;
-    background-color: rgb(248, 248, 213);
+    background-color: var(--clr-water);
     min-height: 20rem;
 }
 
@@ -694,7 +694,7 @@ nav {
 }
 
 #contact-us-container > a {
-    background-color: #0c958c;
+    background-color: var(--clr-blue-sapphire);
     border: 0.5px solid black;
     border-radius: 5px;
     color: white;
@@ -721,7 +721,7 @@ nav {
 #newsletter-section {
     padding: 3rem 10%;
     min-height: 10rem;
-    background-color: rgb(248, 248, 213);
+    background-color: var(--clr-water);
 }
 
 @media screen and (max-width: 900px) {
