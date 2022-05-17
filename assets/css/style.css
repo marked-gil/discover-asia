@@ -544,7 +544,7 @@ nav {
     width: 20rem;
 }
 
-@media screen and (max-width: 435qpx) {
+@media screen and (max-width: 435px) {
     #more-destinations-wrapper > a {
         width: 80%;
     }
