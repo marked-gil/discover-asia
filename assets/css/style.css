@@ -27,7 +27,6 @@ root {
 /* START -> HEADER */
 
 /* Navigation Bar */
-
 nav {
     min-height: 7rem;
     padding: 0 4%;
@@ -37,13 +36,14 @@ nav {
     background-color: var(--clr-indigo);
 }
 
+/* company logo */
 #company-logo {
+    color: white;
     font-family: 'Water Brush', cursive;
     font-size: 2.8rem;
     letter-spacing: .5rem;
     min-width: 22rem;
     text-align: center;
-    color: white;
 }
 
 @media screen and (max-width: 690px) {
@@ -51,6 +51,14 @@ nav {
         font-size: 2.3rem;
         letter-spacing: .3rem;
         min-width: 16rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #company-logo {
+        font-size: 1.8rem;
+        margin: 0 auto;
+        min-width: 100%;
     }
 }
 
@@ -68,6 +76,13 @@ nav {
     }
 }
 
+@media screen and (max-width: 360px) {
+    #company-logo-span {
+        font-size: .8rem;
+    }
+}
+
+/* nav links */
 #main-header-navlinks {
     width: 35rem;
     padding-left: 1rem;
