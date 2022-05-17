@@ -1076,9 +1076,10 @@ label[for="agree-to-terms"] {
 
 @media screen and (max-width: 650px) {
     .destinations-inner-wrapper {
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         height: auto;
+        margin-bottom: 8rem;
     }
 }
 
@@ -1207,6 +1208,7 @@ label[for="agree-to-terms"] {
 @media screen and (max-width: 650px) {
     .text-inner-wrapper {
         order: 2;
+        padding: 2rem 0 1rem;;
     }
 }
 
