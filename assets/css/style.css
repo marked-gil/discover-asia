@@ -1117,6 +1117,10 @@ footer {
     color: #24a19d6d;
 }
 
+.hidden {
+    display: none;
+}
+
 /* copyright */
 .main-wrapper-copyright {
     grid-area: copyright;
@@ -1332,6 +1336,7 @@ label[for="agree-to-terms"] {
 
 .primary-img-box {
     background-color: #70BCC7;
+    box-shadow: 0 0 5px 5px var(--clr-silver-foil);
     height: 31.25rem;
     min-width: 20.8rem;
     overflow: hidden;
@@ -1372,6 +1377,7 @@ label[for="agree-to-terms"] {
 
 .secondary-img-box {
     border-radius: 10%;
+    box-shadow: 0 0 5px 2px var(--clr-khaki);
     height: 12.48rem;
     width: 18.72rem;
     overflow: hidden;
