@@ -63,7 +63,10 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
 
     <!-- Reviews Image -->
 
-* 'Who We Are' section
+* **'Who We Are' section**
+
+    This section presents a description of what and where Discover Asia is, the kind of professionals behind it, what it does, and why the company exists. Its content is written simply and short to easily convey a message and so as not to be overwhelming to a reader/user. At the bottom of the section is a button which links to the Contact Us page.
+
     <!-- About Us Image -->
 
 * 'Subscribe to Newsletter' section
