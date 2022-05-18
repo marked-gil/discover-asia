@@ -98,15 +98,29 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
 
     <!-- Footer Image -->
 
-* Destinations Page
+* **Destinations Page**
+
+    The Destinations Page is where all the Asian countries that the agency is bringing its clients to are shown. Sample images of each country are displayed along with a short description of what each prides itself with. With this, users will be given a snippet of idea of what each country has in store for vacationers.
+    
+    As of the present, there are a total of ten (10) Asian countries that are included in the list.
 
     <!-- Image  -->
 
-* Gallery Page
+* **Gallery Page**
+
+    The Gallery is composed of multiple images showing clients' experiences while on vacation. The pictures are arranged as a collage.
+
+    This Gallery will show users a glimpse of what Discover Asia Travel Agency can possibly bring to their holiday in Asia.
 
     <!-- Image -->
 
-* Contact Us Page
+* **Contact Us Page**
+
+    The Contact Us Page begins with a call-to-action statement (Let's Plan Your Holiday!), followed by an instruction, and a form to be filled in.
+
+    In the form, the user is required to provide their name, email, phone number, and destination of choice before they can submit their information. As an option, the user may also supply the time they are available to take phone calls, and a message.
+
+    Before the form inputs can be submitted, user have to agree that a staff of the agency can contact them via the contact details they provide. This can be done by ticking the checkbox below the message field.
 
     <!-- Image -->
 
