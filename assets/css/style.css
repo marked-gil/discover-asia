@@ -1130,7 +1130,7 @@ footer {
 /* END --> "FOOTER" */
 
 
-/* START --> "CONTACT US" */
+/* START --> "CONTACT US PAGE" */
 
 #contact-main-wrapper {
     padding: 5rem 10%;
@@ -1256,24 +1256,27 @@ label[for="agree-to-terms"] {
 
 /* submit button for contact-us form */
 #contact-btn {
-    background-color: #0c958c;
+    background-color: var(--clr-blue-sapphire);
+    border: none;
     border-radius: 5px;
     color: white;
     font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 3rem;
     margin-top: 2rem;
-    width: 15rem;
-    height: 2.5rem;
+    width: 20rem;
+    height: 3rem;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 435px) {
     #contact-btn {
-        width: 60%;
+        width: 80%;
     }
 }
 
 /* END --> "CONTACT US" */
 
-/* START --> "DESTINATIONS" */
+/* START --> "DESTINATIONS PAGE" */
 
 #destinations-main-wrapper {
     padding: 5rem 10%;
