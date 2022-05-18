@@ -429,7 +429,8 @@ nav {
 /* START --> "WHAT WE OFFER" SECTION */
 
 #what-we-offer-section {
-    background-color: var(--clr-water);
+    background-color: var(--clr-dutch-white);
+    box-shadow: 0 0 5px 5px var(--clr-silver-foil);
     padding: 3rem 10%;
 }
 
@@ -854,7 +855,8 @@ nav {
 #newsletter-section {
     padding: 3rem 10%;
     min-height: 10rem;
-    background-color: var(--clr-water);
+    background-color: var(--clr-dutch-white);
+    box-shadow: 0 0 5px 5px var(--clr-silver-foil);
 }
 
 @media screen and (max-width: 900px) {
