@@ -7,6 +7,8 @@
     --clr-diamond: #c5eff7;
     --clr-water: #cbf2ff;
     --clr-khaki: #eede92;
+    --clr-dutch-white: #f0e6b9;
+    --clr-silver-foil: #babaa6;
 }
 
 /* Modify Default Styling & Font */
@@ -683,14 +685,14 @@ nav {
 /* START --> "WHAT OUR CLIENTS SAY ABOUT US" SECTION */
 
 #reviews-section {
-    padding: 2% 8%;
-    background-color: var(--clr-water);
-    min-height: 20rem;
+    background-color: var(--clr-dutch-white);
+    box-shadow: 0 0 5px 5px var(--clr-silver-foil);
+    padding: 2rem 8%;
 }
 
 @media screen and (max-width: 625px) {
     #reviews-section {
-        padding: 2% 4%;
+        padding: 5% 4%;
     }
 }
 
@@ -711,10 +713,13 @@ nav {
 }
 
 .review-container {
-    width: 25%;
-    border: 1px solid black;
-    padding: 1rem;
+    background-color: var(--clr-khaki);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 var(--clr-indigo);
     margin: 0 1rem;
+    padding: 1rem;
+    width: 25%;
 }
 
 @media screen and (max-width: 1600px) {
