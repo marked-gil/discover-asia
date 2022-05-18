@@ -1500,6 +1500,20 @@ label[for="agree-to-terms"] {
     font-size: 1.2rem;
 }
 
+#back-to-button {
+    background-color: var(--clr-blue-sapphire);
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 3rem;
+    margin: 2rem auto 0;
+    width: 20rem;
+    height: 3rem;   
+}
 
+#back-to-button > a {
+    color: white;
+    text-decoration: none;
+}
 
 /* END --> SUCCESS RESPONSE ON FORM SUBMITTION */
