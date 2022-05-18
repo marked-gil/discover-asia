@@ -163,100 +163,152 @@ nav {
     }
 }
 
-@media screen and (max-width: 1269px) {
+@media screen and (max-width: 1360px) {
     #main-header-section {
-        flex-wrap: wrap;
+        border: 1px solid darkblue;
         justify-content: center;
     }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 720px) {
     #main-header-section {
         height: auto;
     }
 }
 
 /* tagline - banner */
+.tagline-span {
+    display: block;
+}
+
 #tagline {
-    /* color: white; */
+    color: whitesmoke;
     font-size: 2.8rem;
-    min-width: 35rem;
+    text-shadow: 0 2px 1rem var(--clr-blue-sapphire);
     z-index: 3;
 }
 
-@media screen and (max-width: 1559px) {
+@media screen and (max-width: 1830px) {
+    #tagline {
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (max-width: 1360px) {
     #tagline {
         font-size: 2.4rem;
-        min-width: 30rem;
-    }    
-}
-
-@media screen and (max-width: 1269px) {
-    #tagline {
-        position: relative;
-        top: 8rem;
-        color: rgb(255, 255, 255);
-        text-shadow: 5px 2px 2px black;
-    }
-}
-
-@media screen and (max-width: 690px) {
-    #tagline {
         position: absolute;
-        top: 18%;
-        font-size: 1.8rem;
-        min-width: 22rem;
+        top: 8rem;
+        text-shadow: 0 5px .5rem var(--clr-indigo);
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 720px) {
+    #tagline {
+        font-size: 1.8rem;
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 500px) {
     #tagline {
         font-size: 1.3rem;
     }
 }
 
-#travel-in-style {
-
+@media screen and (max-width: 390px) {
+    #tagline {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.2rem;
+        top: 20%;
+    }
 }
 
-.tagline-span {
-    display: block;
+#travel-in-style {
+    position: relative;
+    left: -5rem;
+    top: -2rem;
+}
+
+@media screen and (max-width: 1830px) {
+    #travel-in-style {
+        left: -4rem;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    #travel-in-style {
+        left: -3rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #travel-in-style {
+        left: -1.5rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #travel-in-style {
+        position: static;
+    }
 }
 
 #tagline-travel-asia {
     text-align: center;
     font-family: 'Water Brush', cursive;
-    font-size: 6rem;
+    font-size: 12rem;
 }
 
-@media screen and (max-width: 1559px) {
+@media screen and (max-width: 2000px) {
     #tagline-travel-asia {
-        font-size: 5.4rem;
+        font-size: 10rem;
     }    
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 1830px) {
+    #tagline-travel-asia {
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
     #tagline-travel-asia {
         font-size: 4rem;
     }    
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
     #tagline-travel-asia {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }    
 }
 
 #tagline-travel-with-us {
     text-align: end;
     position: relative;
-    top: -1.2rem;
+    top: -1rem;
+    right: -5rem;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 1830px) {
     #tagline-travel-with-us {
         top: .5rem;
-        right: 3rem;
+        right: -3rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #tagline-travel-with-us {
+        right: -1rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #tagline-travel-with-us {
+        position: static;
     }
 }
 
@@ -274,15 +326,9 @@ nav {
     }
 }
 
-@media screen and (max-width: 1269px) {
+@media screen and (max-width: 720px) {
     #hero-video {
-        position: relative;
-        bottom: 9rem;
-    }
-}
-
-@media screen and (max-width: 690px) {
-    #hero-video {
+        border-radius: 0;
         position: static;
         min-width: 120%;
     }
