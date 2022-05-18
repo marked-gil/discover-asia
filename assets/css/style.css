@@ -1484,5 +1484,22 @@ label[for="agree-to-terms"] {
     }
 }
 
-
 /* END --> DESTINATIONS */
+
+/* START --> SUCCESS RESPONSE ON FORM SUBMITTION */
+
+#feedback-section {
+    padding: 10%;
+}
+
+#successful {
+    font-size: 1.7rem;
+}
+
+#feedback-info {
+    font-size: 1.2rem;
+}
+
+
+
+/* END --> SUCCESS RESPONSE ON FORM SUBMITTION */
