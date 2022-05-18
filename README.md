@@ -69,7 +69,11 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
 
     <!-- About Us Image -->
 
-* 'Subscribe to Newsletter' section
+* **'Subscribe to Newsletter' section**
+
+    In this area is situated an input field for email address for users who wish to subscribe to the company's newsletter. It also contains a heading at the top to inform users of what it is for, a clearly worded label to instruct what to do, an input field where an email address goes into, and a submit button at the bottom. 
+
+
     <!-- Newsletter Image -->
 
 * Footer
