@@ -57,8 +57,9 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
 
     <!-- Top Destinations Image -->
 
-* 'What Our Clients Say About Us' section
+* **'What Our Clients Say About Us' section**
 
+    Company reviews by clients are displayed on this part of the Home page. This adds to the company's authenticity and reliability, thus bolsters the credence of users towards the company.
 
     <!-- Reviews Image -->
 
