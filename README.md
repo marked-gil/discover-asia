@@ -22,6 +22,7 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
         Gallery, 'About Us' section, and 'Contact Us' page.
 
     <!-- Nav Bar Image -->
+
 * Home Page Banner
 
     The banner in the Home page is laid out with a background image of the tranquil picture of Maldives, an autoplay video (without audio and controls) of a resort along the beach, a tagline that succintly describes the company and what it does, and also a trustpilot rating to add credibility. All of these elements fused together paints a picture of a luxury travel agency with topnotch focus on details and excellence.
@@ -43,28 +44,43 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
         The display of an excellent trustpilot rating in the banner helps build confidence for the company by the clients who visit the site.
 
     <!-- Banner Image -->
+
 * 'What We Offer' section
+
+    In this section, five (5) immensely significant and especially important services of the company are presented in a concise and easy-to-understand manner by providing keywords and single-sentence explanations. 
+
     <!-- What We Offer Image -->
+
 * 'Our Top Destinations' section
     <!-- Top Destinations Image -->
+
 * 'What Our Clients Say About Us' section
     <!-- Reviews Image -->
+
 * 'Who We Are' section
     <!-- About Us Image -->
+
 * 'Subscribe to Newsletter' section
     <!-- Newsletter Image -->
+
 * Footer
     * Map
     * Main Office Location & Contacts
     * Social Media Icons
     * Copyright
+
     <!-- Footer Image -->
 
 * Destinations Page
+
     <!-- Image  -->
+
 * Gallery Page
+
     <!-- Image -->
+
 * Contact Us Page
+
     <!-- Image -->
 
 ### Features Left to Implement
