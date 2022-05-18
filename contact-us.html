@@ -94,10 +94,11 @@
                 <label for="message">Message:</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
             </div>
-            <div class="text-center">
+            <div class="text-center" id="agree-to-terms-inner-wrapper">
                 <input type="checkbox" name="agree-to-terms" id="agree-to-terms" value="yes" required>
                 <label for="agree-to-terms">Yes, I agree to be contacted by a staff of Discover Asia Travel Agency.*</label>
             </div>
+            <p id="required">*Required</p>
             <div class="text-center">
                 <button id="contact-btn">Submit</button>
             </div>
@@ -120,11 +121,10 @@
         <div class="main-wrapper-location" id="social-media-wrapper">
             <p id="social-media-label">Connect With Us On:</p>
             <div id="social-media-inner-wrapper">
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-             </div>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i><span class="hidden">facebook</span></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i><span class="hidden">twitter</span></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i><span class="hidden">instagram</span></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i><span class="hidden">youtube</span></a>
         </div>
         <div class="main-wrapper-copyright">
             <small>Copyright 2022 - Discover Asia Travel Agency, Inc.</small>
