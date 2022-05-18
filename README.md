@@ -76,11 +76,25 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
 
     <!-- Newsletter Image -->
 
-* Footer
+* **Footer**
+
+    In the footer section is found Discover Asia's main office **map**, **address**, **email address**, **phone number**, **social media links**, and the **copyright**. This section is present in all pages of this website.
+
     * Map
+
+        The map embedded in the footer section is from Google Maps, which allows the free use and embedment in a website. It is interactive as it can be zoomed in and out, and also it can be viewed in a larger map via its clickable link.
+
     * Main Office Location & Contacts
+
+        The office address, email address, and phone number are grouped together.
+
     * Social Media Icons
+
+        The social media links of Discover Asia are displayed through social media icons for Facebook, Twitter, Instagram, and Youtube. These icons when clicked or tapped will open in a separate window to prevent the disruption of browsing the main website of Discover Asia.
+
     * Copyright
+
+        The copyright is located at the lowermost part of the footer. 
 
     <!-- Footer Image -->
 
@@ -99,15 +113,15 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
 ### Features Left to Implement
 
 <!-- Content Here  -->
-
+---
 ## Testing
 ---
 ### Validator Testing
 ### Unfixed Bugs
-
+---
 ## Deployment
 ---
-
+---
 ## Credits
 ---
 ### Content
