@@ -1000,6 +1000,7 @@ footer {
 #office-address-wrapper {
     grid-area: address;
     padding: 2rem 1rem;
+    width: 100%;
 }
 
 @media screen and (max-width: 1259px) {
@@ -1041,9 +1042,10 @@ footer {
 }
 
 .where-to-find-us {
+    color: white;
     display: inline-block;
     margin-left: 1.2rem;
-    color: white;
+    overflow-wrap: anywhere;
     text-decoration: none;
 }
 
