@@ -175,6 +175,15 @@ This website successfully passed the following testing methods:
 ---
 ## Deployment
 ---
+The website is published on Github Pages. The following are the steps in deploying the site:
+1. Inside the Github repository of 'discover-asia', click on 'Settings' on the menu just below the respository name.
+2. Then, among the options on the left sidebar, click on 'Pages'.
+3. On the right side of the sidebar, look for 'Source', and under that is a dropdown menu for 'Branch'.
+4. Click on the dropdown menu for Branch, and select 'main'.
+5. Then, click 'Save' button. The deployed website will be 'live' after few minutes.
+
+The live link to the Discover Asia website is found here: **[Discover Asia](https://marked-gil.github.io/discover-asia/)**.
+
 ---
 ## Credits
 ---
