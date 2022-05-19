@@ -13,8 +13,14 @@
 
 /* Modify Default Styling & Font */
 
-root {
-    background-color: #EFEFEF;
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 * {
@@ -1489,6 +1495,7 @@ label[for="agree-to-terms"] {
 /* START --> SUCCESS RESPONSE ON FORM SUBMITTION */
 
 #feedback-section {
+    flex: 1 0 auto;
     padding: 5% 10%;
 }
 
