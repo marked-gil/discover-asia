@@ -184,6 +184,8 @@ The website is published on Github Pages. The following are the steps in deployi
 
 The live link to the Discover Asia website is found here: **[Discover Asia](https://marked-gil.github.io/discover-asia/)**.
 
+![Github Pages Deployment Image](assets/docs/github-deployment.png)
+
 ---
 ## Credits
 ---
