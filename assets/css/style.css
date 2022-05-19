@@ -1489,15 +1489,50 @@ label[for="agree-to-terms"] {
 /* START --> SUCCESS RESPONSE ON FORM SUBMITTION */
 
 #feedback-section {
-    padding: 10%;
+    padding: 5% 10%;
+}
+
+#thank-you {
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 684px) {
+    #thank-you {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    #thank-you {
+        font-size: 2rem;
+    }
 }
 
 #successful {
     font-size: 1.7rem;
 }
 
+@media screen and (max-width: 684px) {
+    #successful {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    #successful {
+        font-size: 1.1rem;
+    }
+}
+
 #feedback-info {
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 684px) {
+    #feedback-info {
+        font-size: .9rem;
+    }
 }
 
 #back-to-button {
@@ -1506,14 +1541,22 @@ label[for="agree-to-terms"] {
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 3rem;
-    margin: 2rem auto 0;
+    margin: 5% auto 0;
     width: 20rem;
     height: 3rem;   
+}
+
+@media screen and (max-width: 435px) {
+    #back-to-button {
+        width: 80%;
+    }
 }
 
 #back-to-button > a {
     color: white;
     text-decoration: none;
 }
+
+
 
 /* END --> SUCCESS RESPONSE ON FORM SUBMITTION */
