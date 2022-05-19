@@ -149,7 +149,7 @@ The site is made with concern for:
 * Clear association of labels to their respective input fields, such as positioning them adjacent to each other and connecting them with same IDs,
 * Inclusion of immediate feedback mechanism through: 
     * Giving an immediate indication or warning, which is browser dependent, next to the input field when the form is submitted without completing the required input field. This is setup by adding the 'required' attribute in the input fields that are necessary to be filled before the form can be submitted.
-    * Using a separate feedback page that will show a response when a form (e.g., contact-us form) or input field (e.g., newsletter subscription field) is successfully submitted.
+    * Using a separate feedback page that will show a response when a form (e.g., contact-us form) or input field (e.g., newsletter subscription field) is successfully submitted, and
 * The use of **alt** texts on images, and **aria-label** on certain links (such as the social media icons).
 
 To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) is utilized.
@@ -158,8 +158,11 @@ To ensure that most of the items mentioned above are achieved, the [WAVE - Web A
 
 ### Links/Buttons Functionality Testing
 
-The links and buttons of 
+This website successfully passed the following testing methods:
+* **Manual testing** on different browsers (Chrome, Firefox, Microsoft Edge, and Safari) confirmed that all links and buttons are working as intended and redirect to the appropriate pages.
+* [W3C Link Checker](https://validator.w3.org/checklink) showed NO broken links in the website.
 
+<!-- Image -->
 
 ### Validator Testing
 ### Unfixed Bugs
