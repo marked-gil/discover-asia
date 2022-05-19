@@ -49,7 +49,6 @@ nav {
     font-family: 'Water Brush', cursive;
     font-size: 2.8rem;
     letter-spacing: .5rem;
-    min-width: 22rem;
     text-align: center;
 }
 
@@ -57,14 +56,13 @@ nav {
     #company-logo {
         font-size: 2.3rem;
         letter-spacing: .3rem;
-        min-width: 16rem;
     }
 }
 
 @media screen and (max-width: 360px) {
     #company-logo {
         font-size: 1.8rem;
-        height: auto;
+        letter-spacing: .2rem;
         margin: 0 auto;
         width: 100%;
     }
