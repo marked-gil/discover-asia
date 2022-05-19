@@ -130,6 +130,37 @@ Discover Asia is a travel agency website created to showcase to travel enthusias
 ---
 ## Testing
 ---
+### Responsiveness
+
+This website is made fully responsive from the largest screen to the smallest mobile screen size of 280px. 
+* This was tested using the web developer tools on Chrome, Firefox, Microsoft Edge, and Safari. 
+* Also, an online tool called ['Mobile-Friendly Test'](https://search.google.com/test/mobile-friendly) was used to test the site's mobile-friendliness as likely more people nowadays are using mobile devices to access the internet.
+    
+<!-- images -->
+
+### Accessibility
+
+As it is important that people with disabilities have the equal chance of using the web, this site also gives significant consideration to its accesibilitiy.
+
+The site is made with concern for:
+* Sufficient contrast between foreground and background colors,
+* Distinctness of interactive elements, like links and buttons, through change of styling during mouse hover,
+* Consistent placement and styles of similar links and buttons to avoid confusion and for easy navigation of the site,
+* Clear association of labels to their respective input fields, such as positioning them adjacent to each other and connecting them with same IDs,
+* Inclusion of immediate feedback mechanism through: 
+    * Giving an immediate indication or warning, which is browser dependent, next to the input field when the form is submitted without completing the required input field. This is setup by adding the 'required' attribute in the input fields that are necessary to be filled before the form can be submitted.
+    * Using a separate feedback page that will show a response when a form (e.g., contact-us form) or input field (e.g., newsletter subscription field) is successfully submitted.
+* The use of **alt** texts on images, and **aria-label** on certain links (such as the social media icons).
+
+To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) is utilized.
+
+<!-- Image -->
+
+### Links/Buttons Functionality Testing
+
+The links and buttons of 
+
+
 ### Validator Testing
 ### Unfixed Bugs
 ---
