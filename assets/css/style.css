@@ -1123,10 +1123,6 @@ footer {
     color: #24a19d6d;
 }
 
-.hidden {
-    display: none;
-}
-
 /* copyright */
 .main-wrapper-copyright {
     grid-area: copyright;
