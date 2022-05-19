@@ -1488,9 +1488,9 @@ label[for="agree-to-terms"] {
 
 /* END --> DESTINATIONS */
 
-/* START --> SUCCESS RESPONSE ON FORM SUBMITTION */
+/* START --> SUCCESS FEEDBACK ON FORM SUBMITTION & NEWSLETTER SUBSCRIPTION */
 
-#feedback-section {
+.feedback-section {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -1498,63 +1498,63 @@ label[for="agree-to-terms"] {
     padding: 5% 10%;
 }
 
-#thank-you {
+.thank-you {
     font-size: 3rem;
     margin-bottom: 3%;
 }
 
 @media screen and (max-width: 684px) {
-    #thank-you {
+    .thank-you {
         font-size: 2.4rem;
     }
 }
 
 @media screen and (max-width: 525px) {
-    #thank-you {
+    .thank-you {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 298px) {
-    #thank-you {
+    .thank-you {
         font-size: 1.6rem;
     }
 }
 
-#successful {
+.successful {
     font-size: 1.7rem;
 }
 
 @media screen and (max-width: 684px) {
-    #successful {
+    .successful {
         font-size: 1.3rem;
     }
 }
 
 @media screen and (max-width: 525px) {
-    #successful {
+    .successful {
         font-size: 1.1rem;
     }
 }
 
 @media screen and (max-width: 298px) {
-    #successful {
+    .successful {
         font-size: 1rem;
     }
 }
 
-#feedback-info {
+.more-info {
     font-size: 1.2rem;
 }
 
 @media screen and (max-width: 684px) {
-    #feedback-info {
+    .more-info {
         font-size: .9rem;
     }
 }
 
 @media screen and (max-width: 298px) {
-    #feedback-info {
+    .more-info {
         font-size: .8rem;
     }
 }
