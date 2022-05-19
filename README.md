@@ -165,6 +165,12 @@ This website successfully passed the following testing methods:
 <!-- Image -->
 
 ### Validator Testing
+
+* HTML
+    * Using [W3C Markup Validator](https://validator.w3.org/), no errors were found.
+* CSS
+    * Using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), no errors were found.
+
 ### Unfixed Bugs
 ---
 ## Deployment
