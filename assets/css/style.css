@@ -3,6 +3,7 @@
 /* Customized Variables */
 :root { 
     --clr-indigo: #17355e;
+    --clr-sea-blue: #006699;
     --clr-blue-sapphire:#166a89;
     --clr-diamond: #c5eff7;
     --clr-water: #cbf2ff;
@@ -41,7 +42,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--clr-indigo);
+    /* background-color: var(--clr-indigo); */
+    background-color: var(--clr-sea-blue);
 }
 
 /* company logo */
@@ -703,7 +705,7 @@ nav {
 }
 
 #more-destinations-wrapper > a {
-    background-color: var(--clr-blue-sapphire);
+    background-color: var(--clr-sea-blue);
     border: 0.5px solid black;
     border-radius: 5px;
     color: white;
@@ -869,7 +871,7 @@ nav {
 }
 
 #contact-us-container > a {
-    background-color: var(--clr-blue-sapphire);
+    background-color: var(--clr-sea-blue);
     border: 0.5px solid black;
     border-radius: 5px;
     color: white;
@@ -947,7 +949,7 @@ nav {
 /* submit button - newsletter */
 #newsletter-form > button {
     align-self: center;
-    background-color: var(--clr-blue-sapphire);
+    background-color: var(--clr-sea-blue);
     border: 0.5px solid black;
     border-radius: 5px;
     color: white;
@@ -972,7 +974,7 @@ nav {
 /* START --> "FOOTER" */
 
 footer {
-    background-color: #1A385A;
+    background-color: var(--clr-sea-blue);
     color: #EFEFEF;
     display: grid;
     grid-template-columns: 30% 35% 35%;
@@ -1300,7 +1302,7 @@ label[for="agree-to-terms"] {
 
 /* submit button for contact-us form */
 #contact-btn {
-    background-color: var(--clr-blue-sapphire);
+    background-color: var(--clr-sea-blue);
     border: none;
     border-radius: 5px;
     color: white;
@@ -1598,7 +1600,7 @@ label[for="agree-to-terms"] {
 }
 
 #back-to-button {
-    background-color: var(--clr-blue-sapphire);
+    background-color: var(--clr-sea-blue);
     border-radius: 5px;
     font-weight: bold;
     letter-spacing: 1px;
