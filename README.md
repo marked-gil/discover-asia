@@ -154,6 +154,8 @@ The site is made with concern for:
 
 To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) is utilized.
 
+However, this website still allows the audio-less video displayed in the banner to autoplay. This is intentional and is part of the design of the site. It is permitted by the author to behave in this way since the video does not appear distracting, but instead possess a calming effect, and helps in creating a pleasant and stylish mood for the entire webpage. But for users to still maintain some control over their experience in the site, 'controls' for the video are kept available so users can pause or play the video as pleased by the user.
+
 <!-- Image -->
 
 ### Links/Buttons Functionality Testing
