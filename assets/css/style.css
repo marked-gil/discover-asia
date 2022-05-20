@@ -976,7 +976,7 @@ footer {
     color: #EFEFEF;
     display: grid;
     grid-template-columns: 30% 35% 35%;
-    grid-auto-rows: minmax(auto);
+    /* grid-auto-rows: minmax(auto); */
     grid-template-areas:
         'map address social-media'
         'copyright copyright copyright';
@@ -986,7 +986,7 @@ footer {
 @media screen and (max-width: 1259px) {
     footer {
         grid-template-columns: 50% 50%;
-        grid-auto-rows: minmax(auto);
+        /* grid-auto-rows: minmax(auto); */
         grid-template-areas: 
             'map address'
             'social-media social-media'
