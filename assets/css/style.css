@@ -668,6 +668,10 @@ nav {
     }
 }
 
+.top-dest-image-box:hover {
+    box-shadow: 0 0 8px 5px var(--clr-sea-blue);
+}
+
 /* label - country name */
 .top-dest-image-box > h3 {
     position: absolute;
