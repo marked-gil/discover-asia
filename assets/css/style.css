@@ -791,6 +791,12 @@ nav {
     }
 }
 
+.review-headliner {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .8rem;
+}
+
 .review-text {
     line-height: 2rem;
     font-weight: bold;
