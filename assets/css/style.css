@@ -52,6 +52,11 @@ nav {
     text-align: center;
 }
 
+#company-logo:hover {
+    color: #e8caa1;
+    text-shadow: 2px 1px #5E4017;
+}
+
 @media screen and (max-width: 690px) {
     #company-logo {
         font-size: 2.3rem;
@@ -137,13 +142,18 @@ nav {
 
 .nav-link {
     font-size: 1.1rem;
-    color: white;
 }
 
 @media screen and (max-width: 690px) {
     .nav-link {
         font-size: .9rem;
     }
+}
+
+.nav-link:hover {
+    position: relative;
+    top: .5rem;
+    color: #e8caa1!important;
 }
 
 /* Main Header Section - Banner */
