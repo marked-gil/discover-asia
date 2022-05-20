@@ -191,4 +191,41 @@ The live link to the Discover Asia website is found here: **[Discover Asia](http
 ---
 ### Content
 
+* Texts
+
+    * The text contents of the website are originally written by the creator of the site. But, the texts of the Destination page's main content are based on research of multiple online travel sites.
+
+    * Main fonts used are: **Water Brush** (for the logo) and ***Oxygen** (for the main texts). These are from [Google Fonts](https://fonts.google.com/).
+    
+* [Font Awesome](https://fontawesome.com/)
+
+    * Icons used for the social media links in the footer section, and for the icons in the 'what we offer' section are from **Font Awesome**.
+
+* [Bootstrap](https://getbootstrap.com/)
+
+    * Bootstrap is utilized for the creation of the navbar menu as it aids in the ease of creating a responsive navbar with its 'hamburger menu' icon on a smaller screen size. But it was modified to serve the creator's own design and the website's need.
+
+* Go-to Sites for CSS & HTML
+
+    * The creator's main reference for learning and reviewing CSS and HTML are [W3schools](https://www.w3schools.com/), [MDN](https://developer.mozilla.org/en-US/), and [Code Institute's](https://codeinstitute.net/ie/) lectures.
+
+* 'Responsive Web Design with HTML5 and CSS by Ben Frain' Book
+
+    * The code/idea on how to keep the footer at the bottom edge of the viewport when there is no sufficient main content to push the footer at the endmost part is from this book of Ben Frain. This is useful on the 'form submission feedback' page and the 'subscription feedback' page.
+    
+        It suggests on giving a height of 100% (height: 100%) on the html element; on the body element, to use flex display (display: flex) with flex-direction of column (flex-direction: column) and a min-height of 100% (min-height: 100%); and on the main content, to give the flex property a grow value of 1, a shrink value of 0, and a basis value of auto (flex: 1 0 auto). This will then push the footer down the very end despite the space occupied by the main content of the page.
+
+
 ### Media
+
+* Images
+
+    * All the pictures displayed on the website are taken from free stock photography websites. Most are from [Pexels](https://www.pexels.com/), a few are from [Pixabay](https://pixabay.com/), and the banner background image is a photo by 'yang wewe' from [Unsplash](https://unsplash.com/).
+
+* Video
+
+    * The video displayed in the banner is taken from [Pexels](https://www.pexels.com/).
+
+* [Google Map](https://google-map-generator.com/)
+
+    * The map used in the footer section is generated using **Google Map**.
