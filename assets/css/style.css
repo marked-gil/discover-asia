@@ -1236,6 +1236,12 @@ footer {
     padding: 5rem 10%;
 }
 
+@media screen and (max-width: 400px) {
+    #contact-main-wrapper {
+        padding-top: 3rem;
+    }
+}
+
 form {
     width: 40rem;
     margin: 0 auto;
