@@ -1034,6 +1034,27 @@ footer {
     }
 }
 
+/* special button - back to top */
+#back-to-top {
+    background-color: rgba(19, 63, 128, 0.508);
+    border-radius: 50% ;
+    height: 9rem;
+    width: 9rem;
+    position: fixed;
+    right: 8%;
+    bottom: 8vh;
+    text-align: center;
+}
+
+#back-to-top > a {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 /* map */
 
 #map-wrapper {
