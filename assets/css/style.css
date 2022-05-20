@@ -724,6 +724,13 @@ nav {
     }
 }
 
+#more-destinations-wrapper > a:hover {
+    background-color: white;
+    border: 3px solid var(--clr-sea-blue);
+    color: var(--clr-sea-blue);
+    line-height: 2.7rem;
+}
+
 /* END --> "TOP DESTINATIONS" SECTION */
 
 /* START --> "WHAT OUR CLIENTS SAY ABOUT US" SECTION */
@@ -897,6 +904,13 @@ nav {
     }
 }
 
+#contact-us-container > a:hover {
+    background-color: white;
+    border: 3px solid var(--clr-sea-blue);
+    color: var(--clr-sea-blue);
+    line-height: 2.7rem;
+}
+
 /* END --> "WHO WE ARE" SECTION */
 
 /* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
@@ -974,6 +988,12 @@ nav {
     }
 }
 
+#newsletter-form > button:hover {
+    background-color: white;
+    border: 3px solid var(--clr-sea-blue);
+    color: var(--clr-sea-blue);
+    line-height: 2.7rem;
+}
 
 /* END --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
 
@@ -1354,6 +1374,13 @@ label[for="agree-to-terms"] {
     }
 }
 
+#contact-btn:hover {
+    background-color: white;
+    border: 3px solid var(--clr-sea-blue);
+    color: var(--clr-sea-blue);
+    line-height: 2.7rem;
+}
+
 /* END --> "CONTACT US" */
 
 /* START --> "DESTINATIONS PAGE" */
@@ -1657,6 +1684,13 @@ label[for="agree-to-terms"] {
         line-height: 2rem;
         letter-spacing: 0;
     }
+}
+
+#back-to-button:hover {
+    background-color: white;
+    border: 3px solid var(--clr-sea-blue);
+    color: var(--clr-sea-blue);
+    line-height: 2.7rem;
 }
 
 #back-to-button > a {
