@@ -18,8 +18,7 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
     * Nav Menu
 
-        The nav menu is composed of links to the Home page, Destinations page, 
-        Gallery, 'About Us' section, and 'Contact Us' page.
+        The nav menu is composed of links to the Home page, Destinations page, 'About Us' section, and 'Contact Us' page.
 
     <!-- Nav Bar Image -->
 
@@ -105,14 +104,6 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
     As of the present, there are a total of ten (10) Asian countries that are included in the list.
 
     <!-- Image  -->
-
-* **Gallery Page**
-
-    The Gallery is composed of multiple images showing clients' experiences while on vacation. The pictures are arranged as a collage.
-
-    This Gallery will show users a glimpse of what Discover Asia Travel Agency can possibly bring to their holiday in Asia.
-
-    <!-- Image -->
 
 * **Contact Us Page**
 
