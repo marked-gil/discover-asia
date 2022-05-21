@@ -55,7 +55,7 @@ nav {
 }
 
 #company-logo:hover {
-    color: #e8caa1;
+    color: var(--clr-khaki);
     text-shadow: 2px 1px #5E4017;
 }
 
@@ -155,7 +155,12 @@ nav {
 .nav-link:hover {
     position: relative;
     top: .5rem;
-    color: #e8caa1!important;
+    color: var(--clr-khaki)!important;
+}
+
+.active {
+    border: 1px solid;
+    border-radius: 10px ;
 }
 
 /* Main Header Section - Banner */
