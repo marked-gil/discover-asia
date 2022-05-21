@@ -158,6 +158,7 @@ nav {
     color: var(--clr-khaki)!important;
 }
 
+/* active navnar link style */
 .active {
     border: 1px solid;
     border-radius: 10px ;
@@ -1040,7 +1041,7 @@ footer {
     }
 }
 
-/* special button - back to top */
+/* back to top - button */
 #back-to-top {
     background-color: rgba(19, 63, 128, 0.508);
     border-radius: 50% ;
@@ -1050,6 +1051,7 @@ footer {
     right: 8%;
     bottom: 8vh;
     text-align: center;
+    z-index: 2;
 }
 
 #back-to-top > a {
