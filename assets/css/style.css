@@ -1041,7 +1041,7 @@ footer {
     }
 }
 
-/* back to top - button */
+/* back to top - link */
 #back-to-top {
     background-color: rgba(19, 63, 128, 0.508);
     border-radius: 50% ;
@@ -1054,6 +1054,15 @@ footer {
     z-index: 3;
 }
 
+@media screen and (max-width: 500px) {
+    #back-to-top {
+        height: 6.5rem;
+        width: 6.5rem;
+        bottom: 4vh;
+        right: 5%;
+    }
+}
+
 #back-to-top > a {
     color: white;
     font-size: 1.1rem;
@@ -1061,6 +1070,13 @@ footer {
     line-height: 9rem;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+    #back-to-top > a {
+        font-size: .8rem;
+        line-height: 6.5rem;
+    }
 }
 
 /* map */
