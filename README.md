@@ -164,6 +164,12 @@ This website successfully passed the following testing methods:
 * CSS
     * Using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), no errors were found.
 
+### Fixed Bugs
+
+* At max-width: 1029px, the 'Back to Top' link became positioned behind 'Top Destinations' images. This happened because the images were given a z-index of 1, also the texts on top of the images have z-index of 2.
+
+    * As a fix, the 'Back to Top' link is given a z-index of 3. Now, the 'Back to Top' link is always in front of any element.
+
 ### Unfixed Bugs
 ---
 ## Deployment
