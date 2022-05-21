@@ -1003,6 +1003,7 @@ nav {
 
 /* START --> "FOOTER" */
 
+/* footer section style */
 footer {
     background-color: var(--clr-sea-blue);
     color: #EFEFEF;
@@ -1162,8 +1163,8 @@ footer {
 }
 
 
-.where-to-find-us:hover:not(:first-child) {
-    color: #24a19d6d;
+.where-to-find-us:hover {
+    color: var(--clr-khaki);
 }
 
 #office-address-label {
@@ -1233,7 +1234,7 @@ footer {
 }
 
 .fa-brands:hover {
-    color: #24a19d6d;
+    color: var(--clr-khaki);
 }
 
 /* copyright */
