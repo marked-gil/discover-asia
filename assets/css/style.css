@@ -1204,7 +1204,7 @@ footer {
 
 @media screen and (max-width: 1259px) {
     #social-media-label {
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -1218,6 +1218,13 @@ footer {
     margin-top: 3rem;
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 1259px) {
+    #social-media-inner-wrapper {
+        justify-content: start;
+        gap: 10%;
+    }
 }
 
 @media screen and (max-width: 820px) {
