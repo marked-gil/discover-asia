@@ -1053,39 +1053,31 @@ footer {
 
 /* back to top - link */
 #back-to-top {
-    background-color: rgba(19, 63, 128, 0.508);
-    border-radius: 50% ;
+    background-color: rgba(19, 63, 128, 0.623);
+    border-radius: 50%;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 9rem;
     height: 9rem;
     width: 9rem;
     position: fixed;
     right: 8%;
     bottom: 8vh;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
     z-index: 3;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     #back-to-top {
+        font-size: .8rem;
+        line-height: 6.5rem;
         height: 6.5rem;
         width: 6.5rem;
         bottom: 4vh;
         right: 5%;
-    }
-}
-
-#back-to-top > a {
-    color: white;
-    font-size: 1.1rem;
-    font-weight: bold;
-    line-height: 9rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-@media screen and (max-width: 500px) {
-    #back-to-top > a {
-        font-size: .8rem;
-        line-height: 6.5rem;
     }
 }
 
@@ -1761,7 +1753,6 @@ label[for="agree-to-terms"] {
 #back-to-button:hover {
     background-color: white;
     border: 3px solid var(--clr-sea-blue);
-    color: var(--clr-sea-blue);
     line-height: 2.7rem;
 }
 
@@ -1769,6 +1760,7 @@ label[for="agree-to-terms"] {
     color: white;
     text-decoration: none;
 }
+
 
 
 
