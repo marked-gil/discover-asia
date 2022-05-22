@@ -142,27 +142,37 @@ nav {
     }
 }
 
-.nav-link {
+/* navbar menu link styling*/
+
+.navbar .nav-link {
     font-size: 1.1rem;
 }
 
 @media screen and (max-width: 690px) {
-    .nav-link {
+    .navbar .nav-link {
         font-size: .9rem;
     }
 }
 
-.nav-link:hover {
+.navbar .nav-link:hover {
     position: relative;
     top: .5rem;
     color: var(--clr-khaki)!important;
 }
 
-/* active navnar link style */
-.active {
+/* active navbar link styling */
+.navbar .active {
     border: 1px solid;
     border-radius: 10px ;
+    padding: .3rem;
 }
+
+@media screen and (max-width: 690px) {
+    .navbar .active {
+        padding: .2rem .5rem;
+    };
+}
+
 
 /* Main Header Section - Banner */
 
