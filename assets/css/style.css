@@ -953,7 +953,8 @@ nav {
     border-radius: 5px;
     padding: 0 .5rem;
     line-height: 2rem;
-    margin-top: .5rem;
+    margin: .5rem 0 2rem;
+    /* margin-top: .5rem; */
 }
 
 @media screen and (max-width: 800px) {
