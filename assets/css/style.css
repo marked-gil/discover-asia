@@ -33,6 +33,48 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
+/* Utility */
+
+.center-text {
+    text-align: center;
+}
+.align-self-center {
+    align-self: center;
+}
+
+/* general button styling */
+.section-button > a,
+.submit-button {
+    background-color: var(--clr-sea-blue);
+    border: 0.5px solid black;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 3rem;
+    text-decoration: none;
+    height: 3rem;
+    width: 20rem;
+}
+
+@media screen and (max-width: 435px) {
+    .section-button > a,
+    .submit-button {
+        width: 80%;
+    }
+}
+
+/* general button hover styling */
+.section-button > a:hover,
+.submit-button:hover {
+    background-color: white;
+    border: 3px solid var(--clr-sea-blue);
+    color: var(--clr-sea-blue);
+    line-height: 2.7rem;
+}
+
 /* START -> HEADER */
 
 /* Navigation Bar */
@@ -432,7 +474,6 @@ nav {
     }
 }
 
-
 .trustpilot-stars {
     width: 8.5rem;
 }
@@ -719,38 +760,6 @@ nav {
     }
 }
 
-/* see more destinations button */
-#more-destinations-wrapper {
-    text-align: center;
-}
-
-#more-destinations-wrapper > a {
-    background-color: var(--clr-sea-blue);
-    border: 0.5px solid black;
-    border-radius: 5px;
-    color: white;
-    display: inline-block;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 3rem;
-    text-decoration: none;
-    height: 3rem;
-    width: 20rem;
-}
-
-@media screen and (max-width: 435px) {
-    #more-destinations-wrapper > a {
-        width: 80%;
-    }
-}
-
-#more-destinations-wrapper > a:hover {
-    background-color: white;
-    border: 3px solid var(--clr-sea-blue);
-    color: var(--clr-sea-blue);
-    line-height: 2.7rem;
-}
-
 /* END --> "TOP DESTINATIONS" SECTION */
 
 /* START --> "WHAT OUR CLIENTS SAY ABOUT US" SECTION */
@@ -898,39 +907,6 @@ nav {
     }
 }
 
-/* Contact Us Button */
-#contact-us-container {
-    text-align: center;
-}
-
-#contact-us-container > a {
-    background-color: var(--clr-sea-blue);
-    border: 0.5px solid black;
-    border-radius: 5px;
-    color: white;
-    display: inline-block;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 3rem;
-    margin-top: 2rem;
-    text-decoration: none;
-    height: 3rem;
-    width: 20rem;
-}
-
-@media screen and (max-width: 435px) {
-    #contact-us-container > a {
-        width: 80%;
-    }
-}
-
-#contact-us-container > a:hover {
-    background-color: white;
-    border: 3px solid var(--clr-sea-blue);
-    color: var(--clr-sea-blue);
-    line-height: 2.7rem;
-}
-
 /* END --> "WHO WE ARE" SECTION */
 
 /* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
@@ -984,35 +960,6 @@ nav {
     #newsletter-form > input {
         width: inherit;
     }
-}
-
-/* submit button - newsletter */
-#newsletter-form > button {
-    align-self: center;
-    background-color: var(--clr-sea-blue);
-    border: 0.5px solid black;
-    border-radius: 5px;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    height: 3rem;
-    letter-spacing: 1px;
-    line-height: 3rem;
-    margin-top: 1.4rem;
-    width: 20rem;
-}
-
-@media screen and (max-width: 435px) {
-    #newsletter-form > button {
-        width: 80%;
-    }
-}
-
-#newsletter-form > button:hover {
-    background-color: white;
-    border: 3px solid var(--clr-sea-blue);
-    color: var(--clr-sea-blue);
-    line-height: 2.7rem;
 }
 
 /* END --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
@@ -1300,19 +1247,17 @@ footer {
     }
 }
 
-form {
+#contact-form {
+    display: flex;
+    flex-direction: column;
     width: 40rem;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 800px) {
-    form {
+    #contact-form {
         width: 100%;
     }
-}
-
-.text-center {
-    text-align: center;
 }
 
 #contact-todo {
@@ -1416,33 +1361,6 @@ label[for="agree-to-terms"] {
     #required {
         font-size: .75rem; 
     }
-}
-
-/* submit button for contact-us form */
-#contact-btn {
-    background-color: var(--clr-sea-blue);
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 3rem;
-    margin-top: 2rem;
-    width: 20rem;
-    height: 3rem;
-}
-
-@media screen and (max-width: 435px) {
-    #contact-btn {
-        width: 80%;
-    }
-}
-
-#contact-btn:hover {
-    background-color: white;
-    border: 3px solid var(--clr-sea-blue);
-    color: var(--clr-sea-blue);
-    line-height: 2.7rem;
 }
 
 /* END --> "CONTACT US" */
@@ -1723,45 +1641,5 @@ label[for="agree-to-terms"] {
         font-size: .8rem;
     }
 }
-
-#back-to-button {
-    background-color: var(--clr-sea-blue);
-    border-radius: 5px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 3rem;
-    margin: 5% auto 0;
-    height: 3rem;   
-    width: 20rem;
-}
-
-@media screen and (max-width: 435px) {
-    #back-to-button {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 298px) {
-    #back-to-button {
-        font-size: .8rem;
-        height: 2rem;
-        line-height: 2rem;
-        letter-spacing: 0;
-    }
-}
-
-#back-to-button:hover {
-    background-color: white;
-    border: 3px solid var(--clr-sea-blue);
-    line-height: 2.7rem;
-}
-
-#back-to-button > a {
-    color: white;
-    text-decoration: none;
-}
-
-
-
 
 /* END --> SUCCESS RESPONSE ON FORM SUBMITTION */
