@@ -643,18 +643,6 @@ nav {
     }
 }
 
-@media screen and (max-width: 1800px) {
-    #top-destinations-section {
-        padding: 3rem 10%;
-    }
-}
-
-@media screen and (max-width: 1275px) {
-    #top-destinations-section {
-        padding: 3rem 5%;
-    }
-}
-
 @media screen and (max-width: 625px) {
     #top-destinations-section {
         padding: 3rem 0%;
@@ -673,28 +661,29 @@ nav {
     flex-wrap: wrap;
     margin: 3rem auto;
     max-width: 120rem;
-    min-height: 44rem;
     row-gap: .5rem;
 }
 
 #images-wrapper > a {
     background-color: var(--clr-blue-sapphire);
-    overflow: hidden;
     width: 32%;
-    height: 25rem;
 }
 
 @media screen and (max-width: 1800px) {
     #images-wrapper > a {
         width: 45%;
-        height: auto;
     }
 }
 
-@media screen and (max-width: 714px) {
+@media screen and (max-width: 1000px) {
     #images-wrapper > a {
-        width: 90%;
-        max-height: 22rem;
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #images-wrapper > a {
+        width: 85%;
     }
 }
 
@@ -710,6 +699,11 @@ nav {
     opacity: 0.9;
 }
 
+#images-wrapper > a:active {
+    opacity: 1;
+}
+
+
 .top-dest-image-box > h3 {          /* label - country name */
     position: absolute;
     color:rgb(255, 255, 255);
@@ -719,11 +713,8 @@ nav {
 }
 
 .top-destination-image {
-    display: block;
-    margin: auto 0;
-    width: 125%;
-    height: auto;
-}
+    width: 100%;
+} 
 
 /* END --> "TOP DESTINATIONS" SECTION */
 
