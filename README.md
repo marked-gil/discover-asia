@@ -166,9 +166,18 @@ This website successfully passed the following testing methods:
 
 ### Fixed Bugs
 
-* At max-width: 1029px, the 'Back to Top' link became positioned behind 'Top Destinations' images. This happened because the images were given a z-index of 1, also the texts on top of the images have z-index of 2.
+* ISSUE:     
+    At max-width: 1029px, the 'Back to Top' link became positioned behind 'Top Destinations' images.
 
-    * As a fix, the 'Back to Top' link is given a z-index of 3. Now, the 'Back to Top' link is always in front of any element.
+    * SOLUTION:     
+        I found out that the images were given a z-index of 1, also the texts on top of the images have z-index of 2. And so, to fix it, I gave the 'Back to Top' link a z-index of 3. So now the 'Back to Top' link is always in front of any element.
+
+* ISSUE:    
+    My images in 'Top Destinations' section had an extra (unwanted) space/gap below it despite having given the width of 100%, which I was hoping that it will fill its container.
+
+    * SOLUTION:     
+        After researching the internet for a solution, I found in Stackoverflow an explanation for it, which is a reminder that an <img> is an inline element. That being so, it sits on a line where its 'descenders', which extend below the baseline like the letters in the alphabet, will create an extra space below it. Here is the link for the Stackoverflow explanation: [Stackoverflow](https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image).
+
 
 ### Unfixed Bugs
 ---
