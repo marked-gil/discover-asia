@@ -212,7 +212,7 @@ nav {
 @media screen and (max-width: 690px) {
     .active {
         padding: .2rem .5rem;
-    };
+    }
 }
 
 
@@ -268,13 +268,11 @@ nav {
 
 
 /* tagline - banner */
-.tagline-span {
-    display: block;
-}
 
 #tagline {
     color: whitesmoke;
     font-size: 2.8rem;
+    font-weight: 400;
     text-shadow: 0 2px 1rem var(--clr-blue-sapphire);
     z-index: 3;
 }
@@ -296,14 +294,15 @@ nav {
 
 @media screen and (max-width: 720px) {
     #tagline {
-        font-size: 1.8rem;
-        top: 30%;
+        font-size: 2rem;
+        top: 20%;
     }
 }
 
 @media screen and (max-width: 500px) {
     #tagline {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
+        top: 20%;
     }
 }
 
@@ -312,38 +311,44 @@ nav {
         display: flex;
         align-items: center;
         flex-direction: column;
-        font-size: 1.2rem;
-        top: 20%;
+        font-size: 1.3rem;
+        top: 12%;
     }
 }
 
-#travel-in-style {
+.tagline-span {
+    display: block;
+}
+
+#tagline-travel-in-style {
     position: relative;
     left: -5rem;
     top: -2rem;
 }
 
 @media screen and (max-width: 1830px) {
-    #travel-in-style {
+    #tagline-travel-in-style {
         left: -4rem;
     }
 }
 
 @media screen and (max-width: 1360px) {
-    #travel-in-style {
+    #tagline-travel-in-style {
         left: -3rem;
     }
 }
 
 @media screen and (max-width: 500px) {
-    #travel-in-style {
-        left: -1.5rem;
+    #tagline-travel-in-style {
+        top: -1rem;
+        left: -2rem;
     }
 }
 
 @media screen and (max-width: 390px) {
-    #travel-in-style {
+    #tagline-travel-in-style {
         position: static;
+        margin-bottom: .5rem;
     }
 }
 
@@ -351,6 +356,7 @@ nav {
     text-align: center;
     font-family: 'Water Brush', cursive;
     font-size: 12rem;
+    font-weight: 100;
 }
 
 @media screen and (max-width: 2000px) {
@@ -366,6 +372,12 @@ nav {
 }
 
 @media screen and (max-width: 720px) {
+    #tagline-travel-asia {
+        font-size: 5rem;
+    }    
+}
+
+@media screen and (max-width: 500px) {
     #tagline-travel-asia {
         font-size: 4rem;
     }    
@@ -393,7 +405,8 @@ nav {
 
 @media screen and (max-width: 500px) {
     #tagline-travel-with-us {
-        right: -1rem;
+        right: -2rem;
+        top: 0;
     }
 }
 
@@ -1647,4 +1660,4 @@ label[for="agree-to-terms"] {
     }
 }
 
-/* END --> SUCCESS RESPONSE ON FORM SUBMITTION */
+/* END --> SUCCESS RESPONSE ON FORM SUBMISSION */
