@@ -564,15 +564,24 @@ nav {
     padding: 3rem 10%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1290px) {
     #what-we-offer-section {
-        padding: 3rem 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #what-we-offer-section {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
 @media screen and (max-width: 590px) {
     #what-we-offer-section {
-        padding: 3rem 0;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 }
 
@@ -582,11 +591,19 @@ nav {
     text-align: center;
 }
 
+@media screen and (max-width: 390px) {
+    #what-we-offer-heading {
+        font-size: 1.7rem;
+    }
+}
+
+
 #what-we-offer-outer-wrapper {
-    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 1rem;
     justify-content: space-around;
+    margin-top: 2rem;
 }
 
 @media screen and (max-width: 590px) {
@@ -607,18 +624,27 @@ nav {
 
 @media screen and (max-width: 1290px) {
     .what-we-offer-inner-wrapper {
-        width: 44%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .what-we-offer-inner-wrapper {
+        margin-top: .8rem;
+        margin-bottom: .5rem;
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 590px) {
     .what-we-offer-inner-wrapper {
         margin: .4rem 0;
-        padding: 1.2rem 1rem;
-        width: 98%;
+        padding: 1.2rem 1.5rem;
+        width: 90%;
     }
 }
 
+/* item heading - 'what we offer' */
 .what-we-offer-inner-wrapper > h3 {
     color: var(--clr-khaki);
     font-size: 1.5rem;
@@ -631,28 +657,31 @@ nav {
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 390px) {
     .what-we-offer-inner-wrapper > h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* item text - 'what we offer' */
+.what-we-offer-inner-wrapper > p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .what-we-offer-inner-wrapper > p {
         font-size: 1.1rem;
     }
 }
 
-.what-we-offer-inner-wrapper > p {
-    margin: 0;
-    font-size: 1.1rem;
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 390px) {
     .what-we-offer-inner-wrapper > p {
         font-size: 1rem;
     }
 }
 
-@media screen and (max-width: 590px) {
-    .what-we-offer-inner-wrapper > p {
-        font-size: .9rem;
-    }
-}
 
 /* fontawesome icons */
 .fa-solid {
@@ -697,6 +726,13 @@ nav {
     font-weight: bold;
     text-align: center;
 }
+
+@media screen and (max-width: 390px) {
+    #top-destinations-heading {
+        font-size: 1.7rem;
+    }
+}
+
 
 #images-wrapper {
     display: flex;
@@ -792,9 +828,15 @@ nav {
     text-align: center;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
     #reviews-heading {
         padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #reviews-heading {
+        font-size: 1.7rem;
     }
 }
 
@@ -887,6 +929,13 @@ nav {
     text-align: center;
 }
 
+@media screen and (max-width: 390px) {
+    #who-we-are-heading {
+        font-size: 1.7rem;
+    }
+}
+
+
 /* who we are text content */
 #who-we-are-heading ~ p {
     width: 53rem;
@@ -936,21 +985,22 @@ nav {
 /* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
 
 #newsletter-section {
-    padding: 3rem 10%;
-    min-height: 10rem;
+    padding: 3rem 18%;
+    /* min-height: 10rem; */
     background-color: var(--clr-dutch-white);
     box-shadow: 0 0 5px 5px var(--clr-silver-foil);
 }
 
 @media screen and (max-width: 900px) {
     #newsletter-section {
-        padding: 3rem 15%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 390px) {
     #newsletter-section {
-        padding: 3rem 5%;
+        padding: 3rem 6%;
     }
 }
 
@@ -958,6 +1008,12 @@ nav {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+}
+
+@media screen and (max-width: 390px) {
+    #newsletter-heading {
+        font-size: 1.6rem;
+    }
 }
 
 #newsletter-form {
@@ -975,17 +1031,15 @@ nav {
 }
 
 #newsletter-form > input {
-    width: 35rem;
     border-radius: 5px;
     padding: 0 .5rem;
     line-height: 2rem;
     margin: .5rem 0 2rem;
-    /* margin-top: .5rem; */
 }
 
 @media screen and (max-width: 800px) {
     #newsletter-form > input {
-        width: inherit;
+        max-width: inherit;
     }
 }
 
