@@ -547,6 +547,7 @@ nav {
 }
 
 #what-we-offer-heading {
+    font-weight: bold;
     text-align: center;
 }
 
@@ -661,6 +662,7 @@ nav {
 }
 
 #top-destinations-heading {
+    font-weight: bold;
     text-align: center;
 }
 
@@ -767,17 +769,24 @@ nav {
 #reviews-section {
     background-color: var(--clr-dutch-white);
     box-shadow: 0 0 5px 5px var(--clr-silver-foil);
-    padding: 2rem 8%;
+    padding: 3rem 8%;
 }
 
 @media screen and (max-width: 625px) {
     #reviews-section {
-        padding: 5% 4%;
+        padding: 3rem 4%;
     }
 }
 
 #reviews-heading {
+    font-weight: bold;
     text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+    #reviews-heading {
+        padding: 0 10%;
+    }
 }
 
 #reviews-wrapper {
@@ -863,8 +872,9 @@ nav {
 }
 
 #who-we-are-heading {
-    text-align: center;
+    font-weight: bold;
     margin-bottom: 2.5rem;
+    text-align: center;
 }
 
 /* who we are text content */
@@ -935,6 +945,7 @@ nav {
 }
 
 #newsletter-heading {
+    font-weight: bold;
     text-align: center;
 }
 
@@ -1118,12 +1129,6 @@ footer {
         margin-bottom: .8rem;
     }
 }
-
-/* @media screen and (max-width: 490px) {
-    #address-inner-wrapper > * {
-        text-align: center;
-    }
-} */
 
 .where-to-find-us {
     color: white;
