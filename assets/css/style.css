@@ -907,6 +907,10 @@ nav {
     }
 }
 
+#who-we-are-section p:last-of-type {
+    margin-bottom: 2.5rem ;
+}
+
 /* END --> "WHO WE ARE" SECTION */
 
 /* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
