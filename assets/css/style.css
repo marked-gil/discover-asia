@@ -17,7 +17,6 @@
 html {
     height: 100%;
     font-family: 'Oxygen', sans-serif;
-    /* font-style: normal; */
 }
 
 body {
@@ -672,6 +671,18 @@ nav {
     }
 }
 
+@media screen and (max-width: 1600px) {
+    #top-destinations-section {
+        padding: 3rem 1%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #top-destinations-section {
+        padding: 3rem 5%;
+    }
+}
+
 @media screen and (max-width: 625px) {
     #top-destinations-section {
         padding: 3rem 0%;
@@ -685,7 +696,6 @@ nav {
 
 #images-wrapper {
     display: flex;
-    /* align-content: baseline; */
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 3rem auto;
@@ -695,16 +705,11 @@ nav {
 
 #images-wrapper > a {
     background-color: var(--clr-blue-sapphire);
+    border-radius: 10px;
     width: 32%;
 }
 
-@media screen and (max-width: 1800px) {
-    #images-wrapper > a {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
     #images-wrapper > a {
         width: 48%;
     }
@@ -712,19 +717,26 @@ nav {
 
 @media screen and (max-width: 850px) {
     #images-wrapper > a {
-        width: 85%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #images-wrapper > a {
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 625px) {
     #images-wrapper > a {
+        border-radius: 0;
         width: 100%;
     }
 }
 
 #images-wrapper > a:hover {
     border-radius: 5px;
-    box-shadow: 0 0 5px 2px var(--clr-blue-sapphire);
+    box-shadow: 0 0 5px 5px rgb(2, 54, 80);
     opacity: 0.9;
 }
 
@@ -733,17 +745,26 @@ nav {
 }
 
 .top-dest-image-box > h3 {          /* label - country name */
-    position: absolute;
     color:rgb(255, 255, 255);
-    text-shadow: 2px 2px 2px #00142a;
+    font-size: 2rem;
+    font-weight: 700;
     margin: .5rem 0 0 1rem;
+    position: absolute;
+    text-shadow: 2px 2px 5px #00142a;
     z-index: 2;
 }
 
 .top-destination-image {
+    border-radius: 10px;
     display: block;
     width: 100%;
 } 
+
+@media screen and (max-width: 625px) {
+    .top-destination-image {
+        border-radius: 0;
+    }
+}
 
 /* END --> "TOP DESTINATIONS" SECTION */
 
