@@ -1393,13 +1393,15 @@ label[for="agree-to-terms"] {
 }
 
 #destinations-main-heading {
+    font-weight: bold;
     text-align: center;
 }
 
 #destinations-outer-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 2.5rem auto 0;
+    /* margin: 2.5rem auto 0; */
+    margin: 6rem auto 0;
     width: 100%;
 }
 
