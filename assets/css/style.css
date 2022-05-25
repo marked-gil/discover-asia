@@ -392,7 +392,7 @@ nav {
     box-shadow: 0 0 40px 10px #9f8f4f8f;
     max-width: 40%;
     opacity: 75%;
-    z-index: 1;
+    z-index: 2;
 }
 
 @media screen and (max-width: 1990px) {
@@ -422,7 +422,7 @@ nav {
     bottom: 1rem;
     width: 9rem;
     height: 9rem;
-    z-index: 2;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1559px) {
