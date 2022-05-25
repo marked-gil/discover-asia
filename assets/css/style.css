@@ -16,6 +16,8 @@
 
 html {
     height: 100%;
+    font-family: 'Oxygen', sans-serif;
+    /* font-style: normal; */
 }
 
 body {
@@ -29,8 +31,6 @@ body {
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    font-style: normal;
-    font-family: 'Oxygen', sans-serif;
 }
 
 /* Utility */
@@ -685,7 +685,7 @@ nav {
 
 #images-wrapper {
     display: flex;
-    align-content: baseline;
+    /* align-content: baseline; */
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 3rem auto;
@@ -741,6 +741,7 @@ nav {
 }
 
 .top-destination-image {
+    display: block;
     width: 100%;
 } 
 
