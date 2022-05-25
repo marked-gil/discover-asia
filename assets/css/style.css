@@ -234,6 +234,7 @@ nav {
 
 @media screen and (max-width: 1559px) {
     #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-1559.jpg);
         height: 30rem;
         padding: 0 6%;
     }
@@ -241,15 +242,30 @@ nav {
 
 @media screen and (max-width: 1360px) {
     #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-1360.jpg);
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-1024.jpg);
     }
 }
 
 @media screen and (max-width: 720px) {
     #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-720.jpg);
         height: auto;
     }
 }
+
+@media screen and (max-width: 480px) {
+    #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-480.jpg);
+    }
+}
+
 
 /* tagline - banner */
 .tagline-span {
@@ -702,7 +718,6 @@ nav {
 #images-wrapper > a:active {
     opacity: 1;
 }
-
 
 .top-dest-image-box > h3 {          /* label - country name */
     position: absolute;
