@@ -844,6 +844,8 @@ nav {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
 }
 
 @media screen and (max-width: 1157px) {
@@ -857,25 +859,17 @@ nav {
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 5px 0 var(--clr-indigo);
-    margin: 0 1rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     width: 25%;
 }
 
 @media screen and (max-width: 1600px) {
     .review-container {
-        width: 30%;
+        width: 40%;
     }
 }
 
-@media screen and (max-width: 1157px) {
-    .review-container {
-        margin-bottom: 2rem;
-        min-width: 21rem;
-    }
-}
-
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 905px) {
     .review-container {
         width: 80%;
     }
@@ -883,7 +877,9 @@ nav {
 
 @media screen and (max-width: 625px) {
     .review-container {
-        min-width: 100%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 90%;
     }
 }
 
@@ -894,8 +890,9 @@ nav {
 }
 
 .review-text {
+    font-size: 1.1rem;
     line-height: 2rem;
-    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .review-trustpilot-stars {
