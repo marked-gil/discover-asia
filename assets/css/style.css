@@ -1048,6 +1048,10 @@ footer {
     opacity: .8;
 }
 
+#back-to-top:active {
+    opacity: 1;
+}
+
 /* map */
 
 #map-wrapper {
@@ -1259,6 +1263,10 @@ footer {
     #contact-main-wrapper {
         padding-top: 3rem;
     }
+}
+
+#contact-main-heading {
+    font-weight: bold;
 }
 
 #contact-form {
