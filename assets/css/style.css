@@ -637,27 +637,27 @@ nav {
     padding: 3rem 10%;
 }
 
-@media screen and (max-width: 2061px) {
+@media screen and (max-width: 2010px) {
     #top-destinations-section {
         padding: 3rem 5%;
     }
 }
 
-@media screen and (max-width: 1603px) {
+@media screen and (max-width: 1800px) {
     #top-destinations-section {
         padding: 3rem 10%;
     }
 }
 
-@media screen and (max-width: 1348px)  {
+@media screen and (max-width: 1275px) {
     #top-destinations-section {
-        padding: 3rem 4%;
+        padding: 3rem 5%;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 625px) {
     #top-destinations-section {
-        padding: 3rem 0;
+        padding: 3rem 0%;
     }
 }
 
@@ -667,76 +667,54 @@ nav {
 }
 
 #images-wrapper {
-    margin: 3rem auto;
     display: flex;
+    align-content: baseline;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 3rem auto;
     max-width: 120rem;
     min-height: 44rem;
-    align-items: center;
+    row-gap: .5rem;
 }
 
-@media screen and (max-width: 1603px) {
-    #images-wrapper {
-        min-height: 75rem;
-    }
-}
-
-.top-dest-image-box {
+#images-wrapper > a {
     background-color: var(--clr-blue-sapphire);
-    margin: 0 1% 1%;
-    width: 32rem;
-    height: 22rem;
     overflow: hidden;
+    width: 32%;
+    height: 25rem;
 }
 
-@media screen and (max-width: 1830px) {
-    .top-dest-image-box {
-        width: 28rem;
-        height: 19rem;
-    }
-}
-
-@media screen and (max-width: 1603px) {
-    .top-dest-image-box {
-        width: 32rem;
-        height: 22rem;
-    }
-}
-
-@media screen and (max-width: 1348px) {
-    .top-dest-image-box {
-        width: 28rem;
-        height: 19rem;
-    }
-}
-
-@media screen and (max-width: 1029px) {
-    .top-dest-image-box {
-        width: 34rem;
-        max-height: 18rem;
-        z-index: -1
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .top-dest-image-box {
-        margin: 0 0 1%;
-        width: 100%;
+@media screen and (max-width: 1800px) {
+    #images-wrapper > a {
+        width: 45%;
         height: auto;
     }
 }
 
-.top-dest-image-box:hover {
-    box-shadow: 0 0 8px 5px var(--clr-sea-blue);
+@media screen and (max-width: 714px) {
+    #images-wrapper > a {
+        width: 90%;
+        max-height: 22rem;
+    }
 }
 
-/* label - country name */
-.top-dest-image-box > h3 {
+@media screen and (max-width: 625px) {
+    #images-wrapper > a {
+        width: 100%;
+    }
+}
+
+#images-wrapper > a:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px var(--clr-blue-sapphire);
+    opacity: 0.9;
+}
+
+.top-dest-image-box > h3 {          /* label - country name */
     position: absolute;
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px 2px #00142a;
-    margin: .5rem;
+    margin: .5rem 0 0 1rem;
     z-index: 2;
 }
 
@@ -745,21 +723,6 @@ nav {
     margin: auto 0;
     width: 125%;
     height: auto;
-}
-
-@media screen and (max-width: 1029px) {
-    .top-destination-image {
-        position: relative;
-        bottom: 5rem;
-        z-index: 1;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .top-destination-image {
-        position: static;
-        width: 100%;
-    }
 }
 
 /* END --> "TOP DESTINATIONS" SECTION */
