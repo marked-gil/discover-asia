@@ -1016,7 +1016,7 @@ footer {
 
 /* back to top - link */
 #back-to-top {
-    background-color: rgba(19, 63, 128, 0.623);
+    background-color: #0e465b;
     border-radius: 50%;
     color: white;
     font-size: 1.1rem;
@@ -1024,6 +1024,7 @@ footer {
     line-height: 9rem;
     height: 9rem;
     width: 9rem;
+    opacity: .7;
     position: fixed;
     right: 8%;
     bottom: 8vh;
@@ -1033,15 +1034,18 @@ footer {
     z-index: 3;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 590px) {
     #back-to-top {
-        font-size: .8rem;
-        line-height: 6.5rem;
-        height: 6.5rem;
-        width: 6.5rem;
-        bottom: 4vh;
-        right: 5%;
+        font-size: .6rem;
+        line-height: 5rem;
+        height: 5rem;
+        width: 5rem;
+        bottom: 3vh;
     }
+}
+
+#back-to-top:hover {
+    opacity: .8;
 }
 
 /* map */
