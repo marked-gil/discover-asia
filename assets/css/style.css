@@ -787,11 +787,17 @@ nav {
 .top-dest-image-box > h3 {          /* label - country name */
     color:rgb(255, 255, 255);
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 400;
     margin: .5rem 0 0 1rem;
     position: absolute;
-    text-shadow: 2px 2px 5px #00142a;
+    text-shadow: 2px 2px 2px #00142a;
     z-index: 2;
+}
+
+@media screen and (max-width: 390px) {
+    .top-dest-image-box > h3 {
+        font-size: 1.5rem; 
+    }
 }
 
 .top-destination-image {
