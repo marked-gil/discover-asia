@@ -1400,7 +1400,6 @@ label[for="agree-to-terms"] {
 #destinations-outer-wrapper {
     display: flex;
     flex-wrap: wrap;
-    /* margin: 2.5rem auto 0; */
     margin: 6rem auto 0;
     width: 100%;
 }
@@ -1409,6 +1408,12 @@ label[for="agree-to-terms"] {
     #destinations-outer-wrapper {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #destinations-outer-wrapper {
+        margin-top: 4rem;
     }
 }
 
@@ -1431,7 +1436,14 @@ label[for="agree-to-terms"] {
         align-items: center;
         flex-direction: column;
         height: auto;
+    }
+
+    .destinations-inner-wrapper:not(:last-child) {
         margin-bottom: 8rem;
+    }
+
+    .destinations-inner-wrapper:last-child {
+        margin-bottom: 2rem;
     }
 }
 
