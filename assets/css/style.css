@@ -49,6 +49,7 @@ body {
     background-color: var(--clr-sea-blue);
     border: 0.5px solid black;
     border-radius: 5px;
+    box-sizing: border-box;
     color: white;
     display: inline-block;
     font-size: 1rem;
