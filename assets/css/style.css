@@ -1463,15 +1463,18 @@ label[for="agree-to-terms"] {
 
 #destinations-outer-wrapper {
     display: flex;
+    column-gap: 1rem;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 6rem auto 0;
     width: 100%;
 }
 
 .destinations-inner-wrapper {
+    background-color: var(--clr-dutch-white);
     display: flex;
     height: 35rem;
-    width: 50%;
+    width: 48%;
     position: relative;
     margin-bottom: 4rem;
 }
