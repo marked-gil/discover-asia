@@ -1519,7 +1519,8 @@ label[for="agree-to-terms"] {
 
 .primary-img-box {
     background-color: #70BCC7;
-    box-shadow: 0 0 5px 5px var(--clr-silver-foil);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px var(--clr-khaki);
     height: 31.25rem;
     min-width: 20.8rem;
     overflow: hidden;
@@ -1552,6 +1553,10 @@ label[for="agree-to-terms"] {
         max-width: 80%;
         order: -1;
     }
+}
+
+.primary-img-box:hover {
+    z-index: 1;
 }
 
 .primary-img {
