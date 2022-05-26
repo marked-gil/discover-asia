@@ -1480,7 +1480,7 @@ label[for="agree-to-terms"] {
 }
 
 .primary-img-box {
-    background-color: #70BCC7;
+    background-color: var(--clr-sea-blue);
     border-radius: 10px;
     box-shadow: 0 0 5px 5px var(--clr-khaki);
     height: 31.25rem;
