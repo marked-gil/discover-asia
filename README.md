@@ -167,17 +167,26 @@ This website successfully passed the following testing methods:
 ### Fixed Bugs
 
 * ISSUE:     
-    At max-width: 1029px, the 'Back to Top' link became positioned behind 'Top Destinations' images.
+    At max-width: 1029px, the sticky 'Back to Top' link became positioned behind 'Top Destinations' images, thus concealing part of the 'Back to Top' link.
+
+    * Intended Outcome:
+        What I expect the 'Back to Top' link to do is to always stay infront of all elements so it is always 'clickable' wherever in the page it is seen.
 
     * SOLUTION:     
         I found out that the images were given a z-index of 1, also the texts on top of the images have z-index of 2. And so, to fix it, I gave the 'Back to Top' link a z-index of 3. So now the 'Back to Top' link is always in front of any element.
 
 * ISSUE:    
     My images in 'Top Destinations' section had an extra (unwanted) space/gap below it despite having given the width of 100%, which I was hoping that it will fill its container.
-
     * SOLUTION:     
         After researching the internet for a solution, I found in Stackoverflow an explanation for it, which is a reminder that an <img> is an inline element. That being so, it sits on a line where its 'descenders', which extend below the baseline like the letters in the alphabet, will create an extra space below it. Here is the link for the Stackoverflow explanation: [Stackoverflow](https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image).
 
+* ISSUE:    
+    The text content in the section BUTTON moves slightly downwards and also moves the page slightly along with it during hover.
+
+    * Intended Outcome:     
+        I want the background color and text color of the button to switch and a 3px solid border to be created during hover, without affecting or changing the width and/or height of the button. Also, I do not want the button to oddly move the page even slightly when button hovered.
+    * SOLUTION:     
+        After realizing that a border has its own width and height, and could be the cause of increasing the lenght of the entire button during hover, I added 'box-sizing' property with the value of 'border-box' on the hovered button so the height and width of the border that is created during hover will be contained or absorbed in the width and height of the button, and not add in to it.
 
 ### Unfixed Bugs
 ---
