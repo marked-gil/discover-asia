@@ -1497,14 +1497,20 @@ label[for="agree-to-terms"] {
 }
 
 .secondary-img-box {
+    background-color: var(--clr-sea-blue);;
     border-radius: 10%;
     box-shadow: 0 0 5px 2px var(--clr-khaki);
     height: 12.48rem;
     width: 18.72rem;
+    opacity: .2;
     overflow: hidden;
     position: absolute;
     left: 6rem;
     top: 64%;
+}
+
+.secondary-img-box:hover {
+    opacity: 1;
 }
 
 .secondary-img {
