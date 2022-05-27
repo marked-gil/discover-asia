@@ -1455,9 +1455,10 @@ label[for="agree-to-terms"] {
     padding: 5rem 0;
 }
 
-#destinations-main-heading {
+#destinations-main-heading {    /* heading - destinations page */
     font-size: 3rem;
     font-weight: bold;
+    margin: 0 1rem;
     text-align: center;
 }
 
@@ -1551,10 +1552,6 @@ h2.country {
         min-width: 14.7rem;
     }
 
-    h2.country {
-        font-size: 2rem;
-    }
-
     .country-description {
         line-height: 1.8rem;
     }
@@ -1583,9 +1580,18 @@ h2.country {
 }
 
 @media screen and (max-width: 790px) {
+    #destinations-main-heading {
+        font-size: 2rem;
+    }
+
     #destinations-main-wrapper {
         padding-left: 2%;
         padding-right: 2%;
+        padding-top: 3rem;
+    }
+
+    #destinations-outer-wrapper {
+        margin-top: 3rem;
     }
 
     .destinations-inner-wrapper {
@@ -1599,13 +1605,16 @@ h2.country {
     h2.country {
         font-size: 1.7rem;
     }
-
 }
 
 @media screen and (max-width: 650px) {
     #destinations-main-wrapper {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    #destinations-main-heading {
+        font-size: 1.9rem;
     }
 
     #destinations-outer-wrapper {
@@ -1620,6 +1629,7 @@ h2.country {
     }
 
     .primary-img-box {
+        min-width: 100%;
         height: auto;
     }
 
@@ -1629,8 +1639,18 @@ h2.country {
 }
 
 @media screen and (max-width: 420px) {
+    #destinations-main-heading {
+        font-size: 1.6rem;
+    }
+
     .country-description {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #destinations-main-heading {
+        margin: 0 3rem;
     }
 }
 
