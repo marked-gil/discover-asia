@@ -1413,7 +1413,6 @@ footer {
 }
 
 label[for="agree-to-terms"] {
-    font-size: .9rem;
     font-style: italic;
 }
 
@@ -1449,6 +1448,14 @@ label[for="agree-to-terms"] {
     #contact-todo {
         font-size: 1rem;
     }
+
+    label[for="agree-to-terms"] {
+        font-size: .9rem;
+    }
+
+    #required {
+        font-size: .8rem; 
+    }
 }
 
 @media screen and (max-width: 415px) {
@@ -1462,6 +1469,7 @@ label[for="agree-to-terms"] {
 
     .call-time-inner-wrapper {
         margin-left: 10%;
+        margin-bottom: .5rem;
         text-align: left;
         width: 100%;
     }
@@ -1470,21 +1478,7 @@ label[for="agree-to-terms"] {
         display: inline-block;
         width: 3rem;
     }
-
-    label[for="agree-to-terms"] {
-        font-size: .75rem;
-    }
-
-    #required {
-        font-size: .75rem; 
-    }
 }
-
-/* @media screen and (max-width: 400px) {
-    #contact-main-wrapper {
-        padding-top: 3rem;
-    }
-} */
 
 /* END --> "CONTACT US" */
 
