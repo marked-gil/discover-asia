@@ -1416,14 +1416,12 @@ label[for="agree-to-terms"] {
     font-style: italic;
 }
 
-/* required */
 #required {
     font-size: .9rem;
     font-style: italic;
     margin-top: 1.5rem;
 }
 
-/* submit button - 'Contact Us' page */
 #contact-form-button {
     margin-top: 2.5rem;
 }
@@ -1693,6 +1691,7 @@ h2.country {
 .feedback-section {
     flex: 1 0 auto;
     display: flex;
+    row-gap: 2rem;
     flex-direction: column;
     justify-content: center;
     padding: 5% 10%;
@@ -1700,63 +1699,62 @@ h2.country {
 
 .thank-you {
     font-size: 3rem;
-    margin-bottom: 3%;
-}
-
-@media screen and (max-width: 684px) {
-    .thank-you {
-        font-size: 2.4rem;
-    }
-}
-
-@media screen and (max-width: 525px) {
-    .thank-you {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 298px) {
-    .thank-you {
-        font-size: 1.6rem;
-    }
 }
 
 .successful {
     font-size: 1.7rem;
 }
 
-@media screen and (max-width: 684px) {
-    .successful {
-        font-size: 1.3rem;
-    }
-}
-
-@media screen and (max-width: 525px) {
-    .successful {
-        font-size: 1.1rem;
-    }
-}
-
-@media screen and (max-width: 298px) {
-    .successful {
-        font-size: 1rem;
-    }
-}
-
 .more-info {
     font-size: 1.2rem;
 }
 
+/* media queries - feedback pages */
+
 @media screen and (max-width: 684px) {
+    .thank-you {
+        font-size: 2.4rem;
+    }
+
+    .successful {
+        font-size: 1.3rem;
+    }
+
+    .more-info {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .feedback-section {
+        padding: 10% 5%;
+    }
+
+    .thank-you {
+        font-size: 2rem;
+    }
+
+    .successful {
+        font-size: 1.1rem;
+    }
+
     .more-info {
         font-size: .9rem;
     }
 }
 
-@media screen and (max-width: 298px) {
+/* @media screen and (max-width: 298px) {
+    .thank-you {
+        font-size: 1.6rem;
+    }
+
+    .successful {
+        font-size: 1rem;
+    }
+
     .more-info {
         font-size: .8rem;
     }
-}
+} */
 
 /* END --> SUCCESS RESPONSE ON FORM SUBMISSION */
