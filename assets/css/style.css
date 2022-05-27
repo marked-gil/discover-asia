@@ -1314,17 +1314,10 @@ footer {
 
 /* END --> "FOOTER" */
 
-
 /* START --> "CONTACT US PAGE" */
 
 #contact-main-wrapper {
     padding: 5rem 10%;
-}
-
-@media screen and (max-width: 400px) {
-    #contact-main-wrapper {
-        padding-top: 3rem;
-    }
 }
 
 #contact-main-heading {
@@ -1336,12 +1329,6 @@ footer {
     flex-direction: column;
     width: 40rem;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 800px) {
-    #contact-form {
-        width: 100%;
-    }
 }
 
 #contact-todo {
@@ -1386,16 +1373,6 @@ footer {
     width: 50%;
 }
 
-@media screen and (max-width: 415px) {
-    .call-time-inner-wrapper {
-        text-align: center;
-        width: 100%;
-    }
-    .call-time-inner-wrapper > label {
-        width: 3rem;
-    }
-}
-
 #from-call-time,
 #to-call-time {
     margin-left: 5%;
@@ -1428,12 +1405,6 @@ label[for="agree-to-terms"] {
     font-style: italic;
 }
 
-@media screen and (max-width: 415px) {
-    label[for="agree-to-terms"] {
-        font-size: .75rem;
-    }
-}
-
 /* required */
 #required {
     font-size: .9rem;
@@ -1441,9 +1412,36 @@ label[for="agree-to-terms"] {
     margin-top: 1rem;
 }
 
+/* media queries - "Contact Us" page */
+
+@media screen and (max-width: 800px) {
+    #contact-form {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 415px) {
+    .call-time-inner-wrapper {
+        text-align: center;
+        width: 100%;
+    }
+
+    .call-time-inner-wrapper > label {
+        width: 3rem;
+    }
+
+    label[for="agree-to-terms"] {
+        font-size: .75rem;
+    }
+
     #required {
         font-size: .75rem; 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #contact-main-wrapper {
+        padding-top: 3rem;
     }
 }
 
@@ -1508,7 +1506,6 @@ h2.country {
     color: var(--clr-indigo);
     font-size: 2.2rem;
     padding-bottom: .8rem;
-    /* line-height: 3.5rem; */
 }
 
 .country-description {
