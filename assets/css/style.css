@@ -1452,7 +1452,7 @@ label[for="agree-to-terms"] {
 /* START --> "DESTINATIONS PAGE" */
 
 #destinations-main-wrapper {
-    padding: 5rem 10%;
+    padding: 5rem 5%;
 }
 
 #destinations-main-heading {
@@ -1494,29 +1494,6 @@ label[for="agree-to-terms"] {
 
 .primary-img {
     width: 100%;
-}
-
-.secondary-img-box {
-    background-color: var(--clr-sea-blue);;
-    border-radius: 10%;
-    box-shadow: 0 0 5px 2px var(--clr-khaki);
-    height: 12.48rem;
-    width: 18.72rem;
-    opacity: .2;
-    overflow: hidden;
-    position: absolute;
-    left: 6rem;
-    top: 64%;
-}
-
-.secondary-img-box:hover {
-    opacity: 1;
-}
-
-.secondary-img {
-    position: relative;
-    bottom: 2rem;
-    width: 118%;
 }
 
 .text-inner-wrapper {
@@ -1561,12 +1538,6 @@ h2.country {
         height: 27rem;
         min-width: 18rem;
     }    
-    
-    .secondary-img-box {
-        height: 9rem;
-        width: 13.5rem;
-        left: 6rem;
-    }
 
     .text-inner-wrapper {
         padding-left: 2.8rem;
@@ -1583,11 +1554,6 @@ h2.country {
     .primary-img-box {
         height: 22rem;
         min-width: 14.7rem;
-    }
-
-    .secondary-img-box {
-        top: 56%;
-        left: 1.4rem;
     }
 
     .text-inner-wrapper {
@@ -1614,13 +1580,6 @@ h2.country {
     .primary-img-box {
         height: 30rem;
         min-width: 20rem;
-    }
-
-    .secondary-img-box {
-        height: 11rem;
-        width: 16.6rem;
-        top: 70%;
-        left: 8rem;
     }
 
     .text-inner-wrapper {
@@ -1651,11 +1610,6 @@ h2.country {
         min-height: auto;
         max-width: 80%;
         order: -1;
-    }
-
-    .secondary-img-box {
-        position: static;
-        order: 3;
     }
 
     .text-inner-wrapper {
