@@ -385,37 +385,11 @@ nav {
     }    
 }
 
-@media screen and (max-width: 390px) {
-    #tagline-travel-asia {
-        font-size: 3rem;
-    }    
-}
-
 #tagline-travel-with-us {
     text-align: end;
     position: relative;
     top: -1rem;
     right: -5rem;
-}
-
-@media screen and (max-width: 1830px) {
-    #tagline-travel-with-us {
-        top: .5rem;
-        right: -3rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #tagline-travel-with-us {
-        right: -2rem;
-        top: 0;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    #tagline-travel-with-us {
-        position: static;
-    }
 }
 
 #hero-video {
@@ -424,21 +398,6 @@ nav {
     max-width: 40%;
     opacity: 75%;
     z-index: 2;
-}
-
-@media screen and (max-width: 1990px) {
-    #hero-video {
-        min-width: 39rem;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    #hero-video {
-        border-radius: 0;
-        box-shadow: none;
-        position: static;
-        min-width: 120%;
-    }
 }
 
 #trustpilot {
@@ -456,69 +415,14 @@ nav {
     z-index: 1;
 }
 
-@media screen and (max-width: 1559px) {
-    #trustpilot {
-        left: 2rem;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    #trustpilot {
-        height: 7rem;
-        width: 7rem;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    #trustpilot {
-        bottom: .4rem;
-        left: .5rem;
-        height: 6rem;
-        width: 6rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    #trustpilot {
-        height: 4.2rem;
-        width: 4.2rem;
-    }
-}
-
 .trustpilot-rating {
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: .1rem;
 }
 
-@media screen and (max-width: 980px) {
-    .trustpilot-rating {
-        font-size: .6rem;
-        margin-bottom: .2rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .trustpilot-rating {
-        font-size: .39rem;
-        margin-bottom: .2rem;
-    }
-}
-
 .trustpilot-stars {
     width: 8.5rem;
-}
-
-@media screen and (max-width: 980px) {
-    .trustpilot-stars {
-        width: 5rem;
-    }
-}
-
-@media screen and (max-width: 360px){
-    .trustpilot-stars {
-        width: 3rem;
-    }
 }
 
 .trustpilot-based-on {
@@ -526,33 +430,8 @@ nav {
     margin-bottom: .5rem;
 }
 
-@media screen and (max-width: 980px) {
-    .trustpilot-based-on {
-        font-size: .4rem;
-        margin-bottom: .2rem;
-    }
-}
-
-@media screen and (max-width: 360px){
-    .trustpilot-based-on {
-        font-size: .4rem;
-    }
-}
-
 .trustpilot-logo {
     width: 5rem;
-}
-
-@media screen and (max-width: 980px) {
-    .trustpilot-logo {
-        width: 3rem;
-    }
-}
-
-@media screen and (max-width: 360px){
-    .trustpilot-logo {
-        width: 2.5rem;
-    }
 }
 
 /* END --> HEADER */
@@ -565,39 +444,11 @@ nav {
     padding: 3rem 10%;
 }
 
-@media screen and (max-width: 1290px) {
-    #what-we-offer-section {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    #what-we-offer-section {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-}
-
-@media screen and (max-width: 590px) {
-    #what-we-offer-section {
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-}
-
 #what-we-offer-heading {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
-
-@media screen and (max-width: 390px) {
-    #what-we-offer-heading {
-        font-size: 1.7rem;
-    }
-}
-
 
 #what-we-offer-outer-wrapper {
     display: flex;
@@ -605,12 +456,6 @@ nav {
     column-gap: 1rem;
     justify-content: space-around;
     margin-top: 2rem;
-}
-
-@media screen and (max-width: 590px) {
-    .what-we-offer-outer-wrapper {
-        flex-direction: column;
-    }
 }
 
 .what-we-offer-inner-wrapper {
@@ -623,45 +468,11 @@ nav {
     width: 36%;
 }
 
-@media screen and (max-width: 1290px) {
-    .what-we-offer-inner-wrapper {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .what-we-offer-inner-wrapper {
-        margin-top: .8rem;
-        margin-bottom: .5rem;
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 590px) {
-    .what-we-offer-inner-wrapper {
-        margin: .4rem 0;
-        padding: 1.2rem 1.5rem;
-        width: 90%;
-    }
-}
-
 /* item heading - 'what we offer' */
 .what-we-offer-inner-wrapper > h3 {
     color: var(--clr-khaki);
     font-size: 1.5rem;
     font-weight: bold;
-}
-
-@media screen and (max-width: 900px) {
-    .what-we-offer-inner-wrapper > h3 {
-        font-size: 1.3rem;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .what-we-offer-inner-wrapper > h3 {
-        font-size: 1.2rem;
-    }
 }
 
 /* item text - 'what we offer' */
@@ -670,19 +481,6 @@ nav {
     line-height: 1.8rem;
     margin-top: 1rem;
 }
-
-@media screen and (max-width: 900px) {
-    .what-we-offer-inner-wrapper > p {
-        font-size: 1.1rem;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .what-we-offer-inner-wrapper > p {
-        font-size: 1rem;
-    }
-}
-
 
 /* fontawesome icons */
 .fa-solid {
@@ -698,42 +496,11 @@ nav {
     padding: 3rem 10%;
 }
 
-@media screen and (max-width: 2010px) {
-    #top-destinations-section {
-        padding: 3rem 5%;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    #top-destinations-section {
-        padding: 3rem 1%;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    #top-destinations-section {
-        padding: 3rem 5%;
-    }
-}
-
-@media screen and (max-width: 625px) {
-    #top-destinations-section {
-        padding: 3rem 0%;
-    }
-}
-
 #top-destinations-heading {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
-
-@media screen and (max-width: 390px) {
-    #top-destinations-heading {
-        font-size: 1.7rem;
-    }
-}
-
 
 #images-wrapper {
     display: flex;
@@ -748,31 +515,6 @@ nav {
     background-color: var(--clr-blue-sapphire);
     border-radius: 10px;
     width: 32%;
-}
-
-@media screen and (max-width: 1400px) {
-    #images-wrapper > a {
-        width: 48%;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    #images-wrapper > a {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    #images-wrapper > a {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 625px) {
-    #images-wrapper > a {
-        border-radius: 0;
-        width: 100%;
-    }
 }
 
 #images-wrapper > a:hover {
@@ -795,23 +537,11 @@ nav {
     z-index: 2;
 }
 
-@media screen and (max-width: 390px) {
-    .top-dest-image-box > h3 {
-        font-size: 1.5rem; 
-    }
-}
-
 .top-destination-image {
     border-radius: 10px;
     display: block;
     width: 100%;
 } 
-
-@media screen and (max-width: 625px) {
-    .top-destination-image {
-        border-radius: 0;
-    }
-}
 
 /* END --> "TOP DESTINATIONS" SECTION */
 
@@ -823,28 +553,10 @@ nav {
     padding: 3rem 8%;
 }
 
-@media screen and (max-width: 625px) {
-    #reviews-section {
-        padding: 3rem 4%;
-    }
-}
-
 #reviews-heading {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-}
-
-@media screen and (max-width: 520px) {
-    #reviews-heading {
-        padding: 0 10%;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    #reviews-heading {
-        font-size: 1.7rem;
-    }
 }
 
 #reviews-wrapper {
@@ -855,12 +567,6 @@ nav {
     row-gap: 1.5rem;
 }
 
-@media screen and (max-width: 1157px) {
-    #reviews-wrapper {
-        flex-wrap: wrap;
-    }
-}
-
 .review-container {
     background-color: var(--clr-khaki);
     border: none;
@@ -868,26 +574,6 @@ nav {
     box-shadow: 0 0 5px 0 var(--clr-indigo);
     padding: 1rem 2rem;
     width: 25%;
-}
-
-@media screen and (max-width: 1600px) {
-    .review-container {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 905px) {
-    .review-container {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 625px) {
-    .review-container {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        width: 90%;
-    }
 }
 
 .review-headliner {
@@ -920,12 +606,6 @@ nav {
     min-height: 15rem;
 }
 
-@media screen and (max-width: 600px) {
-    #who-we-are-section {
-        padding: 3rem 4%;
-    }
-}
-
 #who-we-are-heading {
     font-size: 2rem;
     font-weight: bold;
@@ -933,14 +613,7 @@ nav {
     text-align: center;
 }
 
-@media screen and (max-width: 390px) {
-    #who-we-are-heading {
-        font-size: 1.7rem;
-    }
-}
-
-
-/* who we are text content */
+/* 'Who We Are' text content */
 #who-we-are-heading ~ p {
     width: 53rem;
     margin: 0 auto 1.2rem;
@@ -949,35 +622,9 @@ nav {
     text-align: justify;
 }
 
-@media screen and (max-width: 1110px) {
-    #who-we-are-heading ~ p {
-        width: 42rem;
-    }
-}
-
-@media screen and (max-width: 870px) {
-    #who-we-are-heading ~ p {
-        font-size: 1.1rem;
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #who-we-are-heading ~ p {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-}
-
 .company-name {
     font-family: 'Water Brush', cursive;
     font-size: 2.5rem;
-}
-
-@media screen and (max-width: 600px) {
-    .company-name {
-        font-size: 2rem;
-    }
 }
 
 #who-we-are-section p:last-of-type {
@@ -990,34 +637,14 @@ nav {
 
 #newsletter-section {
     padding: 3rem 18%;
-    /* min-height: 10rem; */
     background-color: var(--clr-dutch-white);
     box-shadow: 0 0 5px 5px var(--clr-silver-foil);
-}
-
-@media screen and (max-width: 900px) {
-    #newsletter-section {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    #newsletter-section {
-        padding: 3rem 6%;
-    }
 }
 
 #newsletter-heading {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-}
-
-@media screen and (max-width: 390px) {
-    #newsletter-heading {
-        font-size: 1.6rem;
-    }
 }
 
 #newsletter-form {
@@ -1027,24 +654,12 @@ nav {
     margin: 3rem auto 0;
     font-size: 1.2rem;
 }
-@media screen and (max-width: 900px) {
-    #newsletter-form {
-        width: 100%;
-        font-size: 1rem;
-    }
-}
 
 #newsletter-form > input {
     border-radius: 5px;
     padding: 0 .5rem;
     line-height: 2rem;
     margin: .5rem 0 2rem;
-}
-
-@media screen and (max-width: 800px) {
-    #newsletter-form > input {
-        max-width: inherit;
-    }
 }
 
 /* END --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
@@ -1064,53 +679,16 @@ footer {
     column-gap: 2rem;
 }
 
-@media screen and (max-width: 1259px) {
-    footer {
-        grid-template-columns: 50% 50%;
-        grid-template-areas: 
-            'map address'
-            'social-media social-media'
-            'copyright copyright';
-    }
-}
-
-@media screen and (max-width: 820px) {
-    footer {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 /* map */
 
 #map-wrapper {
     grid-area: map;
 }
 
-@media screen and (max-width: 1259px) {
-    #map-wrapper {
-        grid-area: map;
-    }
-}
-
-@media screen and (max-width: 820px) {
-    #map-wrapper {
-        width: 100%;
-    }
-}
-
 #main-office-map {
     border-radius: 10px;
     height: 300px;
     width: 300px;
-}
-
-@media screen and (max-width: 820px) {
-    #main-office-map {
-        width: 100%;
-        height: 180px;
-    }
 }
 
 /* office address */
@@ -1121,44 +699,8 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 1259px) {
-    #office-address-wrapper {
-        grid-area: address;
-    }
-}
-
-@media screen and (max-width: 820px) {
-    #office-address-wrapper {
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-    }
-}
-
-@media screen and (max-width: 490px) {
-    #office-address-wrapper {
-        font-size: .9rem;
-    }
-}
-
 #address-inner-wrapper {
     margin-top: 2rem;
-}
-
-@media screen and (max-width: 820px) {
-    #address-inner-wrapper {
-        margin-top: 1rem;
-    }
-}
-
-#address-inner-wrapper > * {
-    margin-bottom: 1.5rem;
-}
-
-@media screen and (max-width: 820px) {
-    #address-inner-wrapper > * {
-        margin-bottom: .8rem;
-    }
 }
 
 .where-to-find-us {
@@ -1167,13 +709,6 @@ footer {
     margin-left: 1.2rem;
     overflow-wrap: anywhere;
     text-decoration: none;
-}
-
-@media screen and (max-width: 490px) {
-    .where-to-find-us {
-        display: block;
-        margin: 0;
-    }
 }
 
 .where-to-find-us:hover {
@@ -1191,34 +726,8 @@ footer {
     padding: 2rem 1rem;
 }
 
-@media screen and (max-width: 1259px) {
-    #social-media-wrapper {
-        grid-area: social-media;
-    }
-}
-
-@media screen and (max-width: 820px) {
-    #social-media-wrapper {
-        margin-top: 1rem;
-        padding: 1rem 0;
-        width: 100%;
-    }
-}
-
 #social-media-label {
     font-weight: bold;
-}
-
-@media screen and (max-width: 1259px) {
-    #social-media-label {
-        text-align: left;
-    }
-}
-
-@media screen and (max-width: 490px) {
-    #social-media-label {
-        font-size: .8rem;
-    }
 }
 
 #social-media-inner-wrapper {
@@ -1227,31 +736,12 @@ footer {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 1259px) {
-    #social-media-inner-wrapper {
-        justify-content: start;
-        gap: 10%;
-    }
-}
-
-@media screen and (max-width: 820px) {
-    #social-media-inner-wrapper {
-        margin-top: 1rem;
-    }
-}
-
 #social-media-inner-wrapper > a {
     color: inherit;
 }
 
 .fa-brands {
     font-size: 2.5rem;
-}
-
-@media screen and (max-width: 820px) {
-    .fa-brands {
-        font-size: 2rem;
-    }
 }
 
 .fa-brands:hover {
@@ -1266,12 +756,6 @@ footer {
 
 .main-wrapper-copyright small {
     font-size: 1rem;
-}
-
-@media screen and (max-width: 490px) {
-    .main-wrapper-copyright small {
-        font-size: .8rem;
-    }
 }
 
 /* back to top - link */
@@ -1294,16 +778,6 @@ footer {
     z-index: 3;
 }
 
-@media screen and (max-width: 590px) {
-    #back-to-top {
-        font-size: .6rem;
-        line-height: 5rem;
-        height: 5rem;
-        width: 5rem;
-        bottom: 3vh;
-    }
-}
-
 #back-to-top:hover {
     opacity: .8;
 }
@@ -1313,6 +787,409 @@ footer {
 }
 
 /* END --> "FOOTER" */
+
+
+/* media queries - HOME PAGE */
+
+@media screen and (max-width: 2010px) {
+    #top-destinations-section {
+        padding: 3rem 5%;
+    }
+}
+
+@media screen and (max-width: 1990px) {
+    #hero-video {
+        min-width: 39rem;
+    }
+}
+
+@media screen and (max-width: 1830px) {
+    #tagline-travel-with-us {
+        top: .5rem;
+        right: -3rem;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #top-destinations-section {
+        padding: 3rem 1%;
+    }
+
+    .review-container {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1559px) {
+    #trustpilot {
+        left: 2rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #top-destinations-section {
+        padding: 3rem 5%;
+    }
+
+    #images-wrapper > a {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    #what-we-offer-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .what-we-offer-inner-wrapper {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1259px) {
+    footer {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+            'map address'
+            'social-media social-media'
+            'copyright copyright';
+    }
+
+    #map-wrapper {
+        grid-area: map;
+    }
+
+    #social-media-wrapper {
+        grid-area: social-media;
+    }
+
+    #social-media-label {
+        text-align: left;
+    }
+
+    #social-media-inner-wrapper {
+        justify-content: start;
+        gap: 10%;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    #reviews-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    #who-we-are-heading ~ p {
+        width: 42rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #trustpilot {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .trustpilot-rating {
+        font-size: .6rem;
+        margin-bottom: .2rem;
+    }
+
+    .trustpilot-stars {
+        width: 5rem;
+    }
+
+    .trustpilot-based-on {
+        font-size: .4rem;
+        margin-bottom: .2rem;
+    }
+
+    .trustpilot-logo {
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .review-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .what-we-offer-inner-wrapper > h3 {
+        font-size: 1.3rem;
+    }
+
+    .what-we-offer-inner-wrapper > p {
+        font-size: 1.1rem;
+    }
+
+    #newsletter-section {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #newsletter-form {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    #who-we-are-heading ~ p {
+        font-size: 1.1rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #images-wrapper > a {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    footer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #map-wrapper {
+        width: 100%;
+    }
+
+    #main-office-map {
+        width: 100%;
+        height: 180px;
+    }
+
+    #address-inner-wrapper {
+        margin-top: 1rem;
+    }
+
+    #address-inner-wrapper > * {
+        margin-bottom: .8rem;
+    }
+
+    #social-media-wrapper {
+        margin-top: 1rem;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    #social-media-inner-wrapper {
+        margin-top: 1rem;
+    }
+
+    .fa-brands {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #what-we-offer-section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .what-we-offer-inner-wrapper {
+        margin-top: .8rem;
+        margin-bottom: .5rem;
+        width: 80%;
+    }
+
+    #newsletter-form > input {
+        max-width: inherit;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #hero-video {
+        border-radius: 0;
+        box-shadow: none;
+        position: static;
+        min-width: 120%;
+    }
+
+    #images-wrapper > a {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    #top-destinations-section {
+        padding: 3rem 0%;
+    }
+
+    #images-wrapper > a {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .top-destination-image {
+        border-radius: 0;
+    }
+
+    #reviews-section {
+        padding: 3rem 4%;
+    }
+
+    .review-container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #who-we-are-section {
+        padding: 3rem 4%;
+    }
+
+    #who-we-are-heading ~ p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .company-name {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #what-we-offer-section {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .what-we-offer-outer-wrapper {
+        flex-direction: column;
+    }
+
+    .what-we-offer-inner-wrapper {
+        margin: .4rem 0;
+        padding: 1.2rem 1.5rem;
+        width: 90%;
+    }
+
+    #back-to-top {
+        font-size: .6rem;
+        line-height: 5rem;
+        height: 5rem;
+        width: 5rem;
+        bottom: 3vh;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #trustpilot {
+        bottom: .4rem;
+        left: .5rem;
+        height: 6rem;
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #reviews-heading {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #tagline-travel-with-us {
+        right: -2rem;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .where-to-find-us {
+        display: block;
+        margin: 0;
+    }
+
+    #social-media-label {
+        font-size: .8rem;
+    }
+
+    .main-wrapper-copyright small {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #tagline-travel-asia {
+        font-size: 3rem;
+    }    
+
+    #tagline-travel-with-us {
+        position: static;
+    }
+
+    #what-we-offer-heading {
+        font-size: 1.7rem;
+    }
+
+    .what-we-offer-inner-wrapper > h3 {
+        font-size: 1.2rem;
+    }
+
+    .what-we-offer-inner-wrapper > p {
+        font-size: 1rem;
+    }
+
+    #top-destinations-heading {
+        font-size: 1.7rem;
+    }
+
+    .top-dest-image-box > h3 {
+        font-size: 1.5rem; 
+    }
+
+    #reviews-heading {
+        font-size: 1.7rem;
+    }
+
+    #who-we-are-heading {
+        font-size: 1.7rem;
+    }
+
+    #newsletter-section {
+        padding: 3rem 6%;
+    }
+
+    #newsletter-heading {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #trustpilot {
+        height: 4.2rem;
+        width: 4.2rem;
+    }
+
+    .trustpilot-rating {
+        font-size: .39rem;
+        margin-bottom: .2rem;
+    }
+
+    .trustpilot-stars {
+        width: 3rem;
+    }
+
+    .trustpilot-based-on {
+        font-size: .4rem;
+    }
+
+    .trustpilot-logo {
+        width: 2.5rem;
+    }
+}
 
 /* START --> "CONTACT US PAGE" */
 
@@ -1587,6 +1464,12 @@ h2.country {
     }
 }
 
+@media screen and (max-width: 1259px) {
+    #office-address-wrapper {
+        grid-area: address;
+    }
+}
+
 @media screen and (max-width: 1250px) {
     #destinations-outer-wrapper {
         width: 90%;
@@ -1606,6 +1489,14 @@ h2.country {
 
     .country-description {
         line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #office-address-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -1665,6 +1556,12 @@ h2.country {
 
     .text-inner-wrapper {
         padding: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #office-address-wrapper {
+        font-size: .9rem;
     }
 }
 
