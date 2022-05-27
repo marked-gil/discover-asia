@@ -61,13 +61,6 @@ body {
     width: 20rem;
 }
 
-@media screen and (max-width: 435px) {
-    .section-button > a,
-    .submit-button {
-        width: 80%;
-    }
-}
-
 /* general button hover styling */
 .section-button > a:hover,
 .submit-button:hover {
@@ -90,28 +83,6 @@ nav {
     padding: 0 4%;
 }
 
-@media screen and (max-width: 869px) {
-    nav {
-        column-gap: 2.1rem;
-    }
-}
-
-@media screen and (max-width: 715px) {
-    nav {
-        flex-direction: column;
-        justify-content: space-evenly;
-        min-height: 9.5rem;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    nav {
-        justify-content: center;
-        min-height: 9rem;
-        row-gap: .5rem;
-    }
-}
-
 /* company logo */
 #company-logo {
     color: white;
@@ -120,23 +91,6 @@ nav {
     letter-spacing: .5rem;
     text-align: center;
     min-width: 20.2rem;
-}
-
-@media screen and (max-width: 869px) {
-    #company-logo {
-        font-size: 2.3rem;
-        letter-spacing: .3rem;
-        min-width: 16rem;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    #company-logo {
-        font-size: 2rem;
-        letter-spacing: .2rem;
-        margin: 0 auto;
-        width: 100%;
-    }
 }
 
 #company-logo:hover {
@@ -152,12 +106,6 @@ nav {
     top: -.8rem;
 }
 
-@media screen and (max-width: 869px) {
-    #company-logo-span {
-        font-size: .9rem;
-    }
-}
-
 /* nav links */
 #main-header-navlinks {
     display: flex;
@@ -166,36 +114,11 @@ nav {
     width: 35rem;
 }
 
-@media screen and (max-width: 715px) {
-    #main-header-navlinks {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    #main-header-navlinks {
-        column-gap: .3rem;
-        width: 100%;
-    }
-}
-
 /* navbar menu link styling*/
 
 .nav-link {
     color: white;
     font-size: 1.1rem;
-}
-
-@media screen and (max-width: 869px) {
-    .nav-link {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .nav-link {
-        font-size: .8rem;
-    }
 }
 
 .nav-link:hover {
@@ -210,13 +133,6 @@ nav {
     border-radius: 10px ;
     padding: .3rem .8rem;
 }
-
-@media screen and (max-width: 690px) {
-    .active {
-        padding: .2rem .5rem;
-    }
-}
-
 
 /* Main Header Section - Banner */
 
@@ -234,41 +150,6 @@ nav {
     overflow: hidden;
 }
 
-@media screen and (max-width: 1559px) {
-    #main-header-section {
-        background-image: url(../media/images/banner-bg-maldives-1559.jpg);
-        height: 30rem;
-        padding: 0 6%;
-    }
-}
-
-@media screen and (max-width: 1360px) {
-    #main-header-section {
-        background-image: url(../media/images/banner-bg-maldives-1360.jpg);
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    #main-header-section {
-        background-image: url(../media/images/banner-bg-maldives-1024.jpg);
-    }
-}
-
-@media screen and (max-width: 720px) {
-    #main-header-section {
-        background-image: url(../media/images/banner-bg-maldives-720.jpg);
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #main-header-section {
-        background-image: url(../media/images/banner-bg-maldives-480.jpg);
-    }
-}
-
-
 /* tagline - banner */
 
 #tagline {
@@ -277,45 +158,6 @@ nav {
     font-weight: 400;
     text-shadow: 0 2px 1rem var(--clr-blue-sapphire);
     z-index: 3;
-}
-
-@media screen and (max-width: 1830px) {
-    #tagline {
-        font-size: 2.6rem;
-    }
-}
-
-@media screen and (max-width: 1360px) {
-    #tagline {
-        font-size: 2.4rem;
-        position: absolute;
-        top: 8rem;
-        text-shadow: 0 5px .5rem var(--clr-indigo);
-    }
-}
-
-@media screen and (max-width: 720px) {
-    #tagline {
-        font-size: 2rem;
-        top: 20%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #tagline {
-        font-size: 1.6rem;
-        top: 20%;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    #tagline {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 1.3rem;
-        top: 12%;
-    }
 }
 
 .tagline-span {
@@ -328,61 +170,11 @@ nav {
     top: -2rem;
 }
 
-@media screen and (max-width: 1830px) {
-    #tagline-travel-in-style {
-        left: -4rem;
-    }
-}
-
-@media screen and (max-width: 1360px) {
-    #tagline-travel-in-style {
-        left: -3rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    #tagline-travel-in-style {
-        top: -1rem;
-        left: -2rem;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    #tagline-travel-in-style {
-        position: static;
-        margin-bottom: .5rem;
-    }
-}
-
 #tagline-travel-asia {
     text-align: center;
     font-family: 'Water Brush', cursive;
     font-size: 12rem;
     font-weight: 100;
-}
-
-@media screen and (max-width: 2000px) {
-    #tagline-travel-asia {
-        font-size: 10rem;
-    }    
-}
-
-@media screen and (max-width: 1830px) {
-    #tagline-travel-asia {
-        font-size: 7rem;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    #tagline-travel-asia {
-        font-size: 5rem;
-    }    
-}
-
-@media screen and (max-width: 500px) {
-    #tagline-travel-asia {
-        font-size: 4rem;
-    }    
 }
 
 #tagline-travel-with-us {
@@ -703,6 +495,10 @@ footer {
     margin-top: 2rem;
 }
 
+#address-inner-wrapper > * {
+    margin-bottom: .8rem;
+}
+
 .where-to-find-us {
     color: white;
     display: inline-block;
@@ -797,6 +593,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 2000px) {
+    #tagline-travel-asia {
+        font-size: 10rem;
+    }    
+}
+
 @media screen and (max-width: 1990px) {
     #hero-video {
         min-width: 39rem;
@@ -804,6 +606,18 @@ footer {
 }
 
 @media screen and (max-width: 1830px) {
+    #tagline {
+        font-size: 2.6rem;
+    }
+
+    #tagline-travel-in-style {
+        left: -4rem;
+    }
+
+    #tagline-travel-asia {
+        font-size: 7rem;
+    }
+
     #tagline-travel-with-us {
         top: .5rem;
         right: -3rem;
@@ -821,6 +635,12 @@ footer {
 }
 
 @media screen and (max-width: 1559px) {
+    #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-1559.jpg);
+        height: 30rem;
+        padding: 0 6%;
+    }
+
     #trustpilot {
         left: 2rem;
     }
@@ -833,6 +653,24 @@ footer {
 
     #images-wrapper > a {
         width: 48%;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-1360.jpg);
+        justify-content: center;
+    }
+
+    #tagline {
+        font-size: 2.4rem;
+        position: absolute;
+        top: 8rem;
+        text-shadow: 0 5px .5rem var(--clr-indigo);
+    }
+
+    #tagline-travel-in-style {
+        left: -3rem;
     }
 }
 
@@ -883,6 +721,12 @@ footer {
 @media screen and (max-width: 1110px) {
     #who-we-are-heading ~ p {
         width: 42rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-1024.jpg);
     }
 }
 
@@ -944,6 +788,26 @@ footer {
     }
 }
 
+@media screen and (max-width: 869px) {
+    nav {
+        column-gap: 2.1rem;
+    }
+
+    #company-logo {
+        font-size: 2.3rem;
+        letter-spacing: .3rem;
+        min-width: 16rem;
+    }
+
+    #company-logo-span {
+        font-size: .9rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 850px) {
     #images-wrapper > a {
         width: 80%;
@@ -968,10 +832,6 @@ footer {
 
     #address-inner-wrapper {
         margin-top: 1rem;
-    }
-
-    #address-inner-wrapper > * {
-        margin-bottom: .8rem;
     }
 
     #social-media-wrapper {
@@ -1007,6 +867,20 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
+    #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-720.jpg);
+        height: auto;
+    }
+
+    #tagline {
+        font-size: 2rem;
+        top: 20%;
+    }
+
+    #tagline-travel-asia {
+        font-size: 5rem;
+    }   
+
     #hero-video {
         border-radius: 0;
         box-shadow: none;
@@ -1016,6 +890,23 @@ footer {
 
     #images-wrapper > a {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    nav {
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 9.5rem;
+    }
+    #main-header-navlinks {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .active {
+        padding: .2rem .5rem;
     }
 }
 
@@ -1100,6 +991,20 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+    #tagline {
+        font-size: 1.6rem;
+        top: 20%;
+    }
+
+    #tagline-travel-in-style {
+        top: -1rem;
+        left: -2rem;
+    }
+
+    #tagline-travel-asia {
+        font-size: 4rem;
+    }    
+
     #tagline-travel-with-us {
         right: -2rem;
         top: 0;
@@ -1121,7 +1026,57 @@ footer {
     }
 }
 
+@media screen and (max-width: 480px) {
+    #main-header-section {
+        background-image: url(../media/images/banner-bg-maldives-480.jpg);
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .section-button > a,
+    .submit-button {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    nav {
+        justify-content: center;
+        min-height: 9rem;
+        row-gap: .5rem;
+    }
+
+    #company-logo {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #main-header-navlinks {
+        column-gap: .3rem;
+        width: 100%;
+    }
+
+    .nav-link {
+        font-size: .8rem;
+    }
+}
+
 @media screen and (max-width: 390px) {
+    #tagline {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.3rem;
+        top: 12%;
+    }
+
+    #tagline-travel-in-style {
+        position: static;
+        margin-bottom: .5rem;
+    }
+
     #tagline-travel-asia {
         font-size: 3rem;
     }    
@@ -1639,19 +1594,5 @@ h2.country {
         font-size: .9rem;
     }
 }
-
-/* @media screen and (max-width: 298px) {
-    .thank-you {
-        font-size: 1.6rem;
-    }
-
-    .successful {
-        font-size: 1rem;
-    }
-
-    .more-info {
-        font-size: .8rem;
-    }
-} */
 
 /* END --> SUCCESS RESPONSE ON FORM SUBMISSION */
