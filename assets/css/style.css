@@ -147,7 +147,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* tagline - banner */
@@ -184,12 +184,18 @@ nav {
     right: -5rem;
 }
 
-#hero-video {
+/* banner video */
+#hero-video-header {
     border-radius: 30px;
     box-shadow: 0 0 40px 10px #9f8f4f8f;
     max-width: 40%;
     opacity: 75%;
     z-index: 2;
+}
+
+/* section video */
+#video-section {
+    display: none;
 }
 
 #trustpilot {
@@ -584,7 +590,6 @@ footer {
 
 /* END --> "FOOTER" */
 
-
 /* media queries - HOME PAGE */
 
 @media screen and (max-width: 2010px) {
@@ -600,7 +605,7 @@ footer {
 }
 
 @media screen and (max-width: 1990px) {
-    #hero-video {
+    #hero-video-header {
         min-width: 39rem;
     }
 }
@@ -762,6 +767,23 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+    #hero-video-header {
+        display: none;
+    }
+
+    #video-section {
+        background-color: var(--clr-dutch-white);
+        display: block;
+        padding: 2rem 0;
+    }
+
+    #hero-video-body {
+        border-radius: 30px;
+        display: block;
+        margin: 0 auto;
+        width: 68%;
+    }
+
     .what-we-offer-inner-wrapper > h3 {
         font-size: 1.3rem;
     }
@@ -869,7 +891,7 @@ footer {
 @media screen and (max-width: 720px) {
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-720.jpg);
-        height: auto;
+        height: 20rem;
     }
 
     #tagline {
@@ -881,12 +903,12 @@ footer {
         font-size: 5rem;
     }   
 
-    #hero-video {
+    /* #hero-video-header {
         border-radius: 0;
         box-shadow: none;
         position: static;
         min-width: 120%;
-    }
+    } */
 
     #images-wrapper > a {
         width: 90%;
@@ -911,6 +933,10 @@ footer {
 }
 
 @media screen and (max-width: 625px) {
+    #hero-video-body {
+        width: 85%;
+    }
+
     #top-destinations-section {
         padding: 3rem 0%;
     }
@@ -1060,6 +1086,15 @@ footer {
 
     .nav-link {
         font-size: .8rem;
+    }
+
+    #video-section {
+        padding: 0;
+    }
+
+    #hero-video-body {
+        border-radius: 0;
+        width: 100%;
     }
 }
 
