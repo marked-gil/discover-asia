@@ -1104,6 +1104,10 @@ footer {
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-480.jpg);
     }
+
+    #hero-video-body {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 435px) {
@@ -1137,12 +1141,7 @@ footer {
     }
 
     #video-section {
-        padding: 0;
-    }
-
-    #hero-video-body {
-        border-radius: 0;
-        width: 100%;
+        padding: 1rem 0;
     }
 }
 
