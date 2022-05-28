@@ -1017,6 +1017,10 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+    #main-header-section {
+        height: 15rem;
+    }
+
     #tagline {
         font-size: 1.6rem;
         top: 20%;
@@ -1099,6 +1103,10 @@ footer {
 }
 
 @media screen and (max-width: 390px) {
+    #main-header-section {
+        height: 11rem;
+    }
+
     #tagline {
         display: flex;
         align-items: center;
