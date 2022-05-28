@@ -115,9 +115,26 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
     <!-- Image -->
 
+* **404 Page**
+
+    <!-- Text -->
+    <!-- Image -->
+
+* **Contact Form Submission Feedback Page**
+
+    <!-- Text -->
+    <!-- Image -->
+
+* **Newsletter Subscription Feedback Page**
+
+    <!-- Text -->
+    <!-- Image -->
+
+
 ### Features Left to Implement
 
 <!-- Content Here  -->
+
 ---
 ## Testing
 ---
@@ -189,9 +206,18 @@ This website successfully passed the following testing methods:
         After realizing that a border has its own width and height, and could be the cause of increasing the lenght of the entire button during hover, I added 'box-sizing' property with the value of 'border-box' on the hovered button so the height and width of the border that is created during hover will be contained or absorbed in the width and height of the button, and not add in to it.
 
 ### Unfixed Bugs
+
+<!-- text content -->
+
 ---
 ## Deployment
 ---
+
+### Version Control
+
+<!-- text content -->
+
+### GitHub Pages Deployment
 The website is published on Github Pages. The following are the steps in deploying the site:
 1. Inside the Github repository of 'discover-asia', click on 'Settings' on the menu just below the respository name.
 2. Then, among the options on the left sidebar, click on 'Pages'.
@@ -202,6 +228,41 @@ The website is published on Github Pages. The following are the steps in deployi
 The live link to the Discover Asia website is found here: **[Discover Asia](https://marked-gil.github.io/discover-asia/)**.
 
 ![Github Pages Deployment Image](docs/github-deployment.png)
+
+### Clone Repository Code
+
+<!-- text content  -->
+
+___
+## Design Wireframes
+___
+
+### For Large Screens (Desktops)
+
+<!-- Image -->
+
+### For Laptops
+
+<!-- Image -->
+
+### For Mobile Devices
+
+<!-- Image -->
+
+___
+## Technologies
+___
+
+* **HTML**
+* **CSS**
+* **Gitpod**
+* **GitHub**
+* **GitHub Pages**
+* **Favicon.io**
+* **Balsalmiq**
+* **Tinypng**
+* **Convertio**
+    * To convert jpeg images to webp format files, I used [Covertio](https://convertio.co/jpg-webp/).
 
 ---
 ## Credits
