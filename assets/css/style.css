@@ -646,6 +646,10 @@ footer {
         padding: 0 6%;
     }
 
+    #tagline-travel-in-style {
+        left: -2rem;
+    }
+
     #trustpilot {
         left: 2rem;
     }
@@ -664,18 +668,23 @@ footer {
 @media screen and (max-width: 1360px) {
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-1360.jpg);
-        justify-content: center;
     }
 
     #tagline {
-        font-size: 2.4rem;
-        position: absolute;
+        font-size: 2rem;
         top: 8rem;
-        text-shadow: 0 5px .5rem var(--clr-indigo);
     }
 
     #tagline-travel-in-style {
-        left: -3rem;
+        left: 0;
+    }
+
+    #tagline-travel-asia {
+        font-size: 5rem;
+    }
+
+    #tagline-travel-with-us {
+        right: 0;
     }
 }
 
@@ -718,6 +727,15 @@ footer {
 }
 
 @media screen and (max-width: 1157px) {
+    #main-header-section {
+        column-gap: 1.5rem;
+        justify-content: space-between;
+    }
+
+    #hero-video-header {
+        min-width: 29rem;
+    }
+
     #reviews-wrapper {
         flex-wrap: wrap;
     }
@@ -736,6 +754,19 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+    #main-header-section {
+        height: 26rem;
+    }
+
+    #tagline {
+        font-size: 1.7rem;
+        top: 8rem;
+    }
+
+    #tagline-travel-asia {
+        font-size: 4.2rem;
+    }
+
     #trustpilot {
         height: 7rem;
         width: 7rem;
@@ -767,6 +798,29 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+    #main-header-section {
+        height: 20rem;
+        justify-content: center;
+    }
+
+    #tagline {
+        font-size: 2.5rem;
+    }
+
+    #tagline-travel-in-style {
+        left: -10%;
+        top: 0;
+    }
+
+    #tagline-travel-asia {
+        font-size: 7rem;
+    }
+
+    #tagline-travel-with-us {
+        right: -10%;
+        top: -1rem;
+    }
+
     #hero-video-header {
         display: none;
     }
@@ -891,24 +945,15 @@ footer {
 @media screen and (max-width: 720px) {
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-720.jpg);
-        height: 20rem;
     }
 
     #tagline {
         font-size: 2rem;
-        top: 20%;
     }
 
     #tagline-travel-asia {
         font-size: 5rem;
     }   
-
-    /* #hero-video-header {
-        border-radius: 0;
-        box-shadow: none;
-        position: static;
-        min-width: 120%;
-    } */
 
     #images-wrapper > a {
         width: 90%;
@@ -1023,7 +1068,6 @@ footer {
 
     #tagline {
         font-size: 1.6rem;
-        top: 20%;
     }
 
     #tagline-travel-in-style {
@@ -1108,24 +1152,43 @@ footer {
     }
 
     #tagline {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
         font-size: 1.3rem;
-        top: 12%;
     }
 
     #tagline-travel-in-style {
-        position: static;
-        margin-bottom: .5rem;
+        top: -.5rem;
+        left: -1rem
     }
 
     #tagline-travel-asia {
-        font-size: 3rem;
-    }    
+        font-size: 2.9rem;
+    }
 
     #tagline-travel-with-us {
-        position: static;
+        top: -.2rem;
+        right: -1rem;
+    }
+
+    #trustpilot {
+        height: 4.2rem;
+        width: 4.2rem;
+    }
+
+    .trustpilot-rating {
+        font-size: .39rem;
+        margin-bottom: .2rem;
+    }
+
+    .trustpilot-stars {
+        width: 3rem;
+    }
+
+    .trustpilot-based-on {
+        font-size: .4rem;
+    }
+
+    .trustpilot-logo {
+        width: 2.5rem;
     }
 
     #what-we-offer-heading {
@@ -1162,30 +1225,6 @@ footer {
 
     #newsletter-heading {
         font-size: 1.6rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    #trustpilot {
-        height: 4.2rem;
-        width: 4.2rem;
-    }
-
-    .trustpilot-rating {
-        font-size: .39rem;
-        margin-bottom: .2rem;
-    }
-
-    .trustpilot-stars {
-        width: 3rem;
-    }
-
-    .trustpilot-based-on {
-        font-size: .4rem;
-    }
-
-    .trustpilot-logo {
-        width: 2.5rem;
     }
 }
 
