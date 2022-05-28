@@ -1549,7 +1549,8 @@ h2.country {
     padding: 5% 10%;
 }
 
-.thank-you {
+.thank-you,
+.sorry {
     font-size: 3rem;
 }
 
@@ -1564,7 +1565,8 @@ h2.country {
 /* media queries - feedback pages */
 
 @media screen and (max-width: 684px) {
-    .thank-you {
+    .thank-you,
+    .sorry {
         font-size: 2.4rem;
     }
 
@@ -1582,7 +1584,8 @@ h2.country {
         padding: 10% 5%;
     }
 
-    .thank-you {
+    .thank-you,
+    .sorry {
         font-size: 2rem;
     }
 
