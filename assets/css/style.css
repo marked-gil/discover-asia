@@ -11,6 +11,7 @@
     --clr-khaki: #eede92;
     --clr-dutch-white: #f0e6b9;
     --clr-silver-foil: #babaa6;
+    --clr-sky-blue: #67e0d6;
 }
 
 /* Modify Default Styling & Font */
@@ -1130,6 +1131,7 @@ h2.country {
     #main-header-section {
         height: 20rem;
         justify-content: center;
+        z-index: -1;
     }
 
     #tagline {
@@ -1157,7 +1159,17 @@ h2.country {
     }
 
     #video-section {
-        background-color: var(--clr-dutch-white);
+        background-color: var(--clr-sky-blue);
+        background-image: url("../media/images/bg-beach-gradient-1199x550.jpg");
+        background-image: -webkit-image-set(
+            url("../media/images/bg-beach-gradient-1199x550.webp") type("image/webp"),
+            url("../media//images/bg-beach-gradient-1199x550.jpg") type("image/jpeg")
+        );
+        background-image: image-set(
+            url("../media/images/bg-beach-gradient-1199x550.webp") type("image/webp"),
+            url("../media//images/bg-beach-gradient-1199x550.jpg") type("image/jpeg")
+        );
+        box-shadow: 0 0 20px 10px var(--clr-sky-blue);
         display: block;
         padding: 2rem 0;
     }
