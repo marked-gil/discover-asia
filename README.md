@@ -236,18 +236,51 @@ The live link to the Discover Asia website is found here: **[Discover Asia](http
 ___
 ## Design Wireframes
 ___
+The following are the schematic blueprints, or wireframes, used to build this website. And the wireframes were created using [Balsamiq](https://balsamiq.com/).
 
-### For Large Screens (Desktops)
+### HOME PAGE 
 
-<!-- Image -->
+* Large Screens (desktops | laptops | TV screens)
 
-### For Laptops
+![Home Page Wireframe for large screens](docs/home-large.png)
 
-<!-- Image -->
+* Medium Screens (Small laptops | tablets | ipads)
 
-### For Mobile Devices
+![Home Page Wireframe for medium screens](docs/home-medium.png)
 
-<!-- Image -->
+* Small Mobile Devices (smart phones)
+
+![Home Page Wireframe for mobile phones](docs/home-small.png)
+
+### DESTINATIONS PAGE
+
+* Large Screens (desktops | laptops | TV screens)
+
+![Destinations Page Wireframe for large screens](docs/destinations-large.png)
+
+* Medium Screens (Small laptops | tablets | ipads)
+
+![Destinations Page Wireframe for medium screens](docs/destinations-medium.png)
+
+* Small Mobile Devices (smart phones)
+
+![Destinations Page wireframe for small screens](docs/destinations-small.png)
+
+### CONTACT US PAGE
+
+!['Contact Us' wireframe](docs/contact-form.png)
+
+### CONTACT FORM FEEDBACK PAGE
+
+![Contact form submission feedback wireframe](docs/contact-feedback.png)
+
+### NEWSLETTER FEEDBACK PAGE
+
+![Newsletter feedback wireframe](docs/newsletter-feedback.png)
+
+### PAGE NOT FOUND PAGE (404)
+
+![404 feedback wireframe](docs/404-wireframe.png)
 
 ___
 ## Technologies
