@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description" content="Let's plan your next holiday with our topnotch travel agents who will design the best and memorable vacation of your dreams in Asia.">
     <meta name="keywords" content="travel, vacation, luxury, holidaymaker, tourists, Asia, trip, holidays, Maldives, Indonesia, Thailand, personalized holiday, travel agency, travel agents, Japan, Philippines, Singapore, China, Hong Kong, Vietnam">
-    <meta name="author" content="Discover Asia Travel Agency">
-
+    <meta name="author" content="Mark Gil Dacutan">
     <title>Travel in Style | Discover Asia Travel Agency</title>
-
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Favicon links -->
@@ -28,7 +25,7 @@
             <a href="index.html" id="company-logo" class="white">Discover Asia <span id="company-logo-span">Travel Agency</span></a>
             <!-- nav links -->
             <ul id="main-header-navlinks">
-                 <li>
+                <li>
                     <a class="nav-link white" href="index.html">Home</a>
                 </li>
                 <li>
@@ -43,31 +40,37 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Main Content -->
     <main id="contact-main-wrapper">
         <h1 class="center-text" id="contact-main-heading">Let's Plan Your Holiday!</h1>
         <p id="contact-todo">Please provide your details below and one of our agents will contact you within 24 hours.</p>
-
+        <!-- Contact Form -->
         <form action="contact-feedback.html" method="GET" id="contact-form">
+            <!-- user's first name -->
             <div class="form-item-box">
                 <label for="first-name">First Name:*</label>
                 <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
             </div>
+            <!-- user's last name -->
             <div class="form-item-box">
                 <label for="last-name">Last Name:*</label>
                 <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
             </div>
+            <!-- user's email address -->
             <div class="form-item-box">
                 <label for="email">Email Address:*</label>
                 <input type="email" id="email" name="email" placeholder="Email Address" required>
             </div>
+            <!-- user's phone number -->
             <div class="form-item-box">
                 <label for="tel-number">Phone Number:*</label>
                 <input type="tel" name="tel-number" id="tel-number" placeholder="(+353) 123-456-7890 " required>
             </div>
+            <!-- user's destination of choice -->
             <div class="form-item-box">
                 <label for="destination">Destination of Choice:*</label>
-                <input type="text"  list="destination-choice" id="destination" name="destination" required>
+                <input type="text" list="destination-choice" id="destination" name="destination" required>
+                <!-- list of recommended options, but will still allow user to enter their own input -->
                 <datalist id="destination-choice">
                     <option value="China"></option>
                     <option value="Hong Kong"></option>
@@ -82,6 +85,7 @@
                     <option value="Vietnam"></option>
                 </datalist>
             </div>
+            <!-- user's preferred time for call -->
             <div class="form-item-box" id="call-time-container">
                 <p>What time are you available for a chat? <span id="military-time">(Use 24-hr clock)</span></p>
                 <div class="call-time-inner-wrapper">
@@ -92,25 +96,30 @@
                     <label for="to-call-time">To:</label>
                     <input type="time" name="to-call-time" id="to-call-time">
                 </div>
-
             </div>
+            <!-- user's message -->
             <div class="form-item-box">
                 <label for="message">Message:</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
             </div>
+            <!-- checkbox to confirm user's agreement for the call -->
             <div id="agree-to-terms-inner-wrapper">
                 <input type="checkbox" name="agree-to-terms" id="agree-to-terms" value="yes" required>
                 <label for="agree-to-terms">Yes, I agree to be contacted by a staff of Discover Asia Travel Agency.*</label>
             </div>
             <p id="required">*Required</p>
+            <!-- button - to submit contact form -->
             <button id="contact-form-button" class="submit-button align-self-center white">Submit</button>
         </form>
     </main>
 
+    <!-- FOOTER -->
     <footer class="white">
+        <!-- Google map -->
         <div class="main-wrapper-location" id="map-wrapper">
             <iframe id="main-office-map" src="https://maps.google.com/maps?q=5%20Henry%20Street,%20North%20Dublin,%20Dublin%201&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Map of Discover Asia Travel Agency's main office"></iframe>
         </div>
+        <!-- location/contact information -->
         <div class="main-wrapper-location" id="office-address-wrapper">
             <p id="office-address-label">Our Main Office:</p>
             <address id="address-inner-wrapper">
@@ -119,6 +128,7 @@
                 <p>Phone Number: <a class="where-to-find-us white" href="tel:1234567" target="_blank">(+353) 123-456-7</a></p>
             </address>
         </div>
+        <!-- social media -->
         <div class="main-wrapper-location" id="social-media-wrapper">
             <p id="social-media-label">Connect With Us On:</p>
             <div id="social-media-inner-wrapper">
@@ -128,11 +138,11 @@
                 <a href="https://www.youtube.com/" target="_blank" aria-label="Open Youtube channel of Discover Asia in a new tab"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
+        <!-- copyright -->
         <div class="main-wrapper-copyright">
-            <small>Copyright 2022 - Discover Asia Travel Agency, Inc.</small>
+            <small>&copy; 2022 - Discover Asia Travel Agency, Inc.</small>
         </div>
     </footer>
-
     <!-- Fontawesome script for social media icons -->
     <script src="https://kit.fontawesome.com/3f9e0fb241.js" crossorigin="anonymous"></script>
 </body>
