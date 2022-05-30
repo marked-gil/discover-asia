@@ -778,7 +778,8 @@ h2.country {
     font-size: 3rem;
 }
 
-.successful {
+.successful,
+.sorry {
     font-size: 1.7rem;
 }
 
