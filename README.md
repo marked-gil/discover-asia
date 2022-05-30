@@ -292,64 +292,60 @@ This website uses the following technologies:
 * **Languages:**    
     This website is created using only 2 languages:
     * **HTML** - or *'Hypertext Markup Language'*, is used to build the structure of the web page while utilizing its semantic elements.
+
     * **CSS** - or *Casscading Style Sheets*, is used to style the look or presentation of the webpage. Layout methods such as Flexbox and Grid layout are utilized.
+
 * **Gitpod**.  
     Gitpod is the cloud-based IDE (Integrated Developer Environment) used to build this site.
+
 * **Git**  
     Git, as a version control system, is made use of to monitor and record changes made when building the site. This allows for the restoration of an earlier version of the code should it be necessary.
+
 * **GitHub**    
     The created source code to build this website is stored in GitHub as a repository.
+
 * **GitHub Pages**  
     The website is hosted live in the web through GitHub Pages, which is a hosting site for static web pages, via GitHub.
+
 * **Favicon.io**    
     Favicon is the icon displayed beside the site title, usually seen in the browser tab. The customized favicon used in this website is from [Favicon.io](https://favicon.io/).
+
 * **Balsalmiq**     
-    Generating the structure of the design concept is done with wireframes from [Balsalmiq](https://balsamiq.com/).
+    Generating the structure of the design concept was done with wireframes from [Balsalmiq](https://balsamiq.com/).
+
 * **Tinypng**
     To improve the performance of the site, the images were compressed through [TinyPNG](https://tinypng.com) to reduce their file size.
+
 * **Convertio**
-    * To convert jpeg images to webp format files, [Covertio](https://convertio.co/jpg-webp/) is used.
+    * To convert jpeg images to webp format files, [Covertio](https://convertio.co/jpg-webp/) was used.
 
 ---
 ## Credits
 ---
 ### Content
 
-* Texts
+* **Texts**     
+    The text contents of the website are originally written for the site by me - the creator.   
 
-    * The text contents of the website are originally written by the creator of the site. But, the texts of the Destination page's main content are based on research of multiple online travel sites.
-
-    * Main fonts used are: **Water Brush** (for the logo) and ***Oxygen** (for the main texts). These are from [Google Fonts](https://fonts.google.com/).
+    For the DESTINATION page's main content (such as the description for each country) to be factual, I have researched on multiple sites, especially travel websites, where I based most of the texts from.
     
-* [Font Awesome](https://fontawesome.com/)
+* **References: Go-to Sites for CSS & HTML**    
+    My main reference for learning and reviewing CSS and HTML are:
+    * [W3schools](https://www.w3schools.com/), 
+    * [MDN](https://developer.mozilla.org/en-US/), and 
+    * [Code Institute's](https://codeinstitute.net/ie/) lectures.   
 
-    * Icons used for the social media links in the footer section, and for the icons in the 'what we offer' section are from **Font Awesome**.
+* **'Responsive Web Design with HTML5 and CSS by Ben Frain'** Book
 
-* [Bootstrap](https://getbootstrap.com/)
-
-    * Bootstrap is utilized for the creation of the navbar menu as it aids in the ease of creating a responsive navbar with its 'hamburger menu' icon on a smaller screen size. But it was modified to serve the creator's own design and the website's need.
-
-* Go-to Sites for CSS & HTML
-
-    * The creator's main reference for learning and reviewing CSS and HTML are [W3schools](https://www.w3schools.com/), [MDN](https://developer.mozilla.org/en-US/), and [Code Institute's](https://codeinstitute.net/ie/) lectures.
-
-* 'Responsive Web Design with HTML5 and CSS by Ben Frain' Book
-
-    * The code/idea on how to keep the footer at the bottom edge of the viewport when there is no sufficient main content to push the footer at the endmost part is from this book of Ben Frain. This is useful on the 'form submission feedback' page and the 'subscription feedback' page.
+    The idea on how to keep the footer at the bottom edge of the viewport (i.e. when there is no sufficient main content to push the footer at the endmost part) is from this book of Ben Frain. This is useful on the 'form submission feedback' page and the 'subscription feedback' page where the contents do not always have enough height, especially on large screens, to stick the footer at the bottommost part. (See solution and explanation on the **'Fixed Bugs'** section).
     
-        It suggests on giving a height of 100% (height: 100%) on the html element; on the body element, to use flex display (display: flex) with flex-direction of column (flex-direction: column) and a min-height of 100% (min-height: 100%); and on the main content, to give the flex property a grow value of 1, a shrink value of 0, and a basis value of auto (flex: 1 0 auto). This will then push the footer down the very end despite the space occupied by the main content of the page.
-
-
 ### Media
 
 * Images
-
     * All the pictures displayed on the website are taken from free stock photography websites. Most are from [Pexels](https://www.pexels.com/), a few are from [Pixabay](https://pixabay.com/), and the banner background image is a photo by 'yang wewe' from [Unsplash](https://unsplash.com/).
 
 * Video
-
     * The video displayed in the banner is taken from [Pexels](https://www.pexels.com/).
 
 * [Google Map](https://google-map-generator.com/)
-
     * The map used in the footer section is generated using **Google Map**.
