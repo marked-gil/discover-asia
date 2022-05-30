@@ -285,7 +285,7 @@ In the development of this website, **git** was a crucial tool used to track cha
 
 * **git add \<file name>** - to add file or changes in the file to the staging area before they can be commited
 
-* **git commit** - to add/record file or changes to the local repository
+* **git commit -m "message"** - to add/record file or changes to the local repository
 
 * **git push** - to upload the local repository to the remote repository, such as GitHub
 
