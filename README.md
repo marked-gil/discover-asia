@@ -172,7 +172,6 @@ However, this website still allows the audio-less video displayed in the banner 
 
 This website successfully passed the following testing methods:
 * **Manual testing** on different browsers (Chrome, Firefox, Microsoft Edge, and Safari) confirmed that all links and buttons are working as intended and redirect to the appropriate pages.
-* [W3C Link Checker](https://validator.w3.org/checklink) showed NO broken links in the website.
 
 <!-- Image -->
 
@@ -238,7 +237,7 @@ The live link to the Discover Asia website is found here: **[Discover Asia](http
 ___
 ## Design Wireframes
 ___
-The following are the schematic blueprints, or wireframes, used to build this website. And the wireframes were created using [Balsamiq](https://balsamiq.com/).
+The following are the schematic blueprints, or wireframes, used to build this website. And these wireframes were created using [Balsamiq](https://balsamiq.com/).
 
 ### HOME PAGE 
 
@@ -288,16 +287,28 @@ ___
 ## Technologies
 ___
 
-* **HTML**
-* **CSS**
-* **Gitpod**
-* **GitHub**
-* **GitHub Pages**
-* **Favicon.io**
-* **Balsalmiq**
+This website uses the following technologies:
+
+* **Languages:**    
+    This website is created using only 2 languages:
+    * **HTML** - or *'Hypertext Markup Language'*, is used to build the structure of the web page while utilizing its semantic elements.
+    * **CSS** - or *Casscading Style Sheets*, is used to style the look or presentation of the webpage. Layout methods such as Flexbox and Grid layout are utilized.
+* **Gitpod**.  
+    Gitpod is the cloud-based IDE (Integrated Developer Environment) used to build this site.
+* **Git**  
+    Git, as a version control system, is made use of to monitor and record changes made when building the site. This allows for the restoration of an earlier version of the code should it be necessary.
+* **GitHub**    
+    The created source code to build this website is stored in GitHub as a repository.
+* **GitHub Pages**  
+    The website is hosted live in the web through GitHub Pages, which is a hosting site for static web pages, via GitHub.
+* **Favicon.io**    
+    Favicon is the icon displayed beside the site title, usually seen in the browser tab. The customized favicon used in this website is from [Favicon.io](https://favicon.io/).
+* **Balsalmiq**     
+    Generating the structure of the design concept is done with wireframes from [Balsalmiq](https://balsamiq.com/).
 * **Tinypng**
+    To improve the performance of the site, the images were compressed through [TinyPNG](https://tinypng.com) to reduce their file size.
 * **Convertio**
-    * To convert jpeg images to webp format files, I used [Covertio](https://convertio.co/jpg-webp/).
+    * To convert jpeg images to webp format files, [Covertio](https://convertio.co/jpg-webp/) is used.
 
 ---
 ## Credits
