@@ -6,7 +6,6 @@
     --clr-indigo: #17355e;
     --clr-sea-blue: #006699;
     --clr-blue-sapphire:#166a89;
-    --clr-diamond: #c5eff7;
     --clr-water: #cbf2ff;
     --clr-khaki: #eede92;
     --clr-dutch-white: #f0e6b9;
@@ -14,7 +13,7 @@
     --clr-sky-blue: #67e0d6;
 }
 
-/* Modify Default Styling & Font */
+/* Default Styling */
 
 html {
     height: 100%;
@@ -35,23 +34,27 @@ body {
     text-decoration: none;
 }
 
-/* Utility */
+/* UTILITY CLASSES */
 
 .center-text {
     text-align: center;
 }
+
 .align-self-center {
     align-self: center;
 }
 
-/* general button styling */
+.white {
+    color: white;
+}
+
+/* General Button Styling */
 .section-button > a,
 .submit-button {
     background-color: var(--clr-sea-blue);
     border: 0.5px solid black;
     border-radius: 5px;
     box-sizing: border-box;
-    color: white;
     display: inline-block;
     font-size: 1rem;
     font-weight: bold;
@@ -62,7 +65,6 @@ body {
     width: 20rem;
 }
 
-/* general button hover styling */
 .section-button > a:hover,
 .submit-button:hover {
     background-color: white;
@@ -73,7 +75,7 @@ body {
 
 /* START -> HEADER */
 
-/* Navigation Bar */
+/* navigation bar */
 nav {
     background-color: var(--clr-sea-blue);
     display: flex;
@@ -86,7 +88,6 @@ nav {
 
 /* company logo */
 #company-logo {
-    color: white;
     font-family: 'Water Brush', cursive;
     font-size: 2.8rem;
     letter-spacing: .5rem;
@@ -116,9 +117,7 @@ nav {
 }
 
 /* navbar menu link styling*/
-
 .nav-link {
-    color: white;
     font-size: 1.1rem;
 }
 
@@ -159,12 +158,10 @@ nav {
 }
 
 /* tagline - banner */
-
 #tagline {
-    color: whitesmoke;
     font-size: 2.8rem;
     font-weight: 400;
-    text-shadow: 0 2px 1rem var(--clr-blue-sapphire);
+    text-shadow: 2px 2px 8px black;
     z-index: 3;
 }
 
@@ -179,7 +176,7 @@ nav {
 }
 
 #tagline-travel-asia {
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Water Brush', cursive;
     font-size: 12rem;
     font-weight: 100;
@@ -195,7 +192,7 @@ nav {
 /* banner video */
 #hero-video-header {
     border-radius: 30px;
-    box-shadow: 0 0 40px 10px #9f8f4f8f;
+    box-shadow: 0 0 40px 10px var(--clr-indigo);
     max-width: 40%;
     opacity: 75%;
     z-index: 2;
@@ -253,7 +250,6 @@ nav {
 #what-we-offer-heading {
     font-size: 2rem;
     font-weight: bold;
-    text-align: center;
 }
 
 #what-we-offer-outer-wrapper {
@@ -267,10 +263,8 @@ nav {
 .what-we-offer-inner-wrapper {
     background-color: var(--clr-blue-sapphire);
     border-radius: 10px;
-    color: #ffff;
     margin: 1.2rem 0;
     padding: 1.5rem 2rem;
-    text-align: center;
     width: 36%;
 }
 
@@ -305,7 +299,6 @@ nav {
 #top-destinations-heading {
     font-size: 2rem;
     font-weight: bold;
-    text-align: center;
 }
 
 #images-wrapper {
@@ -333,13 +326,13 @@ nav {
     opacity: 1;
 }
 
-.top-dest-image-box > h3 {          /* label - country name */
-    color:rgb(255, 255, 255);
+/* country name - heading */
+.top-dest-image-box > h3 {
     font-size: 2rem;
     font-weight: 400;
     margin: .5rem 0 0 1rem;
     position: absolute;
-    text-shadow: 2px 2px 2px #00142a;
+    text-shadow: 4px 2px 3px black;
     z-index: 2;
 }
 
@@ -362,7 +355,6 @@ nav {
 #reviews-heading {
     font-size: 2rem;
     font-weight: bold;
-    text-align: center;
 }
 
 #reviews-wrapper {
@@ -375,7 +367,6 @@ nav {
 
 .review-container {
     background-color: var(--clr-khaki);
-    border: none;
     border-radius: 10px;
     box-shadow: 0 0 5px 0 var(--clr-indigo);
     padding: 1rem 2rem;
@@ -416,7 +407,6 @@ nav {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2.5rem;
-    text-align: center;
 }
 
 /* 'Who We Are' text content */
@@ -450,7 +440,6 @@ nav {
 #newsletter-heading {
     font-size: 2rem;
     font-weight: bold;
-    text-align: center;
 }
 
 #newsletter-form {
@@ -461,6 +450,7 @@ nav {
     font-size: 1.2rem;
 }
 
+/* newsletter - email input field */
 #newsletter-form > input {
     border-radius: 5px;
     padding: 0 .5rem;
@@ -472,10 +462,8 @@ nav {
 
 /* START --> "FOOTER" */
 
-/* footer section style */
 footer {
     background-color: var(--clr-sea-blue);
-    color: #EFEFEF;
     display: grid;
     grid-template-columns: 30% 35% 35%;
     grid-template-areas:
@@ -514,7 +502,6 @@ footer {
 }
 
 .where-to-find-us {
-    color: white;
     display: inline-block;
     margin-left: 1.2rem;
     overflow-wrap: anywhere;
@@ -572,7 +559,6 @@ footer {
 #back-to-top {
     background-color: #0e465b;
     border-radius: 50%;
-    color: white;
     font-size: 1.1rem;
     font-weight: bold;
     line-height: 9rem;
@@ -582,7 +568,6 @@ footer {
     position: fixed;
     right: 8%;
     bottom: 8vh;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     z-index: 3;
@@ -648,6 +633,7 @@ footer {
 }
 
 /* what time available for chat? */
+
 #call-time-container {
     display: flex;
     flex-wrap: wrap;
@@ -685,6 +671,7 @@ footer {
 }
 
 /* agree to terns checkbox */
+
 #agree-to-terms-inner-wrapper {
     display: flex;
     align-items: baseline;
@@ -700,12 +687,14 @@ label[for="agree-to-terms"] {
     font-style: italic;
 }
 
+/* footnote - for required inputs */
 #required {
     font-size: .9rem;
     font-style: italic;
     margin-top: 1.5rem;
 }
 
+/* submit button - for contact form */
 #contact-form-button {
     margin-top: 2.5rem;
 }
@@ -718,11 +707,11 @@ label[for="agree-to-terms"] {
     padding: 5rem 0;
 }
 
-#destinations-main-heading {    /* heading - destinations page */
+/* heading - destinations page */
+#destinations-main-heading {
     font-size: 3rem;
     font-weight: bold;
     margin: 0 1rem;
-    text-align: center;
 }
 
 #destinations-outer-wrapper {
@@ -734,10 +723,11 @@ label[for="agree-to-terms"] {
     max-width: 100rem;
 }
 
+/* main container for individual country */
 .destinations-inner-wrapper {
     background-color: var(--clr-dutch-white);
     border-radius: 10px;
-    box-shadow: 0 0 15px 2px var(--clr-indigo) inset;
+    box-shadow: 0 0 15px 2px var(--clr-indigo);
     display: flex;
     align-items: center;
     column-gap: 2rem;
@@ -766,6 +756,7 @@ label[for="agree-to-terms"] {
     row-gap: 1.5rem;
 }
 
+/* country name - heading */
 h2.country {
     border-bottom: 6px solid var(--clr-blue-sapphire);
     color: var(--clr-indigo);
@@ -791,8 +782,7 @@ h2.country {
     padding: 5% 10%;
 }
 
-.thank-you,
-.sorry {
+.feedback-heading {
     font-size: 3rem;
 }
 
@@ -809,24 +799,15 @@ h2.country {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 2010px) {
-    /* Home - Top Destinations */
-    #top-destinations-section {
-        padding: 3rem 5%;
-    }
-}
-
 @media screen and (max-width: 2000px) {
     /* Home - Banner */
     #tagline-travel-asia {
         font-size: 10rem;
     }    
-}
 
-@media screen and (max-width: 1990px) {
-    /* Home - Banner */
-    #hero-video-header {
-        min-width: 39rem;
+    /* Home - Top Destinations */
+    #top-destinations-section {
+        padding: 3rem 5%;
     }
 }
 
@@ -848,25 +829,16 @@ h2.country {
         top: .5rem;
         right: -3rem;
     }
-}
 
-@media screen and (max-width: 1720px) {
+    /* Home - Banner */
+    #hero-video-header {
+        min-width: 39rem;
+    }
+
     /* Destinations Page */
     #destinations-main-wrapper {
         padding-right: 4%;
         padding-left: 4%;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    /* Home - Top Destinations */
-    #top-destinations-section {
-        padding: 3rem 1%;
-    }
-
-    /* Home - Reviews */
-    .review-container {
-        width: 40%;
     }
 }
 
@@ -893,9 +865,22 @@ h2.country {
     #trustpilot {
         left: 2rem;
     }
-}
 
-@media screen and (max-width: 1530px) {
+    /* Home - Top Destinations */
+    #top-destinations-section {
+        padding: 3rem 1%;
+    }
+
+    /* Home - Top Destinations */
+    #top-destinations-section {
+        padding: 3rem 1%;
+    }
+
+    /* Home - Reviews */
+    .review-container {
+        width: 40%;
+    }
+
     /* Destinations Page */
     .primary-img-box {
         height: 27rem;
@@ -909,19 +894,8 @@ h2.country {
     .country-description {
         font-size: 1.1rem;
         line-height: 2rem;
-        /* margin: 0; */
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    /* Home - Top Destinations */
-    #top-destinations-section {
-        padding: 3rem 5%;
     }
 
-    #images-wrapper > a {
-        width: 48%;
-    }
 }
 
 @media screen and (max-width: 1360px) {
@@ -954,9 +928,26 @@ h2.country {
     #tagline-travel-with-us {
         right: 0;
     }
-}
 
-@media screen and (max-width: 1350px) {
+    /* Home - What We Offer */
+    #what-we-offer-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .what-we-offer-inner-wrapper {
+        width: 38%;
+    }
+
+    /* Home - Top Destinations */
+    #top-destinations-section {
+        padding: 3rem 5%;
+    }
+    
+    #images-wrapper > a {
+        width: 48%;
+    }
+
     /* Destinations Page */
     .destinations-inner-wrapper {
         width: 41%;
@@ -972,19 +963,17 @@ h2.country {
     }
 }
 
-@media screen and (max-width: 1290px) {
-    /* Home - What We Offer */
-    #what-we-offer-section {
-        padding-left: 5%;
-        padding-right: 5%;
+@media screen and (max-width: 1250px) {
+    /* Home - Reviews */
+    #reviews-wrapper {
+        flex-wrap: wrap;
     }
 
-    .what-we-offer-inner-wrapper {
-        width: 38%;
-    }
-}
+    /* Home - Who We Are */
+    #who-we-are-heading ~ p {
+        width: 42rem;
+   }
 
-@media screen and (max-width: 1259px) {
     /* Footer */
     footer {
         grid-template-columns: 50% 50%;
@@ -996,6 +985,10 @@ h2.country {
 
     #map-wrapper {
         grid-area: map;
+    }
+
+    #office-address-wrapper {
+        grid-area: address;
     }
 
     #social-media-wrapper {
@@ -1011,13 +1004,6 @@ h2.country {
         gap: 10%;
     }
 
-    /* Destinations Page */
-    #office-address-wrapper {
-        grid-area: address;
-    }
-}
-
-@media screen and (max-width: 1250px) {
     /* Destinations Page */
     #destinations-outer-wrapper {
         width: 90%;
@@ -1049,18 +1035,6 @@ h2.country {
 
     #hero-video-header {
         min-width: 29rem;
-    }
-
-    /* Home - Reviews */
-    #reviews-wrapper {
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 1110px) {
-    /* Home - Who We Are */
-    #who-we-are-heading ~ p {
-        width: 42rem;
     }
 }
 
@@ -1117,9 +1091,7 @@ h2.country {
     .trustpilot-logo {
         width: 3rem;
     }
-}
 
-@media screen and (max-width: 905px) {
     /* Home - Reviews */
     .review-container {
         width: 80%;
@@ -1146,7 +1118,6 @@ h2.country {
     #tagline-travel-asia {
         width: auto;
         font-size: 7rem;
-        
     }
 
     #tagline-travel-with-us {
@@ -1202,14 +1173,6 @@ h2.country {
     }
 }
 
-@media screen and (max-width: 870px) {
-    /* Home - Who We Are */
-    #who-we-are-heading ~ p {
-        font-size: 1.1rem;
-        width: 90%;
-    }
-}
-
 @media screen and (max-width: 869px) {
     /* Nav Bar */
     nav {
@@ -1229,16 +1192,32 @@ h2.country {
     .nav-link {
         font-size: 1rem;
     }
-}
 
-@media screen and (max-width: 850px) {
-    /* Home - Top Destinations */
-    #images-wrapper > a {
-        width: 80%;
+    /* Home - Who We Are */
+    #who-we-are-heading ~ p {
+        font-size: 1.1rem;
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 820px) {
+    /* Home - What We Offer */
+    #what-we-offer-section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .what-we-offer-inner-wrapper {
+        margin-top: .8rem;
+        margin-bottom: .5rem;
+        width: 80%;
+    }
+
+    /* Home - Top Destinations */
+    #images-wrapper > a {
+        width: 80%;
+    }
+
     /* Footer */
     footer {
         align-items: center;
@@ -1253,6 +1232,12 @@ h2.country {
     #main-office-map {
         width: 100%;
         height: 180px;
+    }
+
+    #office-address-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
     }
 
     #address-inner-wrapper {
@@ -1273,13 +1258,6 @@ h2.country {
         font-size: 2rem;
     }
 
-    /* Destinations Page */
-    #office-address-wrapper {
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-    }
-
     /* Contact Us Page */
     #contact-main-wrapper {
         margin-top: 3rem
@@ -1290,29 +1268,10 @@ h2.country {
     }
 }
 
-@media screen and (max-width: 800px) {
-    /* Home - What We Offer */
-    #what-we-offer-section {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    .what-we-offer-inner-wrapper {
-        margin-top: .8rem;
-        margin-bottom: .5rem;
-        width: 80%;
-    }
-
-    /* Newsletter Subscription */
-    #newsletter-form > input {
-        max-width: inherit;
-    }
-}
-
 @media screen and (max-width: 790px) {
     /* Destinations Page */
     #destinations-main-heading {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     #destinations-main-wrapper {
@@ -1384,12 +1343,9 @@ h2.country {
     .active {
         padding: .2rem .5rem;
     }
-}
 
-@media screen and (max-width: 684px) {
     /* Feedback Pages */
-    .thank-you,
-    .sorry {
+    .feedback-heading {
         font-size: 2.4rem;
     }
 
@@ -1403,6 +1359,11 @@ h2.country {
 }
 
 @media screen and (max-width: 650px) {
+    /* Home - Banner */
+    #hero-video-body {
+        width: 85%;
+    }
+
     /* Destinations Page */
     #destinations-main-wrapper {
         padding-left: 0;
@@ -1434,10 +1395,29 @@ h2.country {
     }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 590px) {
     /* Home - Banner */
-    #hero-video-body {
-        width: 85%;
+    #trustpilot {
+        bottom: 0;
+        left: 2rem;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    /* Home - What We Offer */
+    #what-we-offer-section {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .what-we-offer-outer-wrapper {
+        flex-direction: column;
+    }
+
+    .what-we-offer-inner-wrapper {
+        margin: .4rem 0;
+        padding: 1.2rem 1.5rem;
+        width: 90%;
     }
 
     /* Home - Top Destinations */
@@ -1458,18 +1438,20 @@ h2.country {
     #reviews-section {
         padding: 3rem 4%;
     }
+    
+    #reviews-heading {
+        padding: 0 12%;
+    }
 
     .review-container {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         width: 90%;
     }
-}
 
-@media screen and (max-width: 600px) {
     /* Home - Who We Are */
     #who-we-are-section {
-        padding: 3rem 4%;
+        padding: 3rem 5%;
     }
 
     #who-we-are-heading ~ p {
@@ -1480,36 +1462,7 @@ h2.country {
     .company-name {
         font-size: 2rem;
     }
-}
 
-@media screen and (max-width: 590px) {
-    /* Home - What We Offer */
-    #what-we-offer-section {
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-
-    .what-we-offer-outer-wrapper {
-        flex-direction: column;
-    }
-
-    .what-we-offer-inner-wrapper {
-        margin: .4rem 0;
-        padding: 1.2rem 1.5rem;
-        width: 90%;
-    }
-
-    /* Back-to-Top Sticky Button */
-    #back-to-top {
-        font-size: .6rem;
-        line-height: 5rem;
-        height: 5rem;
-        width: 5rem;
-        bottom: 3vh;
-    }
-}
-
-@media screen and (max-width: 554px) {
     /* Contact Us Page */
     #contact-main-heading {
         font-size: 2rem;
@@ -1526,42 +1479,14 @@ h2.country {
     #required {
         font-size: .8rem; 
     }
-}
 
-@media screen and (max-width: 550px) {
-    /* Home - Banner */
-    #trustpilot {
-        bottom: .4rem;
-        left: .5rem;
-        height: 6rem;
-        width: 6rem;
-    }
-}
-
-@media screen and (max-width: 525px) {
-    /* Feedback Pages */
-    .feedback-section {
-        padding: 10% 5%;
-    }
-
-    .thank-you,
-    .sorry {
-        font-size: 2rem;
-    }
-
-    .successful {
-        font-size: 1.1rem;
-    }
-
-    .more-info {
-        font-size: .9rem;
-    }
-}
-
-@media screen and (max-width: 520px) {
-    /* Home - Reviews */
-    #reviews-heading {
-        padding: 0 10%;
+    /* Back-to-Top Sticky Button */
+    #back-to-top {
+        font-size: .6rem;
+        line-height: 5rem;
+        height: 5rem;
+        width: 5rem;
+        bottom: 3vh;
     }
 }
 
@@ -1588,25 +1513,22 @@ h2.country {
         right: -2rem;
         top: 0;
     }
-}
 
-@media screen and (max-width: 490px) {
-    /* Footer */
-    .where-to-find-us {
-        display: block;
-        margin: 0;
+    /* Feedback Pages */
+    .feedback-section {
+        padding: 10% 5%;
+        row-gap: 1rem;
     }
 
-    #social-media-label {
-        font-size: .8rem;
+    .feedback-heading {
+        font-size: 2rem;
     }
 
-    .main-wrapper-copyright small {
-        font-size: .8rem;
+    .successful {
+        font-size: 1.1rem;
     }
 
-    /* Destinations Page */
-    #office-address-wrapper {
+    .more-info {
         font-size: .9rem;
     }
 }
@@ -1650,13 +1572,24 @@ h2.country {
     .trustpilot-logo {
         width: 2.5rem;
     }
-}
 
-@media screen and (max-width: 435px) {
-    /* Utility Buttons */
-    .section-button > a,
-    .submit-button {
-        width: 80%;
+    /* Footer */
+    .where-to-find-us {
+        display: block;
+        margin: 0;
+    }
+
+    #social-media-label {
+        font-size: .8rem;
+    }
+
+    .main-wrapper-copyright small {
+        font-size: .8rem;
+    }
+
+    /* Destinations Page */
+    #office-address-wrapper {
+        font-size: .9rem;
     }
 }
 
@@ -1697,28 +1630,11 @@ h2.country {
     .country-description {
         font-size: 1rem;
     }
-}
 
-@media screen and (max-width: 415px) {
-    /* Contact Us Page */
-    #contact-main-wrapper {
-        padding: 0 6%;
-    }
-
-    #contact-main-heading {
-        font-size: 1.8rem;
-    }
-
-    .call-time-inner-wrapper {
-        margin-left: 10%;
-        margin-bottom: .5rem;
-        text-align: left;
-        width: 100%;
-    }
-
-    .call-time-inner-wrapper > label {
-        display: inline-block;
-        width: 3rem;
+    /* Utility Buttons */
+    .section-button > a,
+    .submit-button {
+        width: 80%;
     }
 }
 
@@ -1795,6 +1711,27 @@ h2.country {
 
     #newsletter-heading {
         font-size: 1.6rem;
+    }
+
+    /* Contact Us Page */
+    #contact-main-wrapper {
+        padding: 0 6%;
+    }
+
+    #contact-main-heading {
+        font-size: 1.8rem;
+    }
+
+    .call-time-inner-wrapper {
+        margin-left: 10%;
+        margin-bottom: .5rem;
+        text-align: left;
+        width: 100%;
+    }
+
+    .call-time-inner-wrapper > label {
+        display: inline-block;
+        width: 3rem;
     }
 }
 
