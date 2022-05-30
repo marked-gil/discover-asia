@@ -156,7 +156,9 @@ This website is made fully responsive from the largest screen to the smallest mo
 * This was tested using the web developer tools on Chrome, Firefox, Microsoft Edge, and Safari. 
 * Also, an online tool called ['Mobile-Friendly Test'](https://search.google.com/test/mobile-friendly) was used to test the site's mobile-friendliness as likely more people nowadays are using mobile devices to access the internet.
     
-<!-- images -->
+    ![Mobile-Friendly Test result for Home page](docs/mobile-friendly-homepage.png)
+    ![Mobile-Friendly Test result for Destinations page](docs/mobile-friendly-destinations.png)
+    ![Mobile-Friendly Test result for 'Contact Us' page](docs/mobile-friendly-contact-page.png)
 
 ### Accessibility
 
@@ -174,8 +176,6 @@ The site is made with concern for:
 
 To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) is utilized.
 
-However, this website still allows the audio-less video displayed in the banner to autoplay. This is intentional and is part of the design of the site. It is permitted by the author to behave in this way since the video does not appear distracting, but instead possess a calming effect, and helps in creating a pleasant and stylish mood for the entire webpage. But for users to still maintain some control over their experience in the site, 'controls' for the video are kept available so users can pause or play the video as pleased by the user.
-
 <!-- Image -->
 
 ### Links/Buttons Functionality Testing
@@ -188,9 +188,45 @@ This website successfully passed the following testing methods:
 ### Validator Testing
 
 * HTML
-    * Using [W3C Markup Validator](https://validator.w3.org/), no errors were found.
+    * Using [W3C Markup Validator](https://validator.w3.org/), no errors were found.    
+    
+        Home Page   
+        ![W3C Markup Validator Result for Home page](docs/markup-validated-homepage.png)    
+
+        Destinations Page   
+        ![W3C Markup Validator Result for Destinations page](docs/markup-validated-destinations.png)    
+
+        'Contact Us' Page   
+        ![W3C Markup Validator Result for 'Contact Us' page](docs/markup-validated-contact-page.png)    
+
+        Contact Form Feedback Page  
+        ![W3C Markup Validator Result for Contact form feedback page](docs/markup-validated-contact-feedback.png)   
+
+        Newsletter Feedback Page    
+        ![W3C Markup Validator Result for Newsletter feedback page](docs/markup-validated-newsletter-feedback.png)     
+
+        404 Page    
+        ![W3C Markup Validator Result for 404 page](docs/markup-validated-404.png)
+
 * CSS
-    * Using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), no errors were found.
+    * Using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), no errors were found.    
+
+        ![W3C CSS Validator result](docs/css-validated-discover-asia.png)
+
+### Lighthouse Testing
+
+* On Desktop   
+
+    ![Lighthouse result for Home page on desktop](docs/lighthouse-desktop-home.png)
+    ![Lighthouse result for Destinations page on desktop](docs/lighthouse-desktop-destinations.png)
+    ![Lighthouse result for 'Contact Us' page on desktop](docs/lighthouse-desktop-contact.png)
+
+* On Mobile
+
+    ![Lighthouse result for Home page on mobile](docs/lighthouse-mobile-home.png)
+    ![Lighthouse result for Destinations page on mobile](docs/lighthouse-mobile-destinations.png)
+    ![Lighthouse result for 'Contact Us' page on mobile](docs/lighthouse-mobile-contact.png)
+
 
 ### Fixed Bugs
 
