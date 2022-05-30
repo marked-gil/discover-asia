@@ -76,7 +76,7 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
 * **'Subscribe to Newsletter' section**
 
-    In this area is situated an input field for email address for users who wish to subscribe to the company's newsletter. It also contains a heading at the top to inform users of what it is for, a clearly worded label to instruct what to do, an input field where an email address goes into, and a submit button at the bottom. 
+    In this area is situated an input field for email address for users who wish to subscribe to the agency's newsletter. It also contains a heading at the top to inform users of what it is for, a clearly worded label to instruct what to do, an input field where an email address goes into, and a submit button at the bottom. 
 
     ![Screenshot of Newsletter section](docs/newsletter.png)
 
@@ -124,24 +124,29 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
     ![Screenshot of Contact Us page](docs/contact-page.png)
 
+* **Sticky 'Back to Top' Button**   
+
+    The sticky 'Back to Top' button is an accessible sticky button that stays at the right lower part of the viewport on both the Home and the Destinations pages. Its function is to bring the user back to the beginning of a particular page when this button is clicked or tapped. This functionality is most useful when the page is long and the user has scrolled too far.
+
+    ![Screenshot of sticky 'Back to Top' button](docs/back-to-top.png)
+
 * **404 Page**
 
-    <!-- Text -->
+    The 404 Page is presented with a simple statement that informs the user who have reached this page that either something has gone wrong when they were navigating the site or what they are looking for is just not in the site. And for the user to easily go back to the home page or even to other pages of the site, a 'Return to Home' button just after the statement is conveniently placed. Also, the navbar at the top is present.
 
     ![Screenshot of 404 page](docs/404page.png)
 
 * **Contact Form Submission Feedback Page**
 
-    <!-- Text -->
+    This page is to give immediate feedback to users who wish to contact the agency, by filling out the 'Contact' form and submitting it by clicking its'submit' button, that they have successfully submitted their details. Also, this page provides the following: (1) further information or instruction on what to expect next after the form has been submitted, and (2) an accessible 'Back to Home' button so the user can continue to navigate the site should he/she wishes so.
 
     ![Screenshot of Contact Form feedback page](docs/contact-feedback-page.png)
 
 * **Newsletter Subscription Feedback Page**
 
-    <!-- Text -->
+    This feedback page is presented to the user who has successfully submitted their email address via the Newsletter Subscription section on the 'Home' page and 'Destinations' page. It provides him/her information that as their email address has been received, he/she is subscribed to the newsletter. Also, at the bottom of the statements is the 'Back to Home' button to allow the user to continue the visit to the site.
 
     ![Screenshot of Newsletter feedback page](docs/newsletter-feedback-page.png)
-
 
 ### Features Left to Implement
 
@@ -174,21 +179,17 @@ The site is made with concern for:
     * Using a separate feedback page that will show a response when a form (e.g., contact-us form) or input field (e.g., newsletter subscription field) is successfully submitted, and
 * The use of **alt** texts on images, and **aria-label** on certain links (such as the social media icons).
 
-To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) is utilized.
+To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was utilized through the development of this website..
 
-<!-- Image -->
 
-### Links/Buttons Functionality Testing
+### Links/Buttons Functionality Testing     
 
-This website successfully passed the following testing methods:
-* **Manual testing** on different browsers (Chrome, Firefox, Microsoft Edge, and Safari) confirmed that all links and buttons are working as intended and redirect to the appropriate pages.
-
-<!-- Image -->
+ * This website was **manually tested** on different browsers (Chrome, Firefox, Microsoft Edge, and Safari) and have been confirmed that all links and buttons are working as intended and are redirecting to the appropriate pages or sections.
 
 ### Validator Testing
 
 * HTML
-    * Using [W3C Markup Validator](https://validator.w3.org/), no errors were found.    
+    * Using [W3C Markup Validator](https://validator.w3.org/), there are NO ERRORS FOUND in the use of HTML in the site.    
     
         Home Page   
         ![W3C Markup Validator Result for Home page](docs/markup-validated-homepage.png)    
@@ -209,7 +210,7 @@ This website successfully passed the following testing methods:
         ![W3C Markup Validator Result for 404 page](docs/markup-validated-404.png)
 
 * CSS
-    * Using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), no errors were found.    
+    * Using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), there are NO ERRORS FOUND in the CSS of the site.    
 
         ![W3C CSS Validator result](docs/css-validated-discover-asia.png)
 
@@ -278,7 +279,16 @@ This website successfully passed the following testing methods:
 
 ### Version Control
 
-<!-- text content -->
+In the development of this website, **git** was a crucial tool used to track changes made in the repository. The following git commands were mostly used:      
+
+* **git status** - to show the status of the repository by displaying the files that have been staged and ready for commit, those that are not, and those that are untracked.
+
+* **git add \<file name>** - to add file or changes in the file to the staging area before they can be commited
+
+* **git commit** - to add/record file or changes to the local repository
+
+* **git push** - to upload the local repository to the remote repository, such as GitHub
+
 
 ### GitHub Pages Deployment
 The website is published on Github Pages. The following are the steps in deploying the site:
