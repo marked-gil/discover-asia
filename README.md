@@ -42,7 +42,7 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
     * Banner Video
 
-        An audio-less autoplaying video of a resort beside the beach is added to give an extra feel of sophistication to the website. (See Accessibility section for explanation regarding the deviation to the standard rule of avoiding autoplay.)
+        An audio-less looping video of a resort beside the beach is added to give an extra feel of sophistication to the website. This video has controls and is user-initiated to play.
 
     * Trustpilot Rating
 
