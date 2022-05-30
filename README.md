@@ -4,7 +4,6 @@
 
 Discover Asia is a travel agency website created to showcase to globetrotters and leisure travelers what this amazing agency can offer them for their next holiday trip. It desires to focus on holidaymakers who don't just want to simply travel, but to travel with convenience, style and luxury through the agency's personalized VIP services. And it aims to entice luxury travelers to choose Asia and get in touch with Discover Asia by presenting it with the utmost consideration for user experience.
 
-<!-- Responsive Sample Image Here -->
 ---
 ## Features
 ---
@@ -184,27 +183,43 @@ This website successfully passed the following testing methods:
 
 ### Fixed Bugs
 
-* ISSUE:     
+* **ISSUE:**    
     At max-width: 1029px, the sticky 'Back to Top' link became positioned behind 'Top Destinations' images, thus concealing part of the 'Back to Top' link.
 
-    * Intended Outcome:
+    * **INTENDED OUTCOME:**     
         What I expect the 'Back to Top' link to do is to always stay infront of all elements so it is always 'clickable' wherever in the page it is seen.
 
-    * SOLUTION:     
+    * **SOLUTION:**    
         I found out that the images were given a z-index of 1, also the texts on top of the images have z-index of 2. And so, to fix it, I gave the 'Back to Top' link a z-index of 3. So now the 'Back to Top' link is always in front of any element.
 
-* ISSUE:    
-    My images in 'Top Destinations' section had an extra (unwanted) space/gap below it despite having given the width of 100%, which I was hoping that it will fill its container.
-    * SOLUTION:     
-        After researching the internet for a solution, I found in Stackoverflow an explanation for it, which is a reminder that an <img> is an inline element. That being so, it sits on a line where its 'descenders', which extend below the baseline like the letters in the alphabet, will create an extra space below it. Here is the link for the Stackoverflow explanation: [Stackoverflow](https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image).
+* **ISSUE:**   
+    My images in 'Top Destinations' section had an extra (unwanted) space/gap between its bottom border and that of the containing block despite giving the width of 100% to the image.
+
+    * **INTENDED OUTCOME:**
+        I expect the images to completely fill their immediate containers without gaps or spaces between them.
+
+    * **SOLUTION:**     
+        After researching the internet for a solution, I found in Stackoverflow an explanation for it, which is a reminder that an img is an inline element. That being so, it sits on a line where its 'descenders', which extend below the baseline like the letters in the alphabet, will create an extra space below it. So, to solve the problem, I modified the particular image elements as 'block' elements using 'display: block'.
+        
+        Here is the link for the Stackoverflow explanation: [Stackoverflow](https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image).
 
 * ISSUE:    
-    The text content in the section BUTTON moves slightly downwards and also moves the page slightly along with it during hover.
+    The text contents of the BUTTONS of particular sections move slightly downward and the page along with it during hover.
 
-    * Intended Outcome:     
-        I want the background color and text color of the button to switch and a 3px solid border to be created during hover, without affecting or changing the width and/or height of the button. Also, I do not want the button to oddly move the page even slightly when button hovered.
-    * SOLUTION:     
-        After realizing that a border has its own width and height, and could be the cause of increasing the lenght of the entire button during hover, I added 'box-sizing' property with the value of 'border-box' on the hovered button so the height and width of the border that is created during hover will be contained or absorbed in the width and height of the button, and not add in to it.
+    * **INTENDED OUTCOME:**    
+        I want the 'background color' and 'text color' of the button to switch and a '3px solid border' to be created during hover, without affecting or changing the width and/or height of the button. Also, I do not want the button to oddly move the page even slightly when button is hovered.
+
+    * **SOLUTION:**     
+        After realizing that a border has its own width and height, and could be the cause of increasing the lenght of the entire button during hover, I added 'box-sizing' property with value of 'border-box' on the hovered button so the height and width of the border that is created during hover will be contained or absorbed in the width and height of the button, and not be add in to it.
+
+* **ISSUE:**    
+    On the 'feedback pages' for Newsletter Subscription form and Contact Submission form, there is a gap between the bottom borders of the footer and the viewport which is evident when the window's height is increased. This happens as their main contents (which are texts only) are few and therefore cannot push the footer to the bottom of the viewport all the time. You can find these specific pages in these links: [Newsletter Form Feedback Page](https://marked-gil.github.io/discover-asia/subscription-feedback.html) | [Contact Form Feedback Page](https://marked-gil.github.io/discover-asia/contact-feedback.html)
+
+    * **INTENDED OUTCOME:**
+    I expect the footer to, at least, stay at the bottom of the viewport despite of the size of main content.
+
+    * **SOLUTION:**     
+    To solve the issue, I gave a height of 100% (height: 100%) on the html element; on the body element, I assigned a 'flex' value to the 'display' property(display: flex) with 'flex-direction' of 'column' (flex-direction: column) and a 'min-height' of 100% (min-height: 100%); and on the main content, I gave the 'flex' property a grow value of 1, a shrink value of 0, and a basis value of auto (flex: 1 0 auto). This then pushed the footer down to the very end despite the space occupied by the main content of the page. This solution was suggested by Brian Frain in his book entitled, **'Responsive Web Design with HTML5 and CSS'**.
 
 ### Unfixed Bugs
 
@@ -307,7 +322,13 @@ This website uses the following technologies:
 * **GitHub Pages**  
     The website is hosted live in the web through GitHub Pages, which is a hosting site for static web pages, via GitHub.
 
-* **Favicon.io**    
+* **Google Fonts**  
+    Main fonts used are: **Water Brush** (for the logo) and ***Oxygen** (for the main texts). These are imported from [Google Fonts](https://fonts.google.com/).
+
+* **Font Awesome**  
+    The icons for the social media links in the footer section, and the icons in the 'What We Offer' section are from imported from [Font Awesome](https://fontawesome.com/).
+
+**Favicon.io**    
     Favicon is the icon displayed beside the site title, usually seen in the browser tab. The customized favicon used in this website is from [Favicon.io](https://favicon.io/).
 
 * **Balsalmiq**     
