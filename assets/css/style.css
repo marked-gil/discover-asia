@@ -139,14 +139,6 @@ nav {
 #main-header-section {
     background-color: #134952;
     background-image: url("../media/images/banner-bg-maldives-5161.jpg");
-    background-image: -webkit-image-set(
-        url("../media/images/banner-bg-maldives-5161.webp") type("image/webp"),
-        url("../media/images/banner-bg-maldives-5161.jpg") type("image/jpeg")
-        );
-    background-image: image-set(        
-        url("../media/images/banner-bg-maldives-5161.webp") type("image/webp"),
-        url("../media/images/banner-bg-maldives-5161.jpg") type("image/jpeg")
-        );
     background-size: 100%;
     background-position: center;
     height: 35rem;
@@ -846,14 +838,6 @@ h2.country {
     /* Home - Banner */
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-1559.jpg);
-        background-image: -webkit-image-set(
-            url("../media/images/banner-bg-maldives-1559.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-1559.jpg") type("image/jpeg")
-            );
-        background-image: image-set(        
-            url("../media/images/banner-bg-maldives-1559.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-1559.jpg") type("image/jpeg")
-            );
         height: 30rem;
         padding: 0 6%;
     }
@@ -902,14 +886,6 @@ h2.country {
     /* Home - Banner */
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-1360.jpg);
-        background-image: -webkit-image-set(
-            url("../media/images/banner-bg-maldives-1360.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-1360.jpg") type("image/jpeg")
-            );
-        background-image: image-set(        
-            url("../media/images/banner-bg-maldives-1360.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-1360.jpg") type("image/jpeg")
-            );
     }
 
     #tagline {
@@ -1042,14 +1018,6 @@ h2.country {
     /* Home - Banner */
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-1024.jpg);
-        background-image: -webkit-image-set(
-            url("../media/images/banner-bg-maldives-1024.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-1024.jpg") type("image/jpeg")
-            );
-        background-image: image-set(        
-            url("../media/images/banner-bg-maldives-1024.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-1024.jpg") type("image/jpeg")
-            );
     }
 }
 
@@ -1132,14 +1100,6 @@ h2.country {
     #video-section {
         background-color: var(--clr-sky-blue);
         background-image: url("../media/images/bg-beach-gradient-1199x550.jpg");
-        background-image: -webkit-image-set(
-            url("../media/images/bg-beach-gradient-1199x550.webp") type("image/webp"),
-            url("../media//images/bg-beach-gradient-1199x550.jpg") type("image/jpeg")
-        );
-        background-image: image-set(
-            url("../media/images/bg-beach-gradient-1199x550.webp") type("image/webp"),
-            url("../media//images/bg-beach-gradient-1199x550.jpg") type("image/jpeg")
-        );
         box-shadow: 0 0 20px 10px var(--clr-sky-blue);
         display: block;
         padding: 2rem 0;
@@ -1301,14 +1261,6 @@ h2.country {
     /* Home - Banner */
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-720.jpg);
-        background-image: -webkit-image-set(
-            url("../media/images/banner-bg-maldives-720.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-720.jpg") type("image/jpeg")
-            );
-        background-image: image-set(        
-            url("../media/images/banner-bg-maldives-720.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-720.jpg") type("image/jpeg")
-            );
     }
 
     #tagline {
@@ -1537,14 +1489,6 @@ h2.country {
     /* Home - Banner */
     #main-header-section {
         background-image: url(../media/images/banner-bg-maldives-480.jpg);
-        background-image: -webkit-image-set(
-            url("../media/images/banner-bg-maldives-480.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-480.jpg") type("image/jpeg")
-            );
-        background-image: image-set(        
-            url("../media/images/banner-bg-maldives-480.webp") type("image/webp"),
-            url("../media/images/banner-bg-maldives-480.jpg") type("image/jpeg")
-            );
     }
 
     #hero-video-body {
