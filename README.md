@@ -179,7 +179,7 @@ The site is made with concern for:
     * Using a separate feedback page that will show a response when a form (e.g., contact-us form) or input field (e.g., newsletter subscription field) is successfully submitted, and
 * The use of **alt** texts on images, and **aria-label** on certain links (such as the social media icons).
 
-To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was utilized throughout the development of this website..
+To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was utilized through the development of this website..
 
 
 ### Links/Buttons Functionality Testing     
