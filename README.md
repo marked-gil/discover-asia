@@ -150,7 +150,58 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
 ### Features Left to Implement
 
-<!-- Content Here  -->
+* To use a HAMBURGER MENU button using Javascript or Bootstrap to enhance responsiveness and style of the navbar.
+* To display the client reviews in a carousel or slideshow especially when viewed in mobile devices.
+
+___
+## Design Wireframes
+___
+The following are the schematic blueprints, or wireframes, used to build this website. And these wireframes were created using [Balsamiq](https://balsamiq.com/).
+
+### HOME PAGE 
+
+* Large Screens (desktops | laptops | TV screens)
+
+![Home Page Wireframe for large screens](docs/home-large.png)
+
+* Medium Screens (Small laptops | tablets | ipads)
+
+![Home Page Wireframe for medium screens](docs/home-medium.png)
+
+* Small Mobile Devices (smart phones)
+
+![Home Page Wireframe for mobile phones](docs/home-small.png)
+
+### DESTINATIONS PAGE
+
+* Large Screens (desktops | laptops | TV screens)
+
+![Destinations Page Wireframe for large screens](docs/destinations-large.png)
+
+* Medium Screens (Small laptops | tablets | ipads)
+
+![Destinations Page Wireframe for medium screens](docs/destinations-medium.png)
+
+* Small Mobile Devices (smart phones)
+
+![Destinations Page wireframe for small screens](docs/destinations-small.png)
+
+### CONTACT US PAGE
+
+!['Contact Us' wireframe](docs/contact-form.png)
+
+### CONTACT FORM FEEDBACK PAGE
+
+![Contact form submission feedback wireframe](docs/contact-feedback.png)
+
+### NEWSLETTER FEEDBACK PAGE
+
+![Newsletter feedback wireframe](docs/newsletter-feedback.png)
+
+### PAGE NOT FOUND PAGE (404)
+
+![404 feedback wireframe](docs/404-wireframe.png)
+
 
 ---
 ## Testing
@@ -179,7 +230,7 @@ The site is made with concern for:
     * Using a separate feedback page that will show a response when a form (e.g., contact-us form) or input field (e.g., newsletter subscription field) is successfully submitted, and
 * The use of **alt** texts on images, and **aria-label** on certain links (such as the social media icons).
 
-To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was utilized through the development of this website..
+To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was utilized through the development of this website.   
 
 
 ### Links/Buttons Functionality Testing     
@@ -271,7 +322,11 @@ To ensure that most of the items mentioned above are achieved, the [WAVE - Web A
 
 ### Unfixed Bugs
 
-<!-- text content -->
+* In an iPhone, when I tap on the 'Back to Top' button, it will create a blue border around the logo in the navbar. The blue border, anyhow, will disapper when you tap on any area of the page.    
+
+    The 'Back to Top' button is linked to the ID of the logo to bring the whole page back to the top, but the behavior of the logo is something I did not expect. I implemented the same method of linking one element to another element via their ID through the images of the 'Top Destinations', which will redirect to a specified section in the Destinations page. This one works fine and no unexpected issue unlike that of the logo and the 'Back to Top' button.    
+
+    I am still looking for answers to this so I can fix this bug.
 
 ---
 ## Deployment
@@ -289,7 +344,6 @@ In the development of this website, **git** was a crucial tool used to track cha
 
 * **git push** - to upload the local repository to the remote repository, such as GitHub
 
-
 ### GitHub Pages Deployment
 The website is published on Github Pages. The following are the steps in deploying the site:
 1. Inside the Github repository of 'discover-asia', click on 'Settings' on the menu just below the respository name.
@@ -305,55 +359,6 @@ The live link to the Discover Asia website is found here: **[Discover Asia](http
 ### Clone Repository Code
 
 <!-- text content  -->
-
-___
-## Design Wireframes
-___
-The following are the schematic blueprints, or wireframes, used to build this website. And these wireframes were created using [Balsamiq](https://balsamiq.com/).
-
-### HOME PAGE 
-
-* Large Screens (desktops | laptops | TV screens)
-
-![Home Page Wireframe for large screens](docs/home-large.png)
-
-* Medium Screens (Small laptops | tablets | ipads)
-
-![Home Page Wireframe for medium screens](docs/home-medium.png)
-
-* Small Mobile Devices (smart phones)
-
-![Home Page Wireframe for mobile phones](docs/home-small.png)
-
-### DESTINATIONS PAGE
-
-* Large Screens (desktops | laptops | TV screens)
-
-![Destinations Page Wireframe for large screens](docs/destinations-large.png)
-
-* Medium Screens (Small laptops | tablets | ipads)
-
-![Destinations Page Wireframe for medium screens](docs/destinations-medium.png)
-
-* Small Mobile Devices (smart phones)
-
-![Destinations Page wireframe for small screens](docs/destinations-small.png)
-
-### CONTACT US PAGE
-
-!['Contact Us' wireframe](docs/contact-form.png)
-
-### CONTACT FORM FEEDBACK PAGE
-
-![Contact form submission feedback wireframe](docs/contact-feedback.png)
-
-### NEWSLETTER FEEDBACK PAGE
-
-![Newsletter feedback wireframe](docs/newsletter-feedback.png)
-
-### PAGE NOT FOUND PAGE (404)
-
-![404 feedback wireframe](docs/404-wireframe.png)
 
 ___
 ## Technologies
