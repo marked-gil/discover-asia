@@ -1622,6 +1622,14 @@ h2.country {
         padding: 1rem 0;
     }
 
+    /* Home - Reviews */
+    .review-text {
+        font-size: 1rem;
+    }
+    .review-author {
+        font-size: .9rem;
+    }
+
     /* Destinations Page */
     #destinations-main-heading {
         font-size: 1.6rem;
