@@ -320,9 +320,12 @@ nav {
 
 /* country name - heading */
 .top-dest-image-box > h3 {
+    background-color: #00000042;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 15px #00000042;
     font-size: 2rem;
     font-weight: 400;
-    margin: .5rem 0 0 1rem;
+    margin: 1rem 0 0 1rem;
     position: absolute;
     text-shadow: 4px 2px 3px black;
     z-index: 2;
