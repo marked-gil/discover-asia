@@ -2,7 +2,7 @@
 
 ![Responsive Mock Image of Discover Asia website](docs/responsive-mock-image.png)
 
-Discover Asia is a travel agency website created to showcase to globetrotters and leisure travelers what this amazing agency can offer them for their next holiday trip. It desires to focus on holidaymakers who don't just want to simply travel, but to travel with convenience, style and luxury through the agency's personalized VIP services. And it aims to entice luxury travelers to choose Asia and get in touch with Discover Asia by presenting it with the utmost consideration for user experience.
+Discover Asia is a travel agency website created to showcase to globetrotters and leisure travelers what this amazing agency can offer them for their next holiday trip. It desires to focus on holidaymakers who don't just want to simply travel, but to travel with convenience, style and luxury through the agency's personalized VIP services. And it aims to entice luxury travelers to choose Asia and get in touch with Discover Asia by presenting it with the utmost consideration for user experience. View live website here: [Discover Asia](https://marked-gil.github.io/discover-asia/)
 
 ---
 ## Features
@@ -360,10 +360,6 @@ The website is published on Github Pages. The following are the steps in deployi
 The live link to the Discover Asia website is found here: **[Discover Asia](https://marked-gil.github.io/discover-asia/)**.
 
 ![Github Pages Deployment Image](docs/github-deployment.png)
-
-### Clone Repository Code
-
-<!-- text content  -->
 
 ___
 ## Technologies
