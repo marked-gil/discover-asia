@@ -57,7 +57,9 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
 * **'Our Top Destinations' section**
 
-    This section displays images of the six (6) most popular countries in Asia where the travel agency can bring its clients. These are the countries that clients love to visit the most. Each of these images are clickable and will redirect to their corresponding country in the Destinations page.
+    This section displays images of the six (6) most popular countries in Asia where the travel agency can bring its clients. These are the countries that clients love to visit the most. 
+    
+    Each of these images are clickable and will redirect to their corresponding country in the Destinations page. Also, on hover, each image will slightly reduce in opacity and a box-shadow appears as an additional clue that the image is clickable.
     
     At the bottom of this section is a button ('see more destinations') that links to the Destinations page for clients who are interested to see all the other countries where Discover Asia can bring them.
 
