@@ -234,6 +234,12 @@ The site is made with concern for:
 
 To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was utilized throughout the development of this website.   
 
+Also, this website was tested and passed the SAFARI ACCESSIBILITY AUDIT. See screenshots below:
+
+![Safari Accessibility Audit Result for Home page](docs/safari-accessiblity-home.png)
+![Safari Accessibility Audit Result for Destinations page](docs/safari-accessibility-destinations.png)
+![Safari Accessibility Audit Result for Contact Us page](docs/safari-accessibility-contact.png)
+
 
 ### Links/Buttons Functionality Testing     
 
