@@ -1,6 +1,6 @@
 # DISCOVER ASIA TRAVEL AGENCY
 
-![Responsive Mock Image of Discover Asia website](docs/responsive-mock-image.png)
+![Responsive Mock Image of Discover Asia website](docs/responsive-screenshot.png)
 
 Discover Asia is a travel agency website created to showcase to globetrotters and leisure travelers what this amazing agency can offer them for their next holiday trip. It desires to focus on holidaymakers who don't just want to simply travel, but to travel with convenience, style and luxury through the agency's personalized VIP services. And it aims to entice luxury travelers to choose Asia and get in touch with Discover Asia by presenting it with the utmost consideration for user experience. View live website here: [Discover Asia](https://marked-gil.github.io/discover-asia/)
 
@@ -147,7 +147,10 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
 ### Features Left to Implement
 
+* To add a sticky button, which functions smoothly and efficiently as a link back to the top of the page (especially in the Home and Destinations pages) and it stays at the bottom right of the viewport. I tried to implement it initially but it did not work smoothly as I intended, and it was unpredictable. As my knowledge enhances, I wish to visit this project again and implement it.
+
 * To use a HAMBURGER MENU button using Javascript or Bootstrap to enhance responsiveness and style of the navbar.
+
 * To display the client reviews in a carousel or slideshow especially when viewed in mobile devices.
 
 ___
