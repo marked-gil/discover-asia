@@ -322,9 +322,14 @@ To ensure that most of the items mentioned above are achieved, the [WAVE - Web A
 
 ### Unfixed Bugs
 
-* In an iPhone, when I tap on the 'Back to Top' button, it will create a blue border around the logo in the navbar. The blue border, anyhow, will disapper when you tap on any area of the page.    
+* In a Safari browser and in an iPhone (regardless of browser), when I tap on the 'Back to Top' button, it will create a blue border around the logo in the navbar.   
 
-    The 'Back to Top' button is linked to the ID of the logo to bring the whole page back to the top, but the behavior of the logo is something I did not expect. I implemented the same method of linking one element to another element via their ID through the images of the 'Top Destinations', which will redirect to a specified section in the Destinations page. This one works fine and no unexpected issue unlike that of the logo and the 'Back to Top' button.    
+    Tests made:
+    * On a DESKTOP and using Firefox, Edge, and Chrome browsers -> NO blue border around logo appears.
+    * On a DESKTOP and using Safari browser -> Blue borders appears.
+    * On an iPhone and using Firefox, Chrome, and Microsoft Edge browsers -> Blue borders appears.      
+
+    The 'Back to Top' button is linked to the ID of the logo to bring the whole page back to the top, but the behavior of the logo in Safari and in iPhone is something I did not expect. I implemented the same method of linking one element to another element via their ID through the images of the 'Top Destinations', which will redirect to a specified section in the Destinations page. This one works fine and no unexpected issue unlike that of the logo and the 'Back to Top' button.    
 
     I am still looking for answers to this so I can fix this bug.
 
