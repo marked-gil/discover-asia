@@ -19,7 +19,7 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
     
         The logo, when clicked or tapped, links back to the home page. And it is created using Water Brush and Oxygen font families.
 
-        ![Screenhot of logo](docs/logo.png)
+        ![Screenshot of logo](docs/logo.png)
 
     * Nav Menu
 
@@ -29,7 +29,7 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
 * **Home Page Banner**
 
-    The banner in the Home page is laid out with a background image of the tranquil picture of Maldives, an autoplayed video (without audio, but with controls) of a resort along the beach, a tagline that succintly describes the company and what it does, and also a trustpilot rating to add credibility. All of these elements fused together paints a picture of a luxury travel agency with topnotch focus on details and excellence.
+    The banner in the Home page is laid out with a background image of the tranquil picture of Maldives, an audio-less looping video (with user controls) of a resort along the beach, a tagline that succintly describes the company and what it does, and also a trustpilot rating to add credibility. All of these elements fused together paint a picture of a luxury travel agency with topnotch focus on details.
 
    
     * Tagline
@@ -58,25 +58,29 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
 * **'Our Top Destinations' section**
 
-    This section displays images of the six (6) most popular countries in Asia where the travel agency can bring its clients. These are the countries that clients love to visit the most. At the bottom of it is a button that links to the Destinations page for clients who are interested to see all the other countries where Discover Asia can bring them.
+    This section displays images of the six (6) most popular countries in Asia where the travel agency can bring its clients. These are the countries that clients love to visit the most. Each of these images are clickable and will redirect to their corresponding country in the Destinations page.
+    
+    At the bottom of this section is a button ('see more destinations') that links to the Destinations page for clients who are interested to see all the other countries where Discover Asia can bring them.
 
     ![Screenshot of 'Top Destinations' section on large screen](docs/top-desti-docs-large.png)
 
 * **'What Our Clients Say About Us' section**
 
-    Company reviews by clients are displayed on this part of the Home page. This adds to the company's authenticity and reliability, thus bolsters the credence of users towards the company.
+     Client reviews are displayed on this part of the Home page. This adds to the company's authenticity and reliability, thus bolsters the credence of users towards the company.
 
     ![Screenshot of 'Reviews' section on large screen](docs/reviews-docs-large.png)
 
 * **'Who We Are' section**
 
-    This section presents a description of what and where Discover Asia is, the kind of professionals behind it, what it does, and why the company exists. Its content is written simply and short to easily convey a message and so as not to be overwhelming to a reader/user. At the bottom of the section is a button which links to the Contact Us page.
+    This section presents a description of what and where Discover Asia is, the kind of professionals behind it, what it does, and why the company exists. Its content is written simply and short to easily convey a message and so as not to be overwhelming to a reader/user. 
+    
+    At the bottom of the section is a button ('contact us') which links to the Contact Us page.
 
     ![Screenshot of 'About Us' section](docs/about-us-docs.png)
 
 * **'Subscribe to Newsletter' section**
 
-    In this area is situated an input field for email address for users who wish to subscribe to the agency's newsletter. It also contains a heading at the top to inform users of what it is for, a clearly worded label to instruct what to do, an input field where an email address goes into, and a submit button at the bottom. 
+    In this area is situated an input field for email address of users who wish to subscribe to the agency's newsletter. It also contains a heading at the top to inform users of what it is for, a clearly worded label to instruct what to do, an input field where an email address goes into, and a submit button at the bottom. 
 
     ![Screenshot of Newsletter section](docs/newsletter.png)
 
@@ -94,7 +98,7 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
     * Social Media Icons
 
-        The social media links of Discover Asia are displayed through social media icons for Facebook, Twitter, Instagram, and Youtube. These icons when clicked or tapped will open in a separate window to prevent the disruption of browsing the main website of Discover Asia.
+        The social media links of Discover Asia are displayed through social media icons for Facebook, Twitter, Instagram, and Youtube. These icons when clicked or tapped will open in a separate window to prevent the disruption of user's browsing experience of the main website.
 
     * Copyright
 
@@ -156,7 +160,7 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 ___
 ## Design Wireframes
 ___
-The following are the schematic blueprints, or wireframes, used to build this website. And these wireframes were created using [Balsamiq](https://balsamiq.com/).
+The following are the schematic blueprints, or wireframes, used to build this website. These wireframes were created using [Balsamiq](https://balsamiq.com/).
 
 ### HOME PAGE 
 
@@ -224,18 +228,38 @@ The site is made with concern for:
 * Sufficient contrast between foreground and background colors,
 * Distinctness of interactive elements, like links and buttons, through change of styling during mouse hover,
 * Consistent placement and styles of similar links and buttons to avoid confusion and for easy navigation of the site,
-* Clear association of labels to their respective input fields, such as positioning them adjacent to each other and connecting them with same IDs,
+* Clear association of labels to their respective input fields, such as positioning them adjacent to each other and connecting them with IDs,
 * Inclusion of immediate feedback mechanism through: 
     * Giving an immediate indication or warning, which is browser dependent, next to the input field when the form is submitted without completing the required input field. This is setup by adding the 'required' attribute in the input fields that are necessary to be filled before the form can be submitted.
     * Using a separate feedback page that will show a response when a form (e.g., contact-us form) or input field (e.g., newsletter subscription field) is successfully submitted, and
 * The use of **alt** texts on images, and **aria-label** on certain links (such as the social media icons).
 
-To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was utilized through the development of this website.   
+To ensure that most of the items mentioned above are achieved, the [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/) was utilized throughout the development of this website.   
 
 
 ### Links/Buttons Functionality Testing     
 
  * This website was **manually tested** on different browsers (Chrome, Firefox, Microsoft Edge, and Safari) and have been confirmed that all links and buttons are working as intended and are redirecting to the appropriate pages or sections.
+
+
+### Forms Functionality Testing
+
+* Newsletter Subscription Form
+
+    This form is located in the Home page and Destinations page. And it was manually tested to confirm the following:    
+    * When you click on the label ('Provide us your email address below:') above the input field, it will automatically focus or activate the input field, which is a confirmation that they are both linked together.
+    * The input field, having the type of email, only allows an email format to be entered, and it alerts the user if format is not followed.
+    * The submit button does not work if the input field is not correctly filled out. Instead an alert or message is displayed to tell the user of what must be done to correct it.
+    * The submit button redirects to the newsletter feedback page when the input field is correctly filled out as required.
+
+* 'Contact Us' Form
+
+    This form was manually tested to confirm the following:  
+    * All the labels are linked to their corresponding input fields. When the labels are clicked, their respective input fields are activated.
+    * Any of the required input fields (such as the first name, last name, email address, phone number, destination of choice, and checkbox) when not filled out prevents the submission of the form, and displays an alert message. These required items are easily identified by an asterisk symbol at its tail.
+    * The 'Destination of Choice' field displays some options to the user while at the same time allows the user to enter his/her own choice without choosing among the options.
+    * The input field for the available time of the user is of "time" type, and it displays a 24-hour clock.
+    * The submit button works and redirects to the 'contact feedback page' when all required input fields are completed.
 
 ### Validator Testing
 
