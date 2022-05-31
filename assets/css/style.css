@@ -1100,7 +1100,7 @@ h2.country {
 
     #video-section {
         background-color: var(--clr-sky-blue);
-        background-image: url("../media/images/bg-beach-gradient-1199x550.jpg");
+        background-image: url("../media/images/bg-beach-gradient-1199x550.webp");
         box-shadow: 0 0 20px 10px var(--clr-sky-blue);
         display: block;
         padding: 2rem 0;
