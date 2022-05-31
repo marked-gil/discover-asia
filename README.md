@@ -31,7 +31,6 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
     The banner in the Home page is laid out with a background image of the tranquil picture of Maldives, an audio-less looping video (with user controls) of a resort along the beach, a tagline that succintly describes the company and what it does, and also a trustpilot rating to add credibility. All of these elements fused together paint a picture of a luxury travel agency with topnotch focus on details.
 
-   
     * Tagline
         
         'Travel in Style, Travel Asia, Travel with Us!' tagline briefly and clearly explains the company in few words.
@@ -127,12 +126,6 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
     Before the form inputs can be submitted, user have to agree that a staff of the agency can contact them via the contact details they provide. This can be done by ticking the checkbox below the message field.
 
     ![Screenshot of Contact Us page](docs/contact-page.png)
-
-* **Sticky 'Back to Top' Button**   
-
-    The sticky 'Back to Top' button is an accessible sticky button that stays at the right lower part of the viewport on both the Home and the Destinations pages. Its function is to bring the user back to the beginning of a particular page when this button is clicked or tapped. This functionality is most useful when the page is long and the user has scrolled too far.
-
-    ![Screenshot of sticky 'Back to Top' button](docs/back-to-top.png)
 
 * **404 Page**
 
@@ -306,15 +299,6 @@ To ensure that most of the items mentioned above are achieved, the [WAVE - Web A
 
 ### Fixed Bugs
 
-* **ISSUE:**    
-    At max-width: 1029px, the sticky 'Back to Top' link became positioned behind 'Top Destinations' images, thus concealing part of the 'Back to Top' link.
-
-    * **INTENDED OUTCOME:**     
-        What I expect the 'Back to Top' link to do is to always stay infront of all elements so it is always 'clickable' wherever in the page it is seen.
-
-    * **SOLUTION:**    
-        I found out that the images were given a z-index of 1, also the texts on top of the images have z-index of 2. And so, to fix it, I gave the 'Back to Top' link a z-index of 3. So now the 'Back to Top' link is always in front of any element.
-
 * **ISSUE:**   
     My images in 'Top Destinations' section had an extra (unwanted) space/gap between its bottom border and that of the containing block despite giving the width of 100% to the image.
 
@@ -343,19 +327,6 @@ To ensure that most of the items mentioned above are achieved, the [WAVE - Web A
 
     * **SOLUTION:**     
     To solve the issue, I gave a height of 100% (height: 100%) on the html element; on the body element, I assigned a 'flex' value to the 'display' property(display: flex) with 'flex-direction' of 'column' (flex-direction: column) and a 'min-height' of 100% (min-height: 100%); and on the main content, I gave the 'flex' property a grow value of 1, a shrink value of 0, and a basis value of auto (flex: 1 0 auto). This then pushed the footer down to the very end despite the space occupied by the main content of the page. This solution was suggested by Brian Frain in his book entitled, **'Responsive Web Design with HTML5 and CSS'**.
-
-### Unfixed Bugs
-
-* In a Safari browser and in an iPhone (regardless of browser), when I tap on the 'Back to Top' button, it will create a blue border around the logo in the navbar.   
-
-    Tests made:
-    * On a DESKTOP and using Firefox, Edge, and Chrome browsers -> NO blue border around logo appears.
-    * On a DESKTOP and using Safari browser -> Blue borders appears.
-    * On an iPhone and using Firefox, Chrome, and Microsoft Edge browsers -> Blue borders appears.      
-
-    The 'Back to Top' button is linked to the ID of the logo to bring the whole page back to the top, but the behavior of the logo in Safari and in iPhone is something I did not expect. I implemented the same method of linking one element to another element via their ID through the images of the 'Top Destinations', which will redirect to a specified section in the Destinations page. This one works fine and no unexpected issue unlike that of the logo and the 'Back to Top' button.    
-
-    I am still looking for answers to this so I can fix this bug.
 
 ---
 ## Deployment
