@@ -2,7 +2,7 @@
 
 ![Responsive Mock Image of Discover Asia website](docs/responsive-screenshot.png)
 
-Discover Asia is a travel agency website created to showcase to globetrotters and leisure travelers what this amazing agency can offer them for their next holiday trip. It desires to focus on holidaymakers who don't just want to simply travel, but to travel with convenience, style and luxury through the agency's personalized VIP services. And it aims to entice luxury travelers to choose Asia and get in touch with Discover Asia by presenting it with the utmost consideration for user experience. View the live website here: [Discover Asia](https://marked-gil.github.io/discover-asia/)
+Discover Asia is a travel agency website created to showcase to globetrotters and leisure travelers what this amazing agency can offer them for their next holiday trip. It desires to focus on holidaymakers who don't just want to simply travel, but to travel with convenience, style and luxury through the agency's personalized VIP services. And it aims to entice luxury travelers to choose Asia and get in touch with the agency by presenting it with the utmost consideration to user experience. View the live website here: [Discover Asia](https://marked-gil.github.io/discover-asia/)
 
 ---
 ## Features
@@ -51,7 +51,7 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
 * **'What We Offer' section**
 
-    In this section, five (5) immensely significant and especially important services of the company are presented in a concise and easy-to-understand style by providing keywords and single-sentence explanations. This is designed to be clutter-free and simple to keep clients focus when viewing this part.
+    In this section, five (5) immensely significant and especially important services of the company are presented in a concise and easy-to-understand style by providing keywords and single-sentence explanations. This is designed to be clutter-free and simple to maintain client's focus when viewing this part.
 
     ![Screenshot of 'What We Offer' section on large screen](docs/what-we-offer-large.png)
 
@@ -125,13 +125,13 @@ Discover Asia is a travel agency website created to showcase to globetrotters an
 
     In the form, the user is required to provide their name, email, phone number, and destination of choice before they can submit their information. As an option, the user may also supply the time they are available to take phone calls, and a message.
 
-    Before the form inputs can be submitted, users have to agree that a staff member of the agency can contact them via the contact details they provide. This can be done by ticking the checkbox below the message field.
+    Before the form inputs can be submitted, users need to agree that a staff member of the agency can contact them via the contact details they provide. This can be done by ticking the checkbox below the message field.
 
     ![Screenshot of Contact Us page](docs/contact-page.png)
 
 * **404 Page**
 
-    The 404 Page is presented with a simple statement that informs the user who reaches this page that either something has gone wrong when they were navigating the site or what they are looking for is just not in the site. And for the user to easily go back to the home page or even to other pages of the site, a 'Return to Home' button just after the statement is conveniently placed. Also, the navbar at the top is present.
+    The 404 Page is presented with a simple statement that informs the user who reaches this page that either something has gone wrong when they were navigating the site or what they are looking for is just not in the site. And for the user to easily go back to the home page, a 'Return to Home' button just after the statement is conveniently placed. Also, the navbar at the top is present.
 
     ![Screenshot of 404 page](docs/404page.png)
 
@@ -251,7 +251,7 @@ Also, this website was tested and passed the SAFARI ACCESSIBILITY AUDIT. See scr
 * Newsletter Subscription Form
 
     This form is located on the Home page and Destinations page. And it was manually tested to confirm the following:    
-    * When you click on the label ('Provide us your email address below:') above the input field, it will automatically focus or activate the input field, which is a confirmation that they are both linked together.
+    * When you click on the label ('Provide us your email address below:') above the input field, it will automatically focus or activate its corresponding input field, which is a confirmation that they are both linked together.
     * The input field, having the type of email (type="email"), only allows an email format to be entered, and it alerts the user if the format is not followed.
     * The submit button does not work if the input field is not correctly filled out. Instead, an alert or message is displayed to tell the user of what must be done to correct it.
     * The submit button redirects to the newsletter feedback page when the input field is correctly filled out as required.
@@ -427,8 +427,8 @@ This website uses the following technologies:
 
 * **'Responsive Web Design with HTML5 and CSS by Ben Frain'** Book
 
-    The idea on how to keep the footer at the bottom edge of the viewport (i.e. when there is no sufficient main content to push the footer at the endmost part) is from this book by Ben Frain. This is useful on the 'form submission feedback' page and the 'subscription feedback' page where the contents do not always have enough height, especially on large screens, to stick the footer at the bottommost part. (See solution and explanation on the **'Fixed Bugs'** section).
-    
+    The idea on how to keep the footer at the bottom edge of the viewport (i.e. when there is no sufficient main content to push the footer to the endmost part) is from this book by Ben Frain. This is useful on the 'contact form submission feedback' page and the 'newsletter subscription feedback' page where the contents do not always have enough height, especially on large screens, to stick the footer at the bottommost part. (See solution and explanation on the **'Fixed Bugs'** section).
+
 ### Media
 
 * Images
