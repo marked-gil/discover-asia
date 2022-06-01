@@ -429,6 +429,11 @@ This website uses the following technologies:
 
     The idea on how to keep the footer at the bottom edge of the viewport (i.e. when there is no sufficient main content to push the footer to the endmost part) is from this book by Ben Frain. This is useful on the 'contact form submission feedback' page and the 'newsletter subscription feedback' page where the contents do not always have enough height, especially on large screens, to stick the footer at the bottommost part. (See solution and explanation on the **'Fixed Bugs'** section).
 
+* Other valuable resources for the site are taken from the following sources (See 'Technologies' section for details):      
+    * [Google Fonts](https://fonts.google.com/)
+    * [Font Awesome](https://fontawesome.com/)
+    * [Favicon.io](https://favicon.io/)
+
 ### Media
 
 * Images
