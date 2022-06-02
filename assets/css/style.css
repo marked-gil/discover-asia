@@ -135,7 +135,6 @@ nav {
 }
 
 /* Main Header Section - Banner */
-
 #main-header-section {
     background-color: #134952;
     background-image: url("../media/images/banner-bg-maldives-5161.jpg");
@@ -602,7 +601,6 @@ footer {
 }
 
 /* what time available for chat? */
-
 #call-time-container {
     display: flex;
     flex-wrap: wrap;
@@ -640,7 +638,6 @@ footer {
 }
 
 /* agree to terms checkbox */
-
 #agree-to-terms-inner-wrapper {
     display: flex;
     align-items: baseline;
