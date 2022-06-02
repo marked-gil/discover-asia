@@ -124,7 +124,7 @@ nav {
 .nav-link:hover {
     position: relative;
     top: .1rem;
-    color: var(--clr-khaki)!important;
+    color: var(--clr-khaki);
 }
 
 /* active navbar link styling */
