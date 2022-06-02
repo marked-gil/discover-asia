@@ -427,7 +427,7 @@ nav {
 /* START --> "SUBSCRIBE TO OUR NEWSLETTER" SECTION */
 
 #newsletter-section {
-    padding: 3rem 18%;
+    padding: 3rem 0;
     background-color: var(--clr-dutch-white);
     box-shadow: 0 0 5px 5px var(--clr-silver-foil);
 }
@@ -445,9 +445,10 @@ nav {
     font-size: 1.2rem;
 }
 
-/* newsletter - email input field */
+/* Newsletter - email input field */
 #newsletter-form > input {
     border-radius: 5px;
+    font-size: 1rem;
     padding: 0 .5rem;
     line-height: 2rem;
     margin: .5rem 0 2rem;
@@ -1125,14 +1126,9 @@ h2.country {
         font-size: 1.1rem;
     }
 
-    /* Newsletter Subscription */
-    #newsletter-section {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
+    /* Newsletter */
     #newsletter-form {
-        width: 100%;
+        width: 70%;
         font-size: 1rem;
     }
 }
@@ -1470,6 +1466,16 @@ h2.country {
         top: 0;
     }
 
+    /* Newsletter */
+    #newsletter-heading {
+        font-size: 1.6rem;
+    }
+
+    #newsletter-form {
+        margin-top: 2rem; 
+        width: 85%;
+    }
+
     /* Feedback Pages */
     .feedback-section {
         padding: 10% 5%;
@@ -1578,6 +1584,12 @@ h2.country {
         font-size: .9rem;
     }
 
+    /* Newsletter */
+    #newsletter-heading {
+        font-size: 1.5rem;
+        margin: 0 2rem;
+    }
+
     /* Destinations Page */
     #destinations-main-heading {
         font-size: 1.6rem;
@@ -1660,15 +1672,6 @@ h2.country {
         font-size: 1.7rem;
     }
 
-    /* Newsletter */
-    #newsletter-section {
-        padding: 3rem 6%;
-    }
-
-    #newsletter-heading {
-        font-size: 1.6rem;
-    }
-
     /* Contact Us Page */
     #contact-main-wrapper {
         padding: 0 6%;
@@ -1692,6 +1695,15 @@ h2.country {
 }
 
 @media screen and (max-width: 340px) {
+    /* Newsletter */
+    #newsletter-form {
+        font-size: .9rem;
+    }
+
+    #newsletter-form > input {
+        font-size: .9rem;
+    }
+
     /* Destinations Page */
     #destinations-main-heading {
         margin: 0 3rem;
